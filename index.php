@@ -789,7 +789,7 @@ this.ba(a);for(var c="",b=0;b<a.frames.length;++b){try{c=a.frames[b].location.pa
 							<ul id="main-two-column-right-content-list">
 								<li>
 									<a class="button" id="free-entry-button" target="_blank" title="無料 新規登録はこちら"
-										href="account/entry/entry">
+										href="account/entry/entry.html">
 										無料 新規登録はこちら
 									</a>
 								</li>
