@@ -1,0 +1,175 @@
+<div class="modal">
+	<div class="modal-content">
+					<!-- 画像エリア -->
+			<div class="modal-image">
+				<img src="../../img/event/ReFeg_2022/ss/b39d840c700d3ec0809ee42dcf3a0dc2/l.png" />
+			</div>
+							<!-- 情報エリア -->
+				<div class="modal-data">
+																										<table class="table">
+							<tr>
+								<th class="th text-center" width="30%">
+									名前
+								</th>
+								<th class="th text-center" width="12%">
+									種類
+								</th>
+								<th class="th text-center" width="10%">
+									能力
+								</th>
+								<th class="th text-center" width="10%">
+									レベル
+								</th>
+								<th class="th text-center" width="14%">
+									クラス
+								</th>
+								<th class="th text-center" width="14%">
+									耐久
+								</th>
+								<th class="th text-center">
+									性別
+								</th>
+							</tr>
+															<tr>
+									<td class="td-em">
+										レグルスモチフⅢハット
+																					<p>【装飾品化可能】</p>
+																			</td>
+									<td class="td text-center">
+										頭
+									</td>
+									<td class="td text-center">
+										11
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♀
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										レグルスモチフⅢトップス
+																			</td>
+									<td class="td text-center">
+										体
+									</td>
+									<td class="td text-center">
+										18
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♀
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										レグルスモチフⅢグラヴス
+																			</td>
+									<td class="td text-center">
+										腕
+									</td>
+									<td class="td text-center">
+										13
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♀
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										レグルスモチフⅢボトムス
+																			</td>
+									<td class="td text-center">
+										脚
+									</td>
+									<td class="td text-center">
+										18
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♀
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										レグルスモチフⅢブーツ
+																			</td>
+									<td class="td text-center">
+										足
+									</td>
+									<td class="td text-center">
+										13
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♀
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										レグルスモチフⅢウィッグ
+																			</td>
+									<td class="td text-center">
+										装飾品
+									</td>
+									<td class="td text-center">
+										-
+									</td>
+									<td class="td text-center">
+										1
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										-
+									</td>
+									<td class="td text-center">
+										♀
+									</td>
+								</tr>
+													</table>
+									</div>
+						</div><!-- modal-content -->
+</div><!-- modal -->

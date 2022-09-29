@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* ====================================================================== */
+/* ローテーションバナー */
+/* ====================================================================== */
+
+/* ===== 大バナーエリア ===== */
+#rotation-banner-large {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	overflow: hidden;
+	width: 620px;
+	height: 218px;
+}
+#rotation-banner-large li {
+	width: 620px;
+	height: 218px;
+}
+
+/* ===== ナビエリア ===== */
+#rotation-banner-navi {
+	margin-right: auto;
+	margin-left: auto;
+	width: 620px;
+}
+/* ----- 前へ ----- */
+#rotation-banner-navi-prev {
+	float: left;
+}
+#rotation-banner-navi-prev a {
+	background-image: url(../img/top/rotation_banner/button/prev.png);
+}
+/* ----- 次へ ----- */
+#rotation-banner-navi-next {
+	float: right;
+}
+#rotation-banner-navi-next a {
+	background-image: url(../img/top/rotation_banner/button/next.png);
+}
+#rotation-banner-navi-prev a,
+#rotation-banner-navi-next a {
+	width: 30px;
+	height: 63px;
+}
+/* ----- ナビバナーエリア ----- */
+#rotation-banner-navi-list {
+	float: left;
+	overflow: hidden;
+	width: 560px;
+	height: 63px;
+}
+#rotation-banner-navi-slide {
+	margin-left: 6px;
+	width: 550px;
+	overflow: hidden;
+}
+#rotation-banner-navi-slide li {
+	padding-right: 3px;
+	float: left;
+}
+#rotation-banner-navi-slide a {
+	position: relative;
+	display: block;
+}
+#rotation-banner-navi-slide a:hover span,
+#rotation-banner-navi-slide li.active a span {
+	background-position: 0 bottom;
+}
+
+/* バナー画像 */
+#rotation-banner-navi-slide img {
+	width: 180px;
+	height: 63px;
+}
+/* バナーマスク */
+#rotation-banner-navi-slide span {
+	position: absolute;
+	top: 0;
+	display: block;
+	width: 180px;
+	height: 63px;
+	background-image: url(../img/top/rotation_banner/mask.png);
+}

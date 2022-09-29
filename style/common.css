@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/* ====================================================================== */
+/* 全頁共通定義 */
+/* ====================================================================== */
+body {
+	font-family: 
+		"メイリオ", 
+		Meiryo, 
+		"ヒラギノ角ゴ ProN W3", 
+		"Hiragino Kaku Gothic ProN", 
+		"游ゴシック", 
+		YuGothic, 
+		Roboto, 
+		"Droid Sans", 
+		Verdana, 
+		"ＭＳ Ｐゴシック", 
+		sans-serif;
+	font-size: 12px;
+	line-height: 1.5;
+}
+

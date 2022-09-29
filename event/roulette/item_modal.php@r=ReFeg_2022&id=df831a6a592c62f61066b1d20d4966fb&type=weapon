@@ -1,0 +1,59 @@
+<div class="modal">
+	<div class="modal-content">
+					<!-- 画像エリア -->
+			<div class="modal-image">
+				<img src="../../img/event/ReFeg_2022/ss/df831a6a592c62f61066b1d20d4966fb/l.png" />
+			</div>
+							<!-- 情報エリア -->
+				<div class="modal-data">
+																<table class="table">
+							<tr>
+								<th class="th text-center" width="28%">
+									名前
+								</th>
+								<th class="th text-center" width="12%">
+									種類
+								</th>
+								<th class="th text-center" width="10%">
+									能力
+								</th>
+								<th class="th text-center" width="10%">
+									レベル
+								</th>
+								<th class="th text-center" width="14%">
+									クラス
+								</th>
+								<th class="th text-center" width="14%">
+									耐久
+								</th>
+								<th class="th text-center">
+									スロット
+								</th>
+							</tr>
+															<tr>
+									<td class="td-em">
+										ラオフィストⅢ
+									</td>
+									<td class="td text-center">
+																					手甲
+																			</td>
+									<td class="td text-center">
+										88
+									</td>
+									<td class="td text-center">
+										20
+									</td>
+									<td class="td text-center">
+										<span class="cestus-icon"></span>
+									</td>
+									<td class="td text-center">
+										41310
+									</td>
+									<td class="td text-center">
+										4
+									</td>
+								</tr>
+													</table>
+																			</div>
+						</div><!-- modal-content -->
+</div><!-- modal -->

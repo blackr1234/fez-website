@@ -1,0 +1,63 @@
+<div id="modal-box">
+	<div id="modal-frame">
+		<div class="modal">
+			<div class="modal-content">
+									<!-- 画像エリア -->
+					<div class="modal-image">
+						<img src="../../img/event/melphalir_fest/ss/0b15967db345e3dad166bef56c9a4dfd/l.png" width="650" height="430" />
+					</div>
+											<!-- 情報エリア -->
+						<div class="modal-data">
+																						<table class="table">
+									<tr>
+										<th class="th text-center" width="28%">
+											名前
+										</th>
+										<th class="th text-center" width="12%">
+											種類
+										</th>
+										<th class="th text-center" width="10%">
+											能力
+										</th>
+										<th class="th text-center" width="10%">
+											レベル
+										</th>
+										<th class="th text-center" width="14%">
+											クラス
+										</th>
+										<th class="th text-center" width="14%">
+											耐久
+										</th>
+										<th class="th text-center">
+											スロット
+										</th>
+									</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												カライガン
+											</td>
+											<td class="td text-center">
+																									銃
+																							</td>
+											<td class="td text-center">
+												72
+											</td>
+											<td class="td text-center">
+												20
+											</td>
+											<td class="td text-center">
+												<span class="scout-icon"></span>
+											</td>
+											<td class="td text-center">
+												78948
+											</td>
+											<td class="td text-center">
+												4
+											</td>
+										</tr>
+																	</table>
+																											</div>
+												</div><!-- modal-content -->
+		</div><!-- modal -->
+	</div>
+</div>

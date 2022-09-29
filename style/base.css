@@ -1,0 +1,695 @@
+@charset "UTF-8";
+
+/* ====================================================================== */
+/* 全体定義 */
+/* ====================================================================== */
+html, 
+body {
+	min-width: 980px;
+	background-color: #000;
+}
+
+a {
+	color: #810000;
+	text-decoration: underline;
+}
+	a:hover {
+		color: #a60101;
+		text-decoration: none;
+	}
+
+/* ===== 背景画像用 ===== */
+#wrapper {
+	background-image: url(../img/wrapper/bg.jpg);
+	background-position: center -10px;
+}
+
+/* ====================================================================== */
+/* ヘッダエリア */
+/* ====================================================================== */
+#header {
+	height: 174px;
+	background-image: url(../img/header/bg/default.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #fff;
+}
+	/* ----- ヘッダ影 ----- */
+	#header-shadow {
+		width: 100%;
+		height: 174px;
+		background-image: url(../img/header/shadow.png);
+	}
+	/* ===== ヘッダメインコンテンツエリア ===== */
+	#header-main {
+		text-align: center;
+	}
+
+/* ====================================================================== */
+/* メニューエリア */
+/* ====================================================================== */
+#main-navi {
+	position: relative;
+	z-index: 1;
+	height: 50px;
+	background-image: url(../img/navi/main/bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+	#main-navi-container {
+		position: relative;
+		width: 100%;
+		height: 90px;
+	}
+	/* ----- 蔦の飾り ----- */
+	#main-navi-ivy-deco {
+		position: absolute;
+		top: -40px; bottom: 0; right: 0; left: 0;
+		margin: auto;
+		width: 100%;
+		height: 90px;
+		background-image: url(../img/navi/main/ivy_deco.png);
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+	/* ===== メニューメインエリア ===== */
+	#main-navi-content {
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		width: 980px;
+	}
+		/* ----- ボタン受け皿 ----- */
+		.main-navi-item {
+			position: relative;
+			float: left;
+			width: 196px;
+		}
+		.main-navi-button {
+			display: block;
+			overflow: hidden;
+			width: 196px;
+			height: 50px;
+			text-indent: -9999em;
+			background-image: url(../img/navi/main/button/splite.png);
+		}
+		/* FEZとは */
+		#main-navi-intro {
+		}
+			#main-navi-intro:hover {
+				background-position: 0 bottom;
+			}
+		/* プレイガイド */
+		#main-navi-playguide {
+			background-position: -196px top;
+		}
+			#main-navi-playguide:hover {
+				background-position: -196px bottom;
+			}
+		/* ゲームシステム */
+		#main-navi-gamesystem {
+			background-position: -392px top;
+		}
+			#main-navi-gamesystem:hover {
+				background-position: -392px bottom;
+			}
+		/* ライブラリ */
+		#main-navi-library {
+			background-position: -588px top;
+		}
+			#main-navi-library:hover {
+				background-position: -588px bottom;
+			}
+		/* サポート */
+		#main-navi-support {
+			background-position: -784px top;
+		}
+			#main-navi-support:hover {
+				background-position: -784px bottom;
+			}
+
+/* ====================================================================== */
+/* メニューなしバージョン */
+/* ====================================================================== */
+#no-navi {
+	position: relative;
+	z-index: 1;
+	height: 50px;
+	background-image: url(../img/navi/main/bg.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+	/* ----- 蔦の飾り ----- */
+	#no-navi-ivy-deco {
+		position: absolute;
+		top: 0px; bottom: 0; right: 0; left: 0;
+		margin: auto;
+		width: 100%;
+		height: 90px;
+		background-image: url(../img/navi/none/ivy_deco.png);
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+
+/* ====================================================================== */
+/* サブメニュー */
+/* ====================================================================== */
+/* ----- 開閉処理部分 ----- */
+.sub-navi {
+	position: absolute;
+	display: none;
+	overflow: hidden;
+}
+	.sub-navi-container {
+		position: relative;
+		width: 197px;
+		background-image: url(../img/navi/sub/frame/bottom.png);
+		background-position: center bottom;
+	}
+	/* ----- フレームのふた ----- */
+	.sub-navi-content {
+		padding-top: 2px;
+		padding-right: 3px;
+		padding-bottom: 4px;
+		padding-left: 3px;
+		background-image: url(../img/navi/sub/frame/top.png);
+		background-repeat: no-repeat;
+	}
+	/* ----- 黒背景 ----- */
+	.sub-navi ul {
+		padding-bottom: 1px;
+		border: 1px solid #4c4c4c;
+		background-color: #000;
+	}
+	.sub-navi li {
+		padding: 1px 1px 0 1px;
+	}
+	/* ----- ボタン通常 ----- */
+	.sub-navi li a {
+		display: block;
+		color: #fff;
+		font-size: 13px;
+		text-decoration: none;
+		border: 1px solid #414141;
+		background-image: url(../img/navi/sub/button/normal.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+		/* ホバー */
+		.sub-navi li a:hover {
+			padding: 1px;
+			border: none;
+			background-image: url(../img/navi/sub/button/hover.png);
+			background-position: center bottom;
+		}
+		/* 矢印アイコン */
+		.sub-navi li a span {
+			padding-top: 4px;
+			padding-bottom: 3px;
+			padding-left: 22px;
+			display: block;
+			background-image: url(../img/navi/sub/icon/arrow.png);
+			background-repeat: no-repeat;
+			background-position: 2px center;
+		}
+
+
+/* ====================================================================== */
+/* メインコンテンツエリア */
+/* ====================================================================== */
+/* ----- 石垣風背景 ----- */
+#main {
+	position: relative;
+	padding-bottom: 30px;
+	background-image: url(../img/main/bg.jpg);
+	background-repeat: repeat-x;
+	background-position: center 50px;
+}
+	/* ----- 蔦の飾り ----- */
+	#main-ivy-deco {
+		position: absolute;
+		z-index: 0;
+		width: 100%;
+		height: 130px;
+		background-image: url(../img/main/ivy_deco.png);
+		background-repeat: repeat-x;
+		background-position: center top;
+	}
+
+/* ===== メインコンテンツ領域 ===== */
+/* ----- １カラムの場合 ----- */
+#main-one-column #main-content {
+	padding-top: 5px;
+	padding-bottom: 9px;
+}
+/* ----- ２カラムの場合 ----- */
+#main-two-column #main-content {
+	padding-top: 15px;
+	padding-bottom: 41px;
+}
+	/* ----- 大見出し ----- */
+	.main-content-headtitle {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+/* ----- 旧コンテンツ ----- */
+#old-content {
+	padding-top: 15px;
+	padding-bottom: 30px;
+}
+
+/* ====================================================================== */
+/* メイン１カラムフレーム */
+/* ====================================================================== */
+#main-one-column {
+	position: relative;
+	z-index: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	width: 980px;
+}
+	/* ----- 上ふた ----- */
+	#main-one-column-top {
+		height: 14px;
+		background-image: url(../img/main/one_column/top.png);
+		background-position: 1px top;
+		background-repeat: no-repeat;
+	}
+	/* ----- 下ふた ----- */
+	#main-one-column-bottom {
+		height: 35px;
+		background-image: url(../img/main/one_column/bottom.png);
+	}
+	/* ----- 背景 ----- */
+	#main-one-column-middle {
+		background-image: url(../img/main/one_column/middle.png);
+	}
+	
+/* ====================================================================== */
+/* メイン２カラムフレーム */
+/* ====================================================================== */
+#main-two-column {
+	position: relative;
+	z-index: 0;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	width: 980px;
+}
+	/* ----- 上ふた ----- */
+	#main-two-column-top {
+		position: relative;
+		z-index: 1;
+		background-image: url(../img/main/two_column/top.png);
+		background-repeat: no-repeat;
+	}
+	/* ----- 下ふた ----- */
+	#main-two-column-bottom {
+		background-image: url(../img/main/two_column/bottom.png);
+		background-repeat: no-repeat;
+		background-position: 0 bottom;
+	}
+	/* ----- 背景 ----- */
+	#main-two-column-middle {
+		position: absolute;
+		top: 40px;
+		z-index: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url(../img/main/two_column/middle.png);
+		background-repeat: repeat-y;
+	}
+	/* ----- メインコンテンツエリア ----- */
+	#main-two-column-content {
+		min-height: 200px;
+	}
+		* html #main-two-column-content {
+			height: 200px;
+		}
+/* ===== ２カラムエリア左 ===== */
+#main-two-column-left {
+	position: relative;
+	float: left;
+	width: 670px;
+}
+
+/* ===== ２カラムエリア右 ===== */
+#main-two-column-right {
+	padding-bottom: 80px;
+	float: right;
+	width: 310px;
+}
+	/* ----- 大きめにアピールするエリア ----- */
+	#main-two-column-right-content-list {
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+		#main-two-column-right-content-list li {
+			margin-bottom: 5px;
+			text-align: center;
+		}
+			#main-two-column-right-content-list li:first-child {
+				margin-bottom: 10px;
+			}
+			#main-two-column-right-content-list li a {
+				margin-right: auto;
+				margin-left: auto;
+			}
+	/* ----- 新規登録ボタン ----- */
+	#free-entry-button {
+		width: 280px;
+		height: 100px;
+		background-image: url(../img/main/two_column/right/free_entry.jpg);
+	}
+	/* ----- クライアントダウンロードボタン ----- */
+	#client-download-button {
+		width: 280px;
+		height: 60px;
+		background-image: url(../img/main/two_column/right/client_download.jpg);
+	}
+
+/* ====================================================================== */
+/* スクロールトップ */
+/* ====================================================================== */
+#scroll-top {
+	position: fixed;
+	bottom: 170px;
+	right: 0;
+	z-index: 10;
+	overflow: hidden;
+	width: 136px;
+	height: 43px;
+}
+	#scroll-top a {
+		position: absolute;
+		right: -136px;
+		cursor: pointer;
+		display: block;
+		width: 136px;
+		height: 43px;
+		background-image: url(../img/misc/button/scroll_top.png);
+	}
+
+/* ====================================================================== */
+/* 分割線 */
+/* ====================================================================== */
+hr {
+	margin: 0;
+	padding: 0;
+	height: 1px;
+	border: none;
+	background-color: #dbd3c2;
+}
+	/* ===== コンテンツ分割線 ===== */
+	hr.separator {
+		width: 670px;
+		height: 25px;
+		background-image: url(../img/misc/line/separator.png);
+		background-color: transparent;
+	}
+	/* ===== 飾り分割線 ===== */
+	hr.deco {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		height: 11px;
+		background-image: url(../img/misc/line/deco.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-color: transparent;
+	}
+	/* ===== 飾り分割線1カラムver. ===== */
+	#main-one-column hr.deco {
+		background-image: url(../img/misc/line/deco_single.png);
+	}
+
+/* ====================================================================== */
+/* 見出し etc */
+/* ====================================================================== */
+/* ===== 大見出し ===== */
+.large-head, h4 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 570px;
+	height: 43px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 3.2;
+	background-image: url(../img/misc/head/large.png);
+}
+	/* ----- 大見出しに紐づくエリア ----- */
+	.large-content {
+		margin-right: auto;
+		margin-left: auto;
+		width: 590px;
+	}
+/* ===== 大見出し1カラムver. ===== */
+#main-one-column .large-head, #main-one-column h4 {
+	width: 860px;
+	height: 40px;
+	line-height: 2.8;
+	background-image: url(../img/misc/head/large_single.png);
+}
+	/* ----- 大見出しに紐づくエリア1カラムver. ----- */
+	#main-one-column .large-content {
+		margin-right: auto;
+		margin-left: auto;
+		width: 880px;
+	}
+
+/* ===== 中見出し ===== */
+.sub-head, h5 {
+	margin-bottom: 10px;
+	padding-left: 19px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.4;
+	background-image: url(../img/misc/icon/dia.png);
+	background-repeat: no-repeat;
+}
+
+/* ===== 小見出し ===== */
+.small-head, h6 {
+	font-weight: bold;
+}
+
+/* ===== 注釈 ===== */
+.strong, strong {
+	color: #1b4c36;
+	font-weight: bold;
+}
+
+/* ===== 強調 ===== */
+.notice {
+	color: #613b00;
+}
+.notice-red {
+	font-weight:bold;
+	color:red;
+}
+/* ===== インデントつき段落 ===== */
+.indent-block {
+	padding-left: 16px;
+}
+
+/* ===== 画像配置パターン ===== */
+img.float-left {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+img.float-right {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+img.center {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+/* ====================================================================== */
+/* テーブル */
+/* ====================================================================== */
+/* ===== 汎用型テーブル ===== */
+.table {
+}
+	/* ----- 見出し ----- */
+	.th {
+		font-weight: bold;
+		background-color: #d1c7af;
+	}
+	/* ----- セル明るめ ----- */
+	.td {
+		background-color: #ede8dc;
+	}
+	/* ----- セルくらめ ----- */
+	.td2 {
+		background-color: #e4ded0;
+	}
+	.table, .th, .td, .td2 {
+		border: 1px solid #a7948d;
+	}
+	.th, .td, .td2 {
+		padding-top: 6px;
+		padding-bottom: 4px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+/* ====================================================================== */
+/* コンテンツボックス */
+/* ====================================================================== */
+/* ===== 1カラムの場合 ===== */
+#main-one-column .content-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+}
+/* ===== ２カラムの場合 ===== */
+#main-two-column .content-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 650px;
+}
+	/* ----- トップふた ----- */
+	.content-box-top {
+		height: 3px;
+		background-image: url(../img/misc/box/content/top/normal.png);
+		background-repeat: no-repeat;
+	}
+		/* ----- 白ver. ----- */
+		.plain .content-box-top {
+			background-image: url(../img/misc/box/content/top/plain.png) !important;
+		}
+		/* ----- 1カラム白ver. ----- */
+		#main-one-column .plain .content-box-top {
+			background-image: url(../img/misc/box/content_single/top/plain.png) !important;;
+		}
+	/* ----- 中間タイリング ----- */
+	.content-box-middle {
+		background-image: url(../img/misc/box/content/middle/normal.png);
+	}
+		/* ----- 白ver. ----- */
+		.plain .content-box-middle {
+			background-image: url(../img/misc/box/content/middle/plain.png) !important;
+		}
+		/* ----- 1カラム白ver. ----- */
+		#main-one-column .plain .content-box-middle {
+			background-image: url(../img/misc/box/content_single/middle/plain.png) !important;
+		}
+	/* ----- ボトムふた ----- */
+	.content-box-bottom {
+		height: 3px;
+		background-image: url(../img/misc/box/content/bottom/normal.png);
+		background-repeat: no-repeat;
+	}
+		/* ----- 白ver. ----- */
+		.plain .content-box-bottom {
+			background-image: url(../img/misc/box/content/bottom/plain.png) !important;
+		}
+	/* ----- ボトムふた：内包版 ----- */
+	.content-box-bottom-pack {
+		height: 47px;
+		background-image: url(../img/misc/box/content/bottom/pack.png);
+		background-repeat: no-repeat;
+	}
+		.content-box-bottom-pack .button {
+			margin-right: auto;
+			margin-left: auto;
+			position: relative;
+			top: 9px;
+		}
+	/* ----- ボトムふた：内包版1カラムver. ----- */
+	#main-one-column .content-box-bottom-pack {
+		background-image: url(../img/misc/box/content_single/bottom/pack.png);
+	}
+	/* ----- コンテンツボックスの汎用上下マージンつき領域 ----- */
+	.content-box-main {
+		padding-top: 20px;
+		padding-bottom: 50px;
+	}
+
+/* ====================================================================== */
+/* 飾りボックス */
+/* ====================================================================== */
+.deco-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 680px;
+}
+	/* ----- トップふた ----- */
+	.deco-box-top {
+		height: 25px;
+		background-image: url(../img/misc/box/deco/top.png);
+	}
+	/* ----- ボトムふた ----- */
+	.deco-box-bottom {
+		height: 34px;
+		background-image: url(../img/misc/box/deco/bottom.png);
+	}
+	/* ----- 中身 ----- */
+	.deco-box-middle {
+		background-image: url(../img/misc/box/deco/middle.png);
+	}
+
+/* ====================================================================== */
+/* コンテンツオフセット */
+/* ====================================================================== */
+.offset-lv1 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.offset-lv2 {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.offset-lv3 {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.offset-lv4 {
+	padding-right: 40px;
+	padding-left: 40px;
+}
+.offset-lv5 {
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+/* ====================================================================== */
+/* ボタン */
+/* ====================================================================== */
+/* ===== 戻る ===== */
+.back-button {
+	width: 130px;
+	height: 30px;
+	background-image: url(../img/misc/button/back.png);
+}
+/* ===== 閉じる ===== */
+.close-button {
+	width: 190px;
+	height: 30px;
+	background-image: url(../img/misc/button/close.png);
+}
+/* ===== ニュース一覧へ ===== */
+.news-list-button {
+	width: 190px;
+	height: 30px;
+	background-image: url(../img/misc/button/news_list.png);
+}
+
+/* ====================================================================== */
+/* Twitter枠 */
+/* ====================================================================== */
+.twitter-box {
+	box-sizing: border-box;
+	margin: 15px auto 0;
+	width: 280px;
+	min-height: 450px;
+	border: 2px solid #5c3c30;
+	background-color: #EFEBE1;
+}

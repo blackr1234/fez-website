@@ -1,0 +1,12 @@
+
+.navi_net{ display:block; width:100px; height:100px; margin:0px; float:left; background:url(national/net_btn_off.jpg) center no-repeat; text-decoration:none; }
+.navi_iel{ display:block; width:100px; height:100px; margin:0px; float:left; background:url(national/iel_btn_off.jpg) center no-repeat; text-decoration:none; }
+.navi_hor{ display:block; width:100px; height:100px; margin:0px; float:left; background:url(national/hor_btn_off.jpg) center no-repeat; text-decoration:none; }
+.navi_geb{ display:block; width:100px; height:100px; margin:0px; float:left; background:url(national/geb_btn_off.jpg) center no-repeat; text-decoration:none; }
+.navi_ces{ display:block; width:100px; height:100px; margin:0px; float:left; background:url(national/ces_btn_off.jpg) center no-repeat; text-decoration:none; }
+
+a.navi_net:hover{ background:url(national/net_btn_on.jpg) center no-repeat; text-decoration:none; }
+a.navi_iel:hover{ background:url(national/iel_btn_on.jpg) center no-repeat; text-decoration:none; }
+a.navi_hor:hover{ background:url(national/hor_btn_on.jpg) center no-repeat; text-decoration:none; }
+a.navi_geb:hover{ background:url(national/geb_btn_on.jpg) center no-repeat; text-decoration:none; }
+a.navi_ces:hover{ background:url(national/ces_btn_on.jpg) center no-repeat; text-decoration:none; }

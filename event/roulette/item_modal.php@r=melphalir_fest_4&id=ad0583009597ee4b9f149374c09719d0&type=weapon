@@ -1,0 +1,63 @@
+<div id="modal-box">
+	<div id="modal-frame">
+		<div class="modal">
+			<div class="modal-content">
+									<!-- 画像エリア -->
+					<div class="modal-image">
+						<img src="../../img/event/melphalir_fest/ss/ad0583009597ee4b9f149374c09719d0/l.png" width="650" height="430" />
+					</div>
+											<!-- 情報エリア -->
+						<div class="modal-data">
+																						<table class="table">
+									<tr>
+										<th class="th text-center" width="28%">
+											名前
+										</th>
+										<th class="th text-center" width="12%">
+											種類
+										</th>
+										<th class="th text-center" width="10%">
+											能力
+										</th>
+										<th class="th text-center" width="10%">
+											レベル
+										</th>
+										<th class="th text-center" width="14%">
+											クラス
+										</th>
+										<th class="th text-center" width="14%">
+											耐久
+										</th>
+										<th class="th text-center">
+											スロット
+										</th>
+									</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												カイライスタッフ
+											</td>
+											<td class="td text-center">
+																									杖
+																							</td>
+											<td class="td text-center">
+												100
+											</td>
+											<td class="td text-center">
+												20
+											</td>
+											<td class="td text-center">
+												<span class="sorcerer-icon"></span>
+											</td>
+											<td class="td text-center">
+												43200
+											</td>
+											<td class="td text-center">
+												4
+											</td>
+										</tr>
+																	</table>
+																											</div>
+												</div><!-- modal-content -->
+		</div><!-- modal -->
+	</div>
+</div>

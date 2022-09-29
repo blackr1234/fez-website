@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="ja" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
+	<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery1-9-0.js"></script>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery-ui1-9.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/square-enix.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/swanky-purse/jquery-ui-1.9.2.custom.css" />	
+
+	<link type="text/css" rel="stylesheet" href="../style/reset.css" />
+	<link type="text/css" rel="stylesheet" href="../style/core.css" />
+	<link type="text/css" rel="stylesheet" href="../style/common.css" />
+					<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"></script>
+	<script type="text/javascript" src="../script/lib/velocity.min.js"></script>
+	<script type="text/javascript" src="../script/lib/taco.min.js"></script>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX" />
+	<meta property="og:title" content="ファンタジーアース ゼロ" />
+	<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta property="og:url" content="http://www.fantasy-earth.com/" />
+	<meta property="og:image" content="http://www.fantasy-earth.com/img/misc/og.jpg" />
+
+	<link type="text/css" rel="stylesheet" href="../style/base.css" />
+					<script type="text/javascript" src="../script/common/plugin.js"></script>
+	<script type="text/javascript" src="../script/common/two_column.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="../style/news.css" />
+		</head>
+<body class="">
+	<!-- === headerArea === -->
+	<div id="sqexHeader-black">
+		<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"><img src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif" width="130" height="14" border="0" alt="SQUARE ENIX" /></a>
+	</div>
+	<!-- === /headerArea === -->
+
+		<!-- 背景ラッパ -->
+	<div id="wrapper">
+
+		<!-- ヘッダエリア -->
+		<div id="header">
+			<!-- ヘッダ影 -->
+			<ul id="header-shadow">
+				<li id="header-main">
+					<!-- ロゴ：トップへ戻る -->
+					<a href="../index.html">
+						<img src="../img/header/logo.png" />
+					</a>
+				</li>
+			</ul>
+		</div><!-- header -->
+
+		<!-- メインコンテンツエリア -->
+		<div id="main">
+			<!-- メニューエリア -->
+			<div id="main-navi">
+				<ul id="main-navi-container">
+					<!-- 蔦の飾り -->
+					<li id="main-navi-ivy-deco"></li>
+					<li id="main-navi-content">
+						<ul>
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-intro"
+									href="../intro/feature.html">
+									FEZとは
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../intro/feature.html">
+														<span>FEZの特徴</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/story.html">
+														<span>ストーリー</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/netzawar.html">
+														<span>国家紹介</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-playguide" 
+									href="../playguide/base.html">
+									プレイガイド
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../playguide/base.html">
+														<span>操作方法</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/map.html">
+														<span>地図</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/class.html">
+														<span>クラス/スキル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/state.html">
+														<span>状態異常</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/item_rec.html">
+														<span>アイテム</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/shop.html">
+														<span>施設・NPC</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-gamesystem" 
+									href="../gamesystem/war.html">
+									ゲームシステム
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../gamesystem/war.html">
+														<span>戦争</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/official.html">
+														<span>オフィシャルショップ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/enchant.html">
+														<span>エンチャント</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/amulet.html">
+														<span>アミュレット・スペル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/reinforce.html">
+														<span>装備強化</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/force.html">
+														<span>部隊</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/coliseum.html">
+														<span>闘技場</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/casino.html">
+														<span>カジノ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/quest.html">
+														<span>クエスト</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/renpei.html">
+														<span>練兵</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/accessory.html">
+														<span>アクセサリ</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-library" 
+									href="../library/wallpaper.html">
+									ライブラリ
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../library/wallpaper.html">
+														<span>壁紙</span>
+													</a>
+												</li>
+												<li>
+													<a href="../library/item_library/index.html">
+														<span>アイテム図鑑</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-support" 
+									href="detail.php@id=86236#">
+									サポート
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="http://support.jp.square-enix.com/faqtop.php?id=13021&amp;la=0" target="_blank">
+														<span>FAQ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://support.jp.square-enix.com/contacttop.php?id=13021&amp;la=0" target="_blank">
+														<span>お問い合わせ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.jp.square-enix.com/account/" target="_blank">
+														<span>アカウント</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/account/profile" target="_blank">
+														<span>BRIDGEプロフィール</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/cash/history/deposit/" target="_blank">
+														<span>オーブ履歴確認</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+						</ul>
+					</li>
+				</ul>
+			</div><!-- main-navi -->
+
+			<!-- 蔦の飾り -->
+			<div id="main-ivy-deco"></div>
+				<!-- メイン２カラムフレーム -->
+	<div id="main-two-column">
+		<!-- フレームの中間の背景 -->
+		<div id="main-two-column-middle"></div>
+		<div id="main-two-column-top">
+			<div id="main-two-column-bottom">
+				<div id="main-two-column-content">
+					<ul>
+						<!-- 左側コンテンツ -->
+						<li id="main-two-column-left">
+								<!-- メインコンテンツ領域 -->
+	<div id="main-content">
+		<!-- 大見出し -->
+		<div class="main-content-headtitle">
+			<img src="../img/news/headtitle.png" />
+		</div>
+			<div class="content-box">
+		<!-- 上のふた -->
+		<div class="content-box-top"></div>
+		<div class="content-box-middle">
+			<!-- ニュース見出し -->
+			<div id="news-detail-head">
+				<ul>
+					<li>
+						<span class="news-icon-info"></span>
+					</li>
+					<li>
+						<span>2022-08-24</span>
+					</li>
+					<li>
+						<span>運営チームからのお知らせ(8/24)</span>
+					</li>
+				</ul>
+			</div><!-- news-detail-head -->
+
+			<!-- 通常罫線 -->
+			<hr />
+			
+			<!-- ニュース詳細 -->
+			<div id="news-detail-content"><div class="large-content">
+	<p class="ml20 mb30">
+		いつも『ファンタジーアース ゼロ』をご利用いただき、誠にありがとうございます。<br /><br/>
+ファンタジーアース ゼロは、9月28日(水)15:00をもちまして、サービスを終了させて頂きます。
+<br/>
+サービス終了についてのお知らせは、【<a href="detail.php@id=84981" target="_blank">こちら</a>】からご確認ください。<br/>
+また、今後のイベントスケジュールにつきましては【<a href="../event/schedule_2022.html" target="_blank">こちら</a>】からご確認ください。<br/>
+<br/>
+運営チームからのお知らせを掲載させて頂きます。<br/>
+<br/>
+8/3の運営チームからのお知らせにつきましては【<a href="detail.php@id=85960" target="_blank">こちら</a>】からご確認ください。<br/>
+<br/>
+8/17の運営チームからのお知らせにつきましては【<a href="detail.php@id=86141" target="_blank">こちら</a>】からご確認ください。
+</p>
+	<hr class="deco" />
+<h4>『ファンタジーアース ゼロ』の公式サイトにつきまして</h4>
+	<p class="ml20 mb30">
+公式サイトの終了についてお知らせをいたします。<br />
+    </p>
+<h5>公式サイト</h5>
+	<p class="ml20 mb30">
+公式サイト(http://www.fantasy-earth.com/)は、2022年9月28日(水)15:00をもちまして閉鎖させて頂きます。<br/>今後、本サイトにはアクセスできませんのでご注意ください。<br/>
+<br/>
+本日の定期メンテナンスにて、本サイトのライブラリにあります「壁紙」に過去のメインヴィジュアルなどの壁紙を追加いたしました。<br/>
+また、アイテム図鑑に掲載されているアイテムのスクリーンショットをまとめたZipファイルがダウンロードできるようになっております。<br/>
+※全アイテムではございませんので、ご了承ください。<br/>
+こちらも公式サイトの閉鎖に合わせて、ダウンロードが出来なくなりますので、お早めにダウンロードください。<br/>
+<br/>
+壁紙のダウンロードにつきましては【<a href="../library/wallpaper.html" target="_blank">こちら</a>】からご確認ください。<br/>
+<br/>
+アイテム図鑑のZipファイルにつきましては【<a href="../library/item_library/index.html" target="_blank">こちら</a>】からご確認ください。<br/>
+※アイテム図鑑のZipファイルは、サイズが約1.2GBございますので、ダウンロードの際はご注意ください。
+    </p>
+
+<h4>今後のメンテナンス時間につきまして</h4>
+	<p class="ml20 mb30">
+   <h5>メンテナンス時間</h5>
+    <p class="ml20 mb30">
+毎週水曜日実施しております定期メンテナンスにつきまして、<br/>
+8月31日(水)定期メンテナンスより11時～15時で実施させて頂きます。<br/>
+※今後、不具合などを確認した場合でも、メンテナンスにて修正対応が出来ないことをご了承ください。
+</p>
+
+
+<h4>ファンタジーアース ゼロ Tシャツを予約受付中です！</h4>
+	<p class="ml20 mb30">
+   <h5>販売期間について</h5>
+    <p class="ml20 mb30">
+・予約開始：8/1（月）11:00<br/>
+・予約終了：9/2（金）23:59<br/>
+・発送日：11月末頃<br/>
+※本商品は受注生産のため、期間内にご予約頂けた方は全員ご購入頂けます。
+</p>
+   <h5>ファンタジーアース ゼロ Tシャツのデザイン</h5>
+    <p class="ml20 mb30">
+下記2種類のTシャツの販売を予定しております。</p>
+    <p class="ml20">
+①「ファンタジーアース ゼロ メルファリア国王Tシャツ」</p>
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">メルファリア国王Ｔシャツ 表面</th>
+			<th class="th text-c">メルファリア国王Ｔシャツ 裏面</th>
+	</tr>
+	<tr>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/189823f1c4cf467c1669b981e81d937df1072e2dbc8704b56de642b9c5f456d3	" target="_blank">
+			<img src="https://cache.sqex-bridge.jp/img/189823f1c4cf467c1669b981e81d937df1072e2dbc8704b56de642b9c5f456d3" width="256" /></a></td>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/b71eeb68b3b920e31c4146a233230e6d1b3403556a9cba6ce3045ae1af0f9fa0" target="_blank">
+			<img src="https://cache.sqex-bridge.jp/img/b71eeb68b3b920e31c4146a233230e6d1b3403556a9cba6ce3045ae1af0f9fa0" width="256" /></a></td>
+	</tr>
+</table>
+
+    <p class="ml20">
+②「ファンタジーアース ゼロ メモリアルTシャツ」</p>
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">メモリアルTシャツ 表面</th>
+			<th class="th text-c">メモリアルTシャツ 裏面</th>
+	</tr>
+	<tr>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/a2f9df9608a2bdedd64ae9ef0f8d19eca48fc846d36277f07b62ba443f7398a2	" target="_blank">
+			<img src="	https://cache.sqex-bridge.jp/img/a2f9df9608a2bdedd64ae9ef0f8d19eca48fc846d36277f07b62ba443f7398a2" width="256" /></a></td>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/f349fd64377cfb0f2aaf7345113e519c805dd7afc5b7bcd40221bd3fb605cf5f" target="_blank">
+			<img src="https://cache.sqex-bridge.jp/img/f349fd64377cfb0f2aaf7345113e519c805dd7afc5b7bcd40221bd3fb605cf5f" width="256" /></a></td>
+	</tr>
+</table>
+
+   <h5>サイズ・価格</h5>
+    <p class="ml20 mb30">
+■サイズ：フリーサイズのみ(Lサイズ相当)<br/>
+■価格：3,800円（税抜)
+
+
+   <h5>購入方法</h5>
+    <p class="ml20 mb30">
+「ファンタジーアース ゼロ メルファリア国王Tシャツ」の販売ページは<a href="https://store.jp.square-enix.com/item/ME10365.html" target="_blank">こちら</a>をご確認ください。<br/>
+<br/>
+「ファンタジーアース ゼロ メモリアルTシャツ」の販売ページは<a href="https://store.jp.square-enix.com/item/ME10366.html" target="_blank">こちら</a>をご確認ください。<br/>
+
+<br/>
+	<hr class="deco" />
+<br/>
+
+引き続き、『ファンタジーアース ゼロ』をよろしくお願いいたします。</p></div><!-- news-detail-main -->
+		</div><!-- content-box-middle -->
+		<!-- 下のふた -->
+		<div class="content-box-bottom-pack">
+			<a class="back-button button" href="javascript:history.back();">
+				戻る
+			</a>
+		</div>
+	</div><!-- content-box -->
+
+	</div><!-- "main-content -->
+						</li>
+						<!-- 右側コンテンツ -->
+						<li id="main-two-column-right">
+							<!-- 大きめにアピールするエリア -->
+							<ul id="main-two-column-right-content-list">
+								<li>
+									<a class="button" id="free-entry-button" target="_blank" title="無料 新規登録はこちら"
+										href="../account/entry/entry">
+										無料 新規登録はこちら
+									</a>
+								</li>
+								<li>
+									<a class="button" id="client-download-button" title="無料クライアントダウンロード"
+										href="http://cache.dl.fantasy-earth.com/fezero/client/FEZ_setup.zip">
+										無料クライアントダウンロード
+									</a>
+								</li>
+								<li class="pt15 pb15">
+									<!-- メンテナンスバナー -->
+									<img class="" src="../img/main/two_column/right/maintenance.png" alt="定期メンテナンス 毎週水曜日11:00~17:00" />
+								</li>
+																	<li>
+																															<a href="../roulette/index.html" title="ヴィラーノルーレット" target="_blank">
+												<img src="../banner/side/r_bnr_vilano_220511.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../beginnersguide/index.html" title="初心者ガイド" target="_blank">
+												<img src="../banner/side/r_bnr_beginner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../update/mpoint/index.html" title="毎日応援" target="_blank">
+												<img src="../banner/side/r_bnr_dailylogin.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../library/item_library/index.html" title="アイテム図鑑" target="_blank">
+												<img src="../banner/side/r_bnr_item_library.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../voicehistory/index.html" title="ボイスヒストリー" target="_blank">
+												<img src="../banner/side/r_bnr_voicehistory.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../info/onlinemanner.html" title="ゲームプレイマナー" target="_blank">
+												<img src="../banner/side/r_bnr_onlinemanner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../netcafe/index.html" title="公認ネットカフェ" target="_blank">
+												<img src="../banner/side/r_bnr_netcafe.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="http://www.fantasy-earth.com/camp/s/list/" title="キャンペーンシリアルコード受取" target="_blank">
+												<img src="../banner/side/r_bnr_getcmps.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="https://store.line.me/stickershop/product/1113699/ja" title="LINEスタンプ" target="_blank">
+												<img src="../banner/side/r_bnr_sticker.png" />
+											</a>
+																			</li>
+																<li>
+									<div class="twitter-box">
+										<a class="twitter-timeline" 
+											data-link-color="#810000" 
+											data-border-color="#BAB19E" 
+											data-chrome="nofooter transparent" 
+											data-lang="ja" 
+											data-height="450" 
+											href="https://twitter.com/fez_staff?ref_src=twsrc%5Etfw">Tweets by fez_staff</a> 
+										<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+									</div>
+								</li>
+							</ul><!-- main-two-column-right-large-area -->
+						</li>
+					</ul>
+				</div><!-- main-two-column-main -->
+			</div><!-- main-two-column-bottom -->
+		</div><!-- main-two-column-top-->
+	</div><!-- main-two-column -->
+		</div><!-- main -->
+
+		<!-- フッターエリア -->
+		<div id="footer">
+		</div><!-- footer -->
+
+	</div><!-- wrapper -->
+	<!-- スクロールトップ -->
+	<div id="scroll-top">
+		<a class="button">ページトップ</a>
+	</div>
+
+	<!-- === footerArea === -->
+	<div id="sqexFooter" class="sqex-footer-black">
+		<div id="footerWebAdmin01">
+		</div>
+		<!-- デフォルトフッター -->
+		<div id="sqex-footer-contents">
+			<ul>
+				<li class="sqex-footer-first">
+					<a href="../info/baseinfo.html">ゲーム基本情報</a>
+				</li>
+				<li>
+					<a href="../info/agreement.html">特定商取引に基づく表記</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
+				</li>
+				<li>
+					<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank">サポートセンター</a>
+				</li>
+			</ul>
+			<div id="footerWebAdmin02">
+				<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

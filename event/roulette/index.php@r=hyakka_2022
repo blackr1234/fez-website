@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="ja" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
+	<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
+	<link rel="shortcut icon" href="../../favicon.ico" />
+	<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery1-9-0.js"></script>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery-ui1-9.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/square-enix.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/swanky-purse/jquery-ui-1.9.2.custom.css" />	
+
+	<link type="text/css" rel="stylesheet" href="../../style/reset.css" />
+	<link type="text/css" rel="stylesheet" href="../../style/core.css" />
+	<link type="text/css" rel="stylesheet" href="../../style/common.css" />
+			<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"></script>
+	<script type="text/javascript" src="../../script/lib/velocity.min.js"></script>
+	<script type="text/javascript" src="../../script/lib/taco.min.js"></script>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX" />
+	<meta property="og:title" content="ファンタジーアース ゼロ" />
+	<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta property="og:url" content="http://www.fantasy-earth.com/" />
+	<meta property="og:image" content="http://www.fantasy-earth.com/img/misc/og.jpg" />
+			<script type="text/javascript" src="../../script/common/plugin.js"></script>
+	<script type="text/javascript" src="../../script/lib/colorbox/jquery.colorbox.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../script/lib/colorbox/colorbox_plain.css" />
+	<link type="text/css" rel="stylesheet" href="../../style/roulette.css" />
+			<script type="text/javascript">
+	var BASE_PATH = "/";
+	</script>
+	<script type="text/javascript" src="../../script/lib/jplayer/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="../../script/roulette/main.js"></script>
+
+</head>
+<body class="">
+	<!-- === headerArea === -->
+	<div id="sqexHeader-black">
+		<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"><img src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif" width="130" height="14" border="0" alt="SQUARE ENIX" /></a>
+	</div>
+	<!-- === /headerArea === -->
+
+		<div id="fixed-bg"></div>
+	<!-- メインエリア -->
+	<div id="main">
+		<div id="main-content">
+				<!-- ヘッドタイトル -->
+	<div id="head-title">
+		<img src="../../img/event/hyakka_2022/roulette_header.png" />
+	</div><!-- head-title -->
+
+
+	<div class="mt25" id="whats-update">
+		<div id="whats-update-conetnt">
+			<div class="t-center">
+				<span style="font-size:16px;font-weight:bold;color:#bc0010;">
+					スミレをモチーフにしたスタイリッシュな防具が登場いたします！<br />
+					武器には、人気の高い桜をモチーフとした武器がリファインされて登場！<br />
+					この機会にぜひ入れよう！！<br />
+				</span>
+				<dd><span style="font-weight:bold;color:red;">
+				※手に入るアイテムの総数が決まっており、取得状況や残りの数を把握できる特別なルーレットとなっております。</span>
+				</dd>
+			</div>
+		</div>
+	</div>
+
+			<!-- 防具一覧 -->
+		<div class="mt30">
+			<div class="headline">
+				<img alt="ニューデザイン防具一覧" src="../../img/roulette/head/armors.png" />
+				<!--<img alt="レアアイテム防具一覧" src="/img/roulette/head/armors01.png" />-->
+			</div>
+
+			<!-- カラムリスト -->
+			<div class="mt10">
+				<ul class="box-3-list">
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=8624e807bb8c9b652b66d5feb4ea6183&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/8624e807bb8c9b652b66d5feb4ea6183/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												男性：深紫菫セット
+											</li>
+										</ul>
+									</a>
+									<a class="equip-box armor-f-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=415ec7396142b2c2b1929508b8b7326a&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/415ec7396142b2c2b1929508b8b7326a/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												女性：暗紫菫セット
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=b97a72bc60f229a27cd234ddc6e80ca9&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/b97a72bc60f229a27cd234ddc6e80ca9/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												男性：蒼白菫セット
+											</li>
+										</ul>
+									</a>
+									<a class="equip-box armor-f-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=2e23e4f06fae24d6794c205a9301eef1&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/2e23e4f06fae24d6794c205a9301eef1/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												女性：白桃菫セット
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=cc927141f278a408be5e12a01090e225&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/cc927141f278a408be5e12a01090e225/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												男性：紺碧菫セット
+											</li>
+										</ul>
+									</a>
+									<a class="equip-box armor-f-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=4b1dc863c2ae6b2e4000f51db5ecb8e7&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/4b1dc863c2ae6b2e4000f51db5ecb8e7/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												女性：群青菫セット
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+									</ul>
+			</div>
+		</div>
+	
+			<!-- 武器一覧 -->
+		<div class="mt25">
+			<div class="headline">
+				<img alt="ニューデザイン武器一覧" src="../../img/roulette/head/weapons.png" />
+				<!--<img alt="レアアイテム武器一覧" src="/img/roulette/head/weapons01.png" />-->
+			</div>
+
+			<div class="mt10">
+				<ul class="box-3-list">
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="warrior-icon"></span>片手武器セット<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=36eb85f14103694fa1383e0c433dfbeb&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/36eb85f14103694fa1383e0c433dfbeb/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												寒緋桜セット
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="warrior-icon"></span>両手武器<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=54483949e9374aaee00cf27968a32af3&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/54483949e9374aaee00cf27968a32af3/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												祝鎚・八重桜
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="warrior-icon"></span>大剣<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=6cb12825793901f133c76a0b928b3a97&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/6cb12825793901f133c76a0b928b3a97/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												霊刀・雛菊桜
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="scout-icon"></span>短剣<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=3e2328f0318b4da3193afa38ea52c29f&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/3e2328f0318b4da3193afa38ea52c29f/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												飾扇・桜吹雪
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="scout-icon"></span>弓<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=1151751acd042e9c2ec92cab2281dca9&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/1151751acd042e9c2ec92cab2281dca9/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												名弓・桜雲
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="scout-icon"></span>銃<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=82e64beac04150b97f0cb6d4debee115&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/82e64beac04150b97f0cb6d4debee115/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												魔銃・浅桜
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="sorcerer-icon"></span>杖<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=0913d597791996a99a4d9df5f339e136&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/0913d597791996a99a4d9df5f339e136/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												神杖・水玉桜
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="sorcerer-icon"></span>魔導具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=e10e7eae43c2579eda4071de25e2dc71&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/e10e7eae43c2579eda4071de25e2dc71/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												幻鳥・蒼桜
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="fencer-icon"></span>刺突剣<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=99e0d858dcf708398ab6c8d691d4e054&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/99e0d858dcf708398ab6c8d691d4e054/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												舞傘・残桜
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="cestus-icon"></span>手甲<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=hyakka_2022&amp;id=bdb55962945cb005fae7430ea7bca2f6&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/hyakka_2022/ss/bdb55962945cb005fae7430ea7bca2f6/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												妖手・葉桜
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+									</ul>
+			</div>
+		</div>
+	
+	
+	
+			<!-- その他一覧 -->
+		<div class="mt25">
+			<div class="headline">
+				<img alt="その他一覧" src="../../img/roulette/head/others.png" />
+			</div>
+
+			<div class="mt10">
+				<table class="table" id="other-list">
+					<tr>
+																				<td class="td-em">
+								シルバーコイン
+							</td>
+																				<td class="td-em">
+								忘却の壺
+							</td>
+																				<td class="td-em">
+								転身の羽
+							</td>
+																				<td class="td-em">
+								精練の書
+							</td>
+																				<td class="td-em">
+								報酬の書
+							</td>
+																					</tr><tr>
+														<td class="td-em">
+								エクスバンク契約書
+							</td>
+																				<td class="td-em">
+								名匠の砥石
+							</td>
+																				<td class="td-em">
+								レアステーキ
+							</td>
+																				<td class="td-em">
+								ハイリジェネレート
+							</td>
+																				<td class="td-em">
+								フィズアタックゲイン
+							</td>
+																					</tr><tr>
+														<td class="td-em">
+								フィズガードゲイン
+							</td>
+																				<td class="td-em">
+								ビルドアタックブースト
+							</td>
+																				<td class="td-em">
+								ビルドアタックゲイン
+							</td>
+																				<td class="td-em">
+								HPアップ
+							</td>
+																				<td class="td-em">
+								Pwアップ
+							</td>
+																					</tr><tr>
+														<td class="td-em">
+								パワーリジェネ
+							</td>
+																				<td class="td-em">
+								強固の結晶
+							</td>
+																				<td class="td-em">
+								穿孔の結晶
+							</td>
+																									<td class="td-em">&nbsp;</td>
+													<td class="td-em">&nbsp;</td>
+											</tr>
+				</table>
+
+			</div>
+		</div>
+	
+	<div class="mt25">
+		<div class="headline">
+			<img alt="ルーレットプレイの手順" src="../../img/roulette/head/step.png" />
+		</div>
+
+		<!-- ステップ表 -->
+		<div class="mt16 mb15" id="about-step">
+			<table>
+				<tr>
+					<th>&nbsp;</th>
+					<td>
+						<img alt="step1" src="../../img/roulette/misc/step/1.png" />
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<img alt="step2" src="../../img/roulette/misc/step/2.png" />
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<img alt="step3" src="../../img/event/hyakka_2022/3.png" />
+					</td>
+				</tr>
+				<tr>
+					<th>&nbsp;</th>
+					<td>
+						<p><strong>< カジノ案内人NPC ></strong>  または大陸マップ<br />からガルム遊技場のカジノへ入場します。</p>
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<p>カジノ内の <strong>< 道具屋NPC ></strong> に話しかけて<br />ゴールドコインまたはシルバーコインを<br />購入します。</p>
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<p><strong>< 新作&ﾘﾌｧｲﾝ!百花繚乱ﾙｰﾚｯﾄ ></strong> に<br />コインを預けて、ルーレットスタート！</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr style="width: 800px;" />
+
+		<!-- ルーレットデータ -->
+		<div class="mt20">
+			<table class="table" id="step-list">
+				<tr>
+					<td class="td-em">
+						名称
+					</td>
+					<td class="td">
+						新作＆リファイン！百花繚乱ルーレット
+					</td>
+				</tr>
+				<tr>
+					<td class="td-em">
+						商品重複の有無
+					</td>
+					<td class="td">
+						同じレアアイテムは重複して当たらない
+					</td>
+				</tr>
+				<tr>
+					<td class="td-em">
+						数量限定の有無
+					</td>
+					<td class="td">
+						総数110点
+					</td>
+				</tr>
+				<tr>
+					<td class="td-em">
+						提供割合に関係する特記
+					</td>
+					<td class="td">
+						男性用レアアイテムは男性キャラクター、女性用レアアイテムは女性キャラクターのみ当たる。
+						<br />販売期間中に提供割合の変更は行わない。
+						<br />男性用レアアイテムと女性用レアアイテムの割合は1：1。
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="mt18 pb30">
+			<dl class="notice-list">
+				<dt>
+					注意事項
+				</dt>
+				<dd>
+					※どのレアアイテムも1キャラクターにつき1度しか入手することができません。
+					<br />入手したレアアイテムをリサイクル、または破棄した場合、再度入手することはできませんのでご注意ください。
+				</dd>
+				<dd>
+					※性別に制限のあるレアアイテムは、キャラクターの性別と同じレアアイテムのみ入手することができます。
+				</dd>
+				<dd>
+					※クラス制限があるレアアイテムは、キャラクターのクラスに関係なく入手することができます。
+				</dd>
+				<dd>
+					※入手したアイテムはカジノ内にある「プライズ」にて受取することができます。
+				</dd>
+				<dd>
+					※装備のイメージを維持するため、一部のモーションで貫通や埋没等が発生する場合がございます。
+				</dd>
+			</dl>
+		</div>
+
+	</div>
+
+<br />
+
+		</div>
+	</div><!-- main -->
+	<!-- スクロールトップ -->
+	<div id="scroll-top">
+		<a class="button">ページトップ</a>
+	</div>
+
+	<!-- === footerArea === -->
+	<div id="sqexFooter" class="sqex-footer-black">
+		<div id="footerWebAdmin01">
+		</div>
+		<!-- デフォルトフッター -->
+		<div id="sqex-footer-contents">
+			<ul>
+				<li class="sqex-footer-first">
+					<a href="../../info/baseinfo.html">ゲーム基本情報</a>
+				</li>
+				<li>
+					<a href="../../info/agreement.html">特定商取引に基づく表記</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
+				</li>
+				<li>
+					<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank">サポートセンター</a>
+				</li>
+			</ul>
+			<div id="footerWebAdmin02">
+				<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

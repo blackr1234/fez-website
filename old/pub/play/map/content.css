@@ -1,0 +1,13 @@
+#map{ position:relative; width:500px; height:376px; background:url(map_01.jpg) center no-repeat; }
+
+#net{ position:absolute; display:block; top:120px; left:92px; width:105px; height:75px; background:url(map_net_on.jpg) center no-repeat; cursor:pointer; }
+#iel{ position:absolute; display:block; top:45px; left:190px; width:105px; height:75px; background:url(map_iel_on.jpg) center no-repeat; cursor:pointer; }
+#hor{ position:absolute; display:block; top:94px; right:91px; width:105px; height:75px; background:url(map_hor_on.jpg) center no-repeat; cursor:pointer; }
+#geb{ position:absolute; display:block; bottom:59px; right:106px; width:105px; height:75px; background:url(map_geb_on.jpg) center no-repeat; cursor:pointer; }
+#ces{ position:absolute; display:block; bottom:51px; left:125px; width:105px; height:75px; background:url(map_ces_on.jpg) center no-repeat; cursor:pointer; }
+
+#net:hover{ background:url(map_net_off.jpg) center no-repeat; text-decoration:none; }
+#iel:hover{ background:url(map_iel_off.jpg) center no-repeat; text-decoration:none; }
+#hor:hover{ background:url(map_hor_off.jpg) center no-repeat; text-decoration:none; }
+#geb:hover{ background:url(map_geb_off.jpg) center no-repeat; text-decoration:none; }
+#ces:hover{ background:url(map_ces_off.jpg) center no-repeat; text-decoration:none; }

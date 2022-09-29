@@ -1,0 +1,55 @@
+/* main */
+#main_box{
+	width:902px;
+	margin:0 auto;
+	padding-top:15px;
+	font-size:12px;
+}
+
+#main_box .header {
+	width:902px;
+	height:449px;
+	font-size:12px;
+	background-image:url(../../img/info/onlinemanner/header.png);
+	margin:0px auto 30px auto;
+	display:block;
+	text-align:left;
+}
+
+#main_box .header_text {
+	width:595px;
+	position: relative;
+	top:160px;
+	left:50px;
+}
+
+#main_box .inner {
+	width:895px;
+	margin:20px auto 10px auto;
+	padding-left:10px;
+}
+
+#main_box img {
+	float:left;
+	margin-right:15px;
+	margin-bottom:20px;
+}
+
+#main_box .note {
+	font-weight:bold;
+	color:#ac1616;
+}
+
+#main_box .caution {
+	color:#745c38;
+}
+
+#main_box .textblock {
+	padding:7px;
+	width:600px;
+	display:table-cell;
+	background-color:#eee8dc;
+	border:solid 1px #a7948d;
+	text-align:left;
+}
+

@@ -1,0 +1,201 @@
+<div id="modal-box">
+	<div id="modal-frame">
+		<div class="modal2">
+			<div class="modal-content2">
+									<!-- 画像エリア -->
+					<div class="modal-image2">
+						<img src="../../img/event/melphalir_fest/ss/54ff82126e644e01b4eaf3c17d133696/l.png" width="770" height="430" />
+					</div>
+											<!-- 情報エリア -->
+						<div class="modal-data2">
+																																				<table class="table">
+									<tr>
+										<th class="th text-center" width="30%">
+											名前
+										</th>
+										<th class="th text-center" width="12%">
+											種類
+										</th>
+										<th class="th text-center" width="10%">
+											能力
+										</th>
+										<th class="th text-center" width="10%">
+											レベル
+										</th>
+										<th class="th text-center" width="14%">
+											クラス
+										</th>
+										<th class="th text-center" width="14%">
+											耐久
+										</th>
+										<th class="th text-center">
+											性別
+										</th>
+									</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												憎ム餓者髑髏ノ髑髏面
+																							</td>
+											<td class="td text-center">
+												頭
+											</td>
+											<td class="td text-center">
+												11
+											</td>
+											<td class="td text-center">
+												15
+											</td>
+											<td class="td text-center">
+																									全クラス
+																							</td>
+											<td class="td text-center">
+												17100
+											</td>
+											<td class="td text-center t">
+																									♀
+																							</td>
+										</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												憎ム餓者髑髏ノ鎧
+																							</td>
+											<td class="td text-center">
+												体
+											</td>
+											<td class="td text-center">
+												18
+											</td>
+											<td class="td text-center">
+												15
+											</td>
+											<td class="td text-center">
+																									全クラス
+																							</td>
+											<td class="td text-center">
+												17100
+											</td>
+											<td class="td text-center t">
+																									♀
+																							</td>
+										</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												憎ム餓者髑髏ノ手甲
+																							</td>
+											<td class="td text-center">
+												腕
+											</td>
+											<td class="td text-center">
+												13
+											</td>
+											<td class="td text-center">
+												15
+											</td>
+											<td class="td text-center">
+																									全クラス
+																							</td>
+											<td class="td text-center">
+												17100
+											</td>
+											<td class="td text-center t">
+																									♀
+																							</td>
+										</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												憎ム餓者髑髏ノ腰鎧
+																							</td>
+											<td class="td text-center">
+												脚
+											</td>
+											<td class="td text-center">
+												18
+											</td>
+											<td class="td text-center">
+												15
+											</td>
+											<td class="td text-center">
+																									全クラス
+																							</td>
+											<td class="td text-center">
+												17100
+											</td>
+											<td class="td text-center t">
+																									♀
+																							</td>
+										</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												憎ム餓者髑髏ノ具足
+																							</td>
+											<td class="td text-center">
+												足
+											</td>
+											<td class="td text-center">
+												13
+											</td>
+											<td class="td text-center">
+												15
+											</td>
+											<td class="td text-center">
+																									全クラス
+																							</td>
+											<td class="td text-center">
+												17100
+											</td>
+											<td class="td text-center t">
+																									♀
+																							</td>
+										</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												憎ム餓者髑髏ノ髑髏
+																							</td>
+											<td class="td text-center">
+												装飾品
+											</td>
+											<td class="td text-center">
+												-
+											</td>
+											<td class="td text-center">
+												1
+											</td>
+											<td class="td text-center">
+																									全クラス
+																							</td>
+											<td class="td text-center">
+												-
+											</td>
+											<td class="td text-center t">
+																									♀
+																							</td>
+										</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												憎ム餓者髑髏ノ人魂
+																							</td>
+											<td class="td text-center">
+												装飾品
+											</td>
+											<td class="td text-center">
+												-
+											</td>
+											<td class="td text-center">
+												1
+											</td>
+											<td class="td text-center">
+																									全クラス
+																							</td>
+											<td class="td text-center">
+												-
+											</td>
+											<td class="td text-center t">
+																									♀
+																							</td>
+										</tr>
+																	</table>
+													</div>
+												</div><!-- modal-content -->
+		</div><!-- modal -->
+	</div>
+</div>

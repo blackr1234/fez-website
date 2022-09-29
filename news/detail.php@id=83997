@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="ja" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
+	<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery1-9-0.js"></script>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery-ui1-9.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/square-enix.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/swanky-purse/jquery-ui-1.9.2.custom.css" />	
+
+	<link type="text/css" rel="stylesheet" href="../style/reset.css" />
+	<link type="text/css" rel="stylesheet" href="../style/core.css" />
+	<link type="text/css" rel="stylesheet" href="../style/common.css" />
+					<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"></script>
+	<script type="text/javascript" src="../script/lib/velocity.min.js"></script>
+	<script type="text/javascript" src="../script/lib/taco.min.js"></script>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX" />
+	<meta property="og:title" content="ファンタジーアース ゼロ" />
+	<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta property="og:url" content="http://www.fantasy-earth.com/" />
+	<meta property="og:image" content="http://www.fantasy-earth.com/img/misc/og.jpg" />
+
+	<link type="text/css" rel="stylesheet" href="../style/base.css" />
+					<script type="text/javascript" src="../script/common/plugin.js"></script>
+	<script type="text/javascript" src="../script/common/two_column.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="../style/news.css" />
+		</head>
+<body class="">
+	<!-- === headerArea === -->
+	<div id="sqexHeader-black">
+		<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"><img src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif" width="130" height="14" border="0" alt="SQUARE ENIX" /></a>
+	</div>
+	<!-- === /headerArea === -->
+
+		<!-- 背景ラッパ -->
+	<div id="wrapper">
+
+		<!-- ヘッダエリア -->
+		<div id="header">
+			<!-- ヘッダ影 -->
+			<ul id="header-shadow">
+				<li id="header-main">
+					<!-- ロゴ：トップへ戻る -->
+					<a href="../index.html">
+						<img src="../img/header/logo.png" />
+					</a>
+				</li>
+			</ul>
+		</div><!-- header -->
+
+		<!-- メインコンテンツエリア -->
+		<div id="main">
+			<!-- メニューエリア -->
+			<div id="main-navi">
+				<ul id="main-navi-container">
+					<!-- 蔦の飾り -->
+					<li id="main-navi-ivy-deco"></li>
+					<li id="main-navi-content">
+						<ul>
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-intro"
+									href="../intro/feature.html">
+									FEZとは
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../intro/feature.html">
+														<span>FEZの特徴</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/story.html">
+														<span>ストーリー</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/netzawar.html">
+														<span>国家紹介</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-playguide" 
+									href="../playguide/base.html">
+									プレイガイド
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../playguide/base.html">
+														<span>操作方法</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/map.html">
+														<span>地図</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/class.html">
+														<span>クラス/スキル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/state.html">
+														<span>状態異常</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/item_rec.html">
+														<span>アイテム</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/shop.html">
+														<span>施設・NPC</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-gamesystem" 
+									href="../gamesystem/war.html">
+									ゲームシステム
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../gamesystem/war.html">
+														<span>戦争</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/official.html">
+														<span>オフィシャルショップ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/enchant.html">
+														<span>エンチャント</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/amulet.html">
+														<span>アミュレット・スペル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/reinforce.html">
+														<span>装備強化</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/force.html">
+														<span>部隊</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/coliseum.html">
+														<span>闘技場</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/casino.html">
+														<span>カジノ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/quest.html">
+														<span>クエスト</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/renpei.html">
+														<span>練兵</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/accessory.html">
+														<span>アクセサリ</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-library" 
+									href="../library/wallpaper.html">
+									ライブラリ
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../library/wallpaper.html">
+														<span>壁紙</span>
+													</a>
+												</li>
+												<li>
+													<a href="../library/item_library/index.html">
+														<span>アイテム図鑑</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-support" 
+									href="detail.php@id=83997#">
+									サポート
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="http://support.jp.square-enix.com/faqtop.php?id=13021&amp;la=0" target="_blank">
+														<span>FAQ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://support.jp.square-enix.com/contacttop.php?id=13021&amp;la=0" target="_blank">
+														<span>お問い合わせ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.jp.square-enix.com/account/" target="_blank">
+														<span>アカウント</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/account/profile" target="_blank">
+														<span>BRIDGEプロフィール</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/cash/history/deposit/" target="_blank">
+														<span>オーブ履歴確認</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+						</ul>
+					</li>
+				</ul>
+			</div><!-- main-navi -->
+
+			<!-- 蔦の飾り -->
+			<div id="main-ivy-deco"></div>
+				<!-- メイン２カラムフレーム -->
+	<div id="main-two-column">
+		<!-- フレームの中間の背景 -->
+		<div id="main-two-column-middle"></div>
+		<div id="main-two-column-top">
+			<div id="main-two-column-bottom">
+				<div id="main-two-column-content">
+					<ul>
+						<!-- 左側コンテンツ -->
+						<li id="main-two-column-left">
+								<!-- メインコンテンツ領域 -->
+	<div id="main-content">
+		<!-- 大見出し -->
+		<div class="main-content-headtitle">
+			<img src="../img/news/headtitle.png" />
+		</div>
+			<div class="content-box">
+		<!-- 上のふた -->
+		<div class="content-box-top"></div>
+		<div class="content-box-middle">
+			<!-- ニュース見出し -->
+			<div id="news-detail-head">
+				<ul>
+					<li>
+						<span class="news-icon-info"></span>
+					</li>
+					<li>
+						<span>2022-04-20</span>
+					</li>
+					<li>
+						<span>『アクセサリデザインコンテスト』結果発表！(追記：4/21)</span>
+					</li>
+				</ul>
+			</div><!-- news-detail-head -->
+
+			<!-- 通常罫線 -->
+			<hr />
+			
+			<!-- ニュース詳細 -->
+			<div id="news-detail-content"><div class="large-content">
+    <p class="ml20 mb30">
+       <br />
+        いつも『ファンタジーアース ゼロ』をご利用いただき、誠にありがとうございます。<br /><br />
+	大変お待たせいたしました！<br />
+       3月9日(水)定期メンテナンス後から4月6日(水)23:59まで実施しておりました、<br />
+        『アクセサリデザインコンテスト』の入賞者が決定いたしました！<br />
+        皆様のたくさんのご応募ありがとうございました。<br />
+	<br />
+	受賞された方のアクセサリは、後日ゲーム内に登場いたしますので、<br />
+	そちらもお楽しみに！<br/><br/>
+    </p>
+
+
+<h4>男性ウィッグ部門優秀賞</h4>
+<table class="ml20 mb30" width="560">	
+<tr>
+		<th class="th" colspan="2">投稿者名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ありえる<br/>
+</td>	
+<tr>
+		<th class="th" colspan="2">ウィッグ名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ぽんっ☆ぱどーる<br/>
+</td>
+	<tr>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/21dc577009f08d10e13cdf37235a12451bf2885e6cf25a80e477594035b4b77a" target="_blank">
+			<img src="https://cache.sqex-bridge.jp/img/21dc577009f08d10e13cdf37235a12451bf2885e6cf25a80e477594035b4b77a" width="300" /></a></td>
+	</tr>
+	<tr>
+		<th class="th" colspan="2">アピールポイント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ポンパドールとロングが両方欲しいオシャレなアナタに☆どんな服装にも使いやすいと思います。<br/>
+髪色は薄い金（黒の線は髪の流れを描いているだけなので、髪色には関係ないです。</td>
+	</tr>
+		<th class="th" colspan="2">運営からのコメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">
+今回の『男性ウィッグ部門優秀賞』を受賞されたのは、<br/>
+『ありえる』さんの『ぽんっ☆ぱどーる』です！！<br/>
+硬派なイメージにもとれるウィッグで、ボンパドールとロングが上手くまとまっていますね。<br/>
+コーディネートの幅をぜひ増やしていただきたいです！<br/>
+受賞おめでとうございます！<br/>
+
+
+	</tr>
+</table>   
+
+<h4>女性ウィッグ部門優秀賞</h4>
+<table class="ml20 mb30" width="560">	
+<tr>
+		<th class="th" colspan="2">投稿者名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ーここから上はプロー<br/>
+</td>	
+<tr>
+		<th class="th" colspan="2">ウィッグ名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">お嬢様型編み込みツーサイドアップ<br/>
+</td>
+	<tr>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/0fb76e1f0910ac2b6f8e462e0b87b73d7812e3c15c1406d695629e950ad4322c" target="_blank">
+			<img src="https://cache.sqex-bridge.jp/img/0fb76e1f0910ac2b6f8e462e0b87b73d7812e3c15c1406d695629e950ad4322c" width="300" /></a></td>
+	</tr>
+	<tr>
+		<th class="th" colspan="2">投稿者コメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">可愛さを詰め込んだウィッグにしてみました！<br/>
+帽子や獣耳等と組み合わせもしやすいです
+</td>
+	</tr>
+		<th class="th" colspan="2">運営からのコメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">
+今回の『女性ウィッグ部門優秀賞』を受賞されたのは、<br/>
+『ーここから上はプロー』さんの『お嬢様型編み込みツーサイドアップ』です！！<br/>
+ウィッグ名の通り、ゴージャスなデザインになっていますね！<br/>
+「ファンタジーアース ゼロ」内にある防具とあわせて、お嬢様に仕上げることができるかも！？<br/>
+受賞おめでとうございます！<br/>
+※アイテム名は実装にあたり応募者様とご相談の上、名称が変更される可能性がございます。
+	</tr>
+</table>   
+
+
+  <h4>イラスト部門優秀賞</h4>
+<table class="ml20 mb30" width="560">	
+<tr>
+		<th class="th" colspan="2">投稿者名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">だっすー<br/>
+</td>	
+<tr>
+		<th class="th" colspan="2">アクセサリ名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ヘイムダルの大盾<br/>
+</td>
+	<tr>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/c0ba2c1eb7a383426c2c9b782b5c352f433cb92def3f0f6e8cfcf3a59ad50a07" target="_blank">
+			<img src="https://cache.sqex-bridge.jp/img/c0ba2c1eb7a383426c2c9b782b5c352f433cb92def3f0f6e8cfcf3a59ad50a07" width="300" /></a></td>
+	</tr>
+	<tr>
+		<th class="th" colspan="2">投稿者コメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">自分の”欲しい”を詰め込みました！！！！！</td>
+	</tr>
+		<th class="th" colspan="2">運営からのコメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">
+今回の『イラスト部門優秀賞』を受賞されたのは、<br/>
+『だっすー』さんの『ヘイムダルの大盾』です！！<br/>
+前線の味方がこの盾を装備していたら、とても頼もしく思えるようなデザインになっていますね！<br/>
+受賞おめでとうございます！
+	</tr>
+</table>   
+<table class="ml20 mb30" width="560">	
+<tr>
+		<th class="th" colspan="2">投稿者名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ノヒト<br/>
+</td>	
+<tr>
+		<th class="th" colspan="2">アクセサリ名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ランタンを持つ擬似妖精<br/>
+</td>
+	<tr>
+		<td class="td text-c"><a href="https://cache.sqex-bridge.jp/img/e1f50775e890086fed3d14bb515430c8063d2bc86518bdc4cfdb60560b91464c" target="_blank">
+			<img src="https://cache.sqex-bridge.jp/img/e1f50775e890086fed3d14bb515430c8063d2bc86518bdc4cfdb60560b91464c" width="300" /></a></td>
+	</tr>
+	<tr>
+		<th class="th" colspan="2">投稿者コメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">働き者の擬似妖精。<br/>
+賢人王ナイアスのそばに仕えている擬似妖精とは別の擬似妖精である。<br/>
+</td>
+	</tr>
+		<th class="th" colspan="2">運営からのコメント</th>
+	</tr>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">
+今回の『イラスト部門優秀賞』を受賞されたのは、<br/>
+『ノヒト』さんの『ランタンを持つ擬似妖精』です！！<br/>
+兵士のお手伝いをしてくれる妖精に、是非お供して欲しいですね！<br/>
+モーションなどについては、可能な限り対応させていただきます！<br/>
+受賞おめでとうございます！<br/>
+	</tr>
+
+	</tr>
+</table>   
+
+
+  <h4>テキスト部門優秀賞</h4>
+<table class="ml20 mb30" width="560">
+<tr>
+		<th class="th" colspan="2">投稿者名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">水兵清<br/>
+</td>	
+<tr>
+		<th class="th" colspan="2">アクセサリ名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">ミュージカルノート<br/>
+</td>
+<tr>
+		<th class="th" colspan="2">アクセサリ部位</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">周囲<br/>
+</td>
+	<tr>
+		<th class="th" colspan="2">アクセサリについて</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">音楽の旋律、キミに届け！！<br/>
+</td>	
+	<tr>
+		<th class="th" colspan="2">アピールポイント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">キャラの周囲に複数の音符が回る事で、音楽系の武器とコラボレーション！
+</td>
+	</tr>
+		<th class="th" colspan="2">運営からのコメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">
+今回の『テキスト部門優秀賞』を受賞されたのは、<br/>
+『水兵清』さんの『ミュージカルノート』です！！<br/>
+兵士の周囲に音符が回り、楽しい気分にさせてくれるような<br/>
+アクセサリになりそうですね！<br/>
+受賞おめでとうございます！<br/>
+
+	</tr>
+</table>   
+
+<table class="ml20 mb30" width="560">
+<tr>
+		<th class="th" colspan="2">投稿者名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">わたるん<br/>
+</td>	
+<tr>
+		<th class="th" colspan="2">アクセサリ名</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">モーションうさ耳<br/>
+</td>
+<tr>
+		<th class="th" colspan="2">アクセサリ部位</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">頭<br/>
+</td>
+	<tr>
+		<th class="th" colspan="2">アクセサリについて</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">動きのあるうさ耳が欲しいです。<br/>
+パタンと倒れたり、ゆっくりたれてきたり、ぴょこっと戻ったり
+</td>	
+	<tr>
+		<th class="th" colspan="2">アピールポイント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">長年の夢です
+</td>
+	</tr>
+		<th class="th" colspan="2">運営からのコメント</th>
+	</tr>
+	<tr>
+		<td class="td" colspan="2">
+今回の『テキスト部門優秀賞』を受賞されたのは、<br/>
+『わたるん』さんの『モーションうさ耳』です！！<br/>
+とても可愛らしい兎の兵士ができあがりそうですね！<br/>
+ぴょこぴょこ動くうさぎの耳を表現できるように作成いたします！<br/>
+受賞おめでとうございます！<br/>
+
+	</tr>
+</table>   
+    <p class="ml20 mb30">
+<font color="red">※運営からのコメントにある応募者様のお名前を修正いたしました。<br />
+        大変失礼いたしました、申し訳ございません。(4/21：追記)</font><br /><br/>
+</p>
+
+    <h4>賞品</h4>
+    <p class="ml20 mb30">
+        各部門の受賞者には、下記の賞品をお送りいたします。<br />
+        ・ご自身がデザインしたアクセサリ<br />
+        ・応募受付期間終了時までに入手できるお好きな装備(2セット)※コラボ品を除く<br />
+        ・過去のコーディネートコンテストやスクリーンショットコンテストで実装されたアクセサリの中から1点(2019年～2022年の間で実装されたアクセサリ)
+    </p>
+
+    <h4>デザイン注意事項</h4>
+    <p class="ml20 mb30">
+        ※モデルの仕様上、一部デザインを修正する可能性がございます。<br/>
+        ※モーションや挙動については、変更される可能性がございます。<br/>
+        ※質感の表現が多少変更される可能がございます。 <br/>
+ご了承ください。
+    </p>
+
+
+    <h4>ご案内事項</h4>
+    <p class="ml20 mb30">
+        ※入賞した方には、2022年4月下旬に賞品の受け取りに関するご案内を<br />
+        　Twitterのダイレクトメッセージでご案内いたします。 <br />
+        ※入賞のご案内に記載されている期日までに、賞品の受け取りに必要な情報をご連絡ください。 <br />
+        ※送付先情報の連絡がない場合や、情報の不備等があった場合、<br />
+        　「FEZ公式Twitter」のフォローを外した場合、Twitterのアカウントを非公開状態にした場合、<br />
+        　 ツイートを削除した場合には、賞品の受け取りを辞退したものと判断させていただきます。
+    </p>
+
+    <hr class="deco" />
+
+    <p class="ml20 mb30">今後とも『ファンタジーアース ゼロ』を、よろしくお願いいたします。</p>
+</div>
+
+
+</div><!-- news-detail-main -->
+		</div><!-- content-box-middle -->
+		<!-- 下のふた -->
+		<div class="content-box-bottom-pack">
+			<a class="back-button button" href="javascript:history.back();">
+				戻る
+			</a>
+		</div>
+	</div><!-- content-box -->
+
+	</div><!-- "main-content -->
+						</li>
+						<!-- 右側コンテンツ -->
+						<li id="main-two-column-right">
+							<!-- 大きめにアピールするエリア -->
+							<ul id="main-two-column-right-content-list">
+								<li>
+									<a class="button" id="free-entry-button" target="_blank" title="無料 新規登録はこちら"
+										href="../account/entry/entry">
+										無料 新規登録はこちら
+									</a>
+								</li>
+								<li>
+									<a class="button" id="client-download-button" title="無料クライアントダウンロード"
+										href="http://cache.dl.fantasy-earth.com/fezero/client/FEZ_setup.zip">
+										無料クライアントダウンロード
+									</a>
+								</li>
+								<li class="pt15 pb15">
+									<!-- メンテナンスバナー -->
+									<img class="" src="../img/main/two_column/right/maintenance.png" alt="定期メンテナンス 毎週水曜日11:00~17:00" />
+								</li>
+																	<li>
+																															<a href="../roulette/index.html" title="ヴィラーノルーレット" target="_blank">
+												<img src="../banner/side/r_bnr_vilano_220511.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../beginnersguide/index.html" title="初心者ガイド" target="_blank">
+												<img src="../banner/side/r_bnr_beginner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../update/mpoint/index.html" title="毎日応援" target="_blank">
+												<img src="../banner/side/r_bnr_dailylogin.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../library/item_library/index.html" title="アイテム図鑑" target="_blank">
+												<img src="../banner/side/r_bnr_item_library.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../voicehistory/index.html" title="ボイスヒストリー" target="_blank">
+												<img src="../banner/side/r_bnr_voicehistory.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../info/onlinemanner.html" title="ゲームプレイマナー" target="_blank">
+												<img src="../banner/side/r_bnr_onlinemanner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../netcafe/index.html" title="公認ネットカフェ" target="_blank">
+												<img src="../banner/side/r_bnr_netcafe.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="http://www.fantasy-earth.com/camp/s/list/" title="キャンペーンシリアルコード受取" target="_blank">
+												<img src="../banner/side/r_bnr_getcmps.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="https://store.line.me/stickershop/product/1113699/ja" title="LINEスタンプ" target="_blank">
+												<img src="../banner/side/r_bnr_sticker.png" />
+											</a>
+																			</li>
+																<li>
+									<div class="twitter-box">
+										<a class="twitter-timeline" 
+											data-link-color="#810000" 
+											data-border-color="#BAB19E" 
+											data-chrome="nofooter transparent" 
+											data-lang="ja" 
+											data-height="450" 
+											href="https://twitter.com/fez_staff?ref_src=twsrc%5Etfw">Tweets by fez_staff</a> 
+										<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+									</div>
+								</li>
+							</ul><!-- main-two-column-right-large-area -->
+						</li>
+					</ul>
+				</div><!-- main-two-column-main -->
+			</div><!-- main-two-column-bottom -->
+		</div><!-- main-two-column-top-->
+	</div><!-- main-two-column -->
+		</div><!-- main -->
+
+		<!-- フッターエリア -->
+		<div id="footer">
+		</div><!-- footer -->
+
+	</div><!-- wrapper -->
+	<!-- スクロールトップ -->
+	<div id="scroll-top">
+		<a class="button">ページトップ</a>
+	</div>
+
+	<!-- === footerArea === -->
+	<div id="sqexFooter" class="sqex-footer-black">
+		<div id="footerWebAdmin01">
+		</div>
+		<!-- デフォルトフッター -->
+		<div id="sqex-footer-contents">
+			<ul>
+				<li class="sqex-footer-first">
+					<a href="../info/baseinfo.html">ゲーム基本情報</a>
+				</li>
+				<li>
+					<a href="../info/agreement.html">特定商取引に基づく表記</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
+				</li>
+				<li>
+					<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank">サポートセンター</a>
+				</li>
+			</ul>
+			<div id="footerWebAdmin02">
+				<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

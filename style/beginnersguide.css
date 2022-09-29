@@ -1,0 +1,589 @@
+@charset "UTF-8";
+@charset "UTF-8";
+
+/* ====================================================================== */
+/* 全体定義 */
+/* ====================================================================== */
+html,
+body {
+	min-width: 980px;
+	font-size: 12px;
+	background-color: #000;
+}
+
+/* ----- 強調 ----- */
+strong {
+	color: #b81616;
+	font-weight: bold;
+}
+
+/* ===== 見出し系 ===== */
+.small-head {
+	color: #9a4500;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* ====================================================================== */
+/* ボタン */
+/* ====================================================================== */
+/* ===== 閉じる ===== */
+.close-button {
+	background-image: url(../img/beginnersguide/navi/button/window_close.png);
+}
+
+/* ===== トップへ ===== */
+.goto-top-button {
+	background-image: url(../img/beginnersguide/navi/button/goto_top.png);
+}
+
+.close-button,
+.goto-top-button {
+	width: 230px;
+	height: 40px;
+}
+
+/* ===== 次へ ===== */
+.next-button {
+	background-image: url(../img/beginnersguide/navi/button/next.png);
+}
+
+/* ===== 前へ ===== */
+.prev-button {
+	background-image: url(../img/beginnersguide/navi/button/prev.png);
+}
+
+.next-button,
+.prev-button {
+	width: 131px;
+	height: 40px;
+}
+
+/* ===== スクロールトップ：上書き ===== */
+#scroll-top {
+	position: fixed;
+	bottom: 170px;
+	right: 0;
+	z-index: 10;
+	overflow: hidden;
+	width: 133px;
+	height: 39px;
+}
+	#scroll-top a {
+		position: absolute;
+		right: -133px;
+		cursor: pointer;
+		display: block;
+		width: 133px;
+		height: 39px;
+		background-image: url(../img/beginnersguide/navi/button/scroll_top.png);
+	}
+
+/* ====================================================================== */
+/* ヘッダ */
+/* ====================================================================== */
+#header {
+	background-image: url(../img/beginnersguide/header/bg.png);
+	background-position: center top;
+}
+	/* ===== トップ用 ===== */
+	#top-header {
+		height: 320px;
+		background-image: url(../img/beginnersguide/header/top.png);
+		background-position: center top;
+		background-repeat: no-repeat;
+	}
+	/* ===== 子ページ用 ===== */
+	#sub-header {
+		overflow: hidden;
+		width: 100%;
+		height: 130px;
+		background-image: url(../img/beginnersguide/header/bg.png);
+	}
+		#sub-header-move {
+			width: 100%;
+			height: 130px;
+			text-align: center;
+			background-image: url(../img/beginnersguide/header/bg.png);
+		}
+		#sub-header-move.fixed {
+			position: fixed;
+			top: 0;
+			z-index: 10;
+		}
+		/* トップページの場合、メニューの直上に配置する */
+		body.top #sub-header {
+			position: absolute;
+			top: 230px;
+			background-image: none;
+		}
+		/* トップページの場合はデフォルトで非表示 */
+		body.top #sub-header-move {
+			opacity: 0;
+			filter: alpha( opacity = 0 );
+		}
+
+
+/* ====================================================================== */
+/* メニュー */
+/* ====================================================================== */
+#main-navi {
+	height: 40px;
+}
+
+/* ===== 稼動部分 ===== */
+#main-navi-move {
+	width: 100%;
+}
+	#main-navi-move.fixed {
+		position: fixed;
+		top: 130px;
+		z-index: 10;
+	}
+
+/* ===== メニュー基礎部分 ===== */
+#main-navi-base {
+	height: 40px;
+	background-image: url(../img/beginnersguide/navi/main/bg.png);
+}
+
+/* ===== メニューラッパー ===== */
+#main-navi-content {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 940px;
+}
+
+/* ===== ボタンラッパー ===== */
+.main-navi-item {
+	position: relative;
+	float: left;
+	width: 140px;
+	background-image: url(../img/beginnersguide/navi/main/split.png);
+	background-position: right 7px;
+	background-repeat: no-repeat;
+}
+.main-navi-out {
+	float: left;
+	width: 380px;
+}
+
+/* ===== ナビボタン ===== */
+.main-navi-button {
+	cursor: pointer;
+	display: block;
+	overflow: hidden;
+	height: 40px;
+	text-indent: -9999em;
+	background-repeat: no-repeat;
+	background-position: 29px top;
+}
+	.main-navi-button:hover {
+		background-position: 29px center;
+	}
+	.main-navi-button.disabled,
+	.main-navi-button.disabled:hover {
+		cursor: default;
+		background-position: 29px bottom;
+	}
+/* ----- 章 ----- */
+#main-navi-1 {
+	background-image: url(../img/beginnersguide/navi/main/label/1.png);
+}
+#main-navi-2 {
+	background-image: url(../img/beginnersguide/navi/main/label/2.png);
+}
+#main-navi-3 {
+	background-image: url(../img/beginnersguide/navi/main/label/3.png);
+}
+#main-navi-4 {
+	background-image: url(../img/beginnersguide/navi/main/label/4.png);
+}
+#goto-official {
+	width: 350px;
+	background-image: url(../img/beginnersguide/navi/main/label/goto_official.png);
+}
+
+/* ====================================================================== */
+/* サブメニュー */
+/* ====================================================================== */
+/* ----- 開閉処理部分 ----- */
+.sub-navi {
+	position: absolute;
+	overflow: hidden;
+	display: none;
+}
+	.sub-navi-container {
+		position: relative;
+	}
+	.sub-navi-content {
+	}
+		/* ----- 角丸くろふち ----- */
+		.sub-navi-content ul {
+			padding-left: 4px;
+			padding-right: 4px;
+			padding-bottom: 4px;
+			border-bottom-right-radius: 7px;
+			border-bottom-left-radius: 7px;
+			background-color: #040000;
+		}
+		.sub-navi-content li {
+			border-bottom: 1px solid #505050;
+		}
+		/* 最後のアイテムは罫線なし */
+		.sub-navi-content li:last-child {
+			border-bottom: none;
+		}
+			.sub-navi-content li a {
+				display: block;
+				padding-top: 8px;
+				padding-bottom: 7px;
+				padding-left: 10px;
+				padding-right: 10px;
+				white-space: nowrap;
+				color: #fff;
+				font-size: 13px;
+				text-decoration: none;
+				background-color: #282828;
+			}
+			.sub-navi-content li a:hover {
+				color: #fff263;
+			}
+
+/* ===== 章単位の定義：主にX座標の調整 ===== */
+#sub-navi-1 {
+}
+#sub-navi-2 {
+}
+#sub-navi-3 {
+}
+#sub-navi-4 {
+}
+
+
+/* ====================================================================== */
+/* メインコンテンツエリア */
+/* ====================================================================== */			
+#main {
+	background-color: #bddee9;
+}
+
+/* ====================================================================== */
+/* 汎用フレーム */
+/* ====================================================================== */
+/* ===== 暖色系フレーム ===== */
+.frame-warm {
+	background-color: #e4dccb;
+}
+/* ===== 寒色系フレーム ===== */
+.frame-cool {
+	background-color: #93b9c8;
+}
+/* ----- フレーム共通 ----- */
+.frame-warm,
+.frame-cool {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 6px;
+	width: 968px;
+	border: 0 solid transparent;
+	border-radius: 9px;
+}
+/* ----- フレーム内部 ----- */
+.frame-content {
+	padding: 10px;
+	border: 0 solid transparent;
+	border-radius: 5px;
+	background-color: #f5f1e8;
+}
+
+/* ====================================================================== */
+/* 大見出し系 */
+/* ====================================================================== */
+/* ===== 開閉ヘッド ===== */
+.toggle-head,
+.large-head {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 980px;
+	height: 45px;
+	text-decoration: none;
+	background-image: url(../img/beginnersguide/navi/head/toggle.png);
+}
+	.toggle-head {
+		cursor: pointer;
+	}
+	.toggle-head:hover {
+		background-position: 0 center;
+	}
+	/* 開き状態 */
+	.toggle-head.active {
+	}
+	/* 無効状態 */
+	.toggle-head.disabled,
+	.toggle-head.disabled:hover {
+		color: #91c6dd;
+		cursor: default;
+		background-position: 0 bottom;
+	}
+	/* ----- テキストエリア ----- */
+	.toggle-head span,
+	.large-head span {
+		padding-top: 11px;
+		padding-left: 18px;
+		display: block;
+		height: 45px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		background-image: url(../img/beginnersguide/misc/icon/plus.png);
+		background-repeat: no-repeat;
+		background-position: 942px 10px;
+	}
+	.toggle-head.active span {
+		background-image: url(../img/beginnersguide/misc/icon/minus.png);
+	}
+	.toggle-head.disabled span {
+		color: #91c6dd;
+		background-image: url(../img/beginnersguide/misc/icon/comming_soon.png);
+		background-position: 820px 13px;
+	}
+
+/* ===== 開閉コンテンツ ===== */
+.toggle-content {
+	overflow: hidden;
+}
+
+/* ===== サブコンテンツヘッド ===== */
+.large-head {
+	width: 800px;
+	background-image: url(../img/beginnersguide/navi/head/large.png);
+}
+	.large-head span {
+		background-image: none;
+	}
+
+/* ====================================================================== */
+/* 更新履歴 */
+/* ====================================================================== */
+#update-history {
+	margin-right: auto;
+	margin-left: auto;
+	width: 570px;
+	border: 5px solid #282828;
+	background-color: #fff;
+}
+	#update-history table {
+		width: 100%;
+	}
+	#update-history dt,
+	#update-history dd {
+		float: left;
+	}
+	/* 見出しのほう */
+	#update-history th {
+		width: 125px;
+		text-align: center;
+		border-right: 5px solid #282828;
+		background-color: #282828;
+	}
+	/* テキストのほう */
+	#update-history td {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 14px;
+	}
+
+/* ====================================================================== */
+/* トップページ */
+/* ====================================================================== */
+/* ===== サイト紹介エリア ===== */
+#top-about {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #f5f1e8;
+}
+/* ===== キャラクター紹介 ===== */
+#character-introduction {
+}
+	#character-introduction dl {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#character-introduction dt,
+	#character-introduction dd {
+		float: left;
+	}
+	/* キャラクター画像エリア */
+	#character-introduction dt {
+		width: 100px;
+	}
+	/* 紹介文エリア */
+	#character-introduction dd {
+		padding-left: 12px;
+		width: 197px;
+	}
+	/* 名前 */
+	#character-introduction div {
+		margin-bottom: 5px;
+	}
+
+/* ===== 漫画一覧 ===== */
+#top-chapter-list {
+	padding-top: 20px;
+}
+	/* ----- チャプターのプレビュー ----- */
+	.chapter-preview {
+	}
+		.chapter-preview table {
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.chapter-preview tr {
+		}
+		.chapter-preview td {
+			width: 234px;
+			vertical-align: top;
+			background-color: #fff;
+			border: 0 solid transparent;
+			border-radius: 8px;
+		}
+			.chapter-preview td a {
+				text-decoration: none;
+			}
+			.chapter-preview td dl {
+				position: relative;
+				padding: 5px;
+			}
+			/* 画像エリア */
+			.chapter-preview td dt {
+				height: 104px;
+			}
+				/* ニューマーク */
+				.chapter-preview td dt .is-new {
+					position: absolute;
+					top: 0;
+					left: 0;
+					display: block;
+					overflow: hidden;
+					width: 72px;
+					height: 52px;
+					text-indent: -9999em;
+					background-image: url(../img/beginnersguide/misc/icon/new.png);
+				}
+			/* テキストエリア */
+			.chapter-preview td dd {
+				padding-top: 6px;
+				padding-left: 5px;
+				padding-right: 5px;
+				padding-bottom: 10px;
+			}
+				.chapter-preview td dd .small-head {
+					margin-bottom: 5px;
+				}
+			.chapter-preview p {
+				color: #000;
+			}
+			/* カミングスーンの場合 */
+			.chapter-preview .disabled .small-head,
+			.chapter-preview .disabled p {
+				color: #868686;
+			}
+		/* マージン */
+		.chapter-preview th {
+			width: 8px;
+			min-height: 8px;
+			font-size: 1px;
+		}
+
+/* ====================================================================== */
+/* サブページ */
+/* ====================================================================== */
+/* ===== コラムエリア ===== */
+#chapter-column {
+	width: 788px;
+}
+	/* ----- コラム１ブロック ----- */
+	.chapter-column-content {
+		margin-right: auto;
+		margin-left: auto;
+		width: 748px;
+		font-size: 14px;
+	}
+	/* コラム分割線 */
+	hr.chapter-borderline {
+		width: 748px;
+		margin: 0 auto;
+		padding: 0;
+		border: none;
+		border-top: 2px solid #e4dccb;
+	}
+
+	/* ----- 関連ページリンク ----- */
+	.chapter-relating-links {
+		margin-right: auto;
+		margin-left: auto;
+		width: 680px;
+	}
+		/* 見出し */
+		.chapter-relating-links dt {
+			padding-left: 13px;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 1.0;
+			background-image: url(../img/beginnersguide/misc/icon/circle.png);
+			background-repeat: no-repeat;
+			background-position: 0 2px;
+		}
+		.chapter-relating-links dd {
+			padding-top: 8px;
+		}
+			/* タグ一個 */
+			.chapter-relating-links dd li {
+				margin-right: 5px;
+				padding-top: 4px;
+				padding-bottom: 4px;
+				padding-left: 10px;
+				padding-right: 10px;
+				float: left;
+				line-height: 1.0;
+				border-radius: 4px;
+				background-color: #9a4500;
+			}
+			.chapter-relating-links dd a {
+				color: #fff;
+				font-weight: bold;
+				text-decoration: underline;
+			}
+			.chapter-relating-links dd a:hover {
+				color: #fff;
+				text-decoration: none;
+			}
+		
+
+/* ===== ナビエリア ===== */
+#subpage-navi {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 50px;
+	width: 800px;
+}
+	#subpage-navi ul {
+		width: 800px;
+	}
+	#subpage-navi li {
+		float: left;
+		width: 131px;
+		min-height: 40px;
+	}
+	#subpage-navi li:first-child + li {
+		padding-left: 150px;
+		width: auto;
+	}
+	#subpage-navi li:last-child {
+		float: right;
+	}

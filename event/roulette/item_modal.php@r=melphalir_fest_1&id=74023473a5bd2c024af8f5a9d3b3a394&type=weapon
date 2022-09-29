@@ -1,0 +1,63 @@
+<div id="modal-box">
+	<div id="modal-frame">
+		<div class="modal2">
+			<div class="modal-content2">
+									<!-- 画像エリア -->
+					<div class="modal-image2">
+						<img src="../../img/event/melphalir_fest/ss/74023473a5bd2c024af8f5a9d3b3a394/l.png" width="770" height="430" />
+					</div>
+											<!-- 情報エリア -->
+						<div class="modal-data2">
+																						<table class="table">
+									<tr>
+										<th class="th text-center" width="28%">
+											名前
+										</th>
+										<th class="th text-center" width="12%">
+											種類
+										</th>
+										<th class="th text-center" width="10%">
+											能力
+										</th>
+										<th class="th text-center" width="10%">
+											レベル
+										</th>
+										<th class="th text-center" width="14%">
+											クラス
+										</th>
+										<th class="th text-center" width="14%">
+											耐久
+										</th>
+										<th class="th text-center">
+											スロット
+										</th>
+									</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												罪人迎エノ呪具
+											</td>
+											<td class="td text-center">
+																									魔導具
+																							</td>
+											<td class="td text-center">
+												100
+											</td>
+											<td class="td text-center">
+												20
+											</td>
+											<td class="td text-center">
+												<span class="sorcerer-icon"></span>
+											</td>
+											<td class="td text-center">
+												38880
+											</td>
+											<td class="td text-center">
+												4
+											</td>
+										</tr>
+																	</table>
+																											</div>
+												</div><!-- modal-content -->
+		</div><!-- modal -->
+	</div>
+</div>

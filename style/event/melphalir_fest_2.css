@@ -1,0 +1,1227 @@
+@charset "UTF-8";
+
+/* ====================================================================== */
+/* 全体定義 */
+/* ====================================================================== */
+body {
+	min-width: 1100px;
+	background-image: url(../../img/event/melphalir_fest/sub_bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color:#fff!important;
+}
+	body.top {
+		min-width: 1020px;
+		background-image: url(../../img/event/melphalir_fest/bg.jpg);
+		background-color:#fff;
+	}
+	/* ----- 背景固定 ----- */
+	body.bg-fixed {
+		background-attachment: fixed;
+		background-position: center -38px;
+	}
+	/* トップページは背景固定しない */
+	body.bg-fixed.top {
+		background-attachment: scroll;
+		background-position: center top;
+	}
+
+/* ====================================================================== */
+/* コンテンツ大枠 */
+/* ====================================================================== */
+#content {
+	position: relative;
+	width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+}
+	body.top #content {
+		width: 1100px;
+	}
+
+/* ====================================================================== */
+/* 文字装飾 */
+/* ====================================================================== */
+/* ===== 強調 ===== */
+.strong-text {
+	color: #cb0000;
+	font-weight: bold;
+}
+	/* 強調大サイズ */
+	.strong-text.large {
+		font-size: 14px;
+	}
+
+/* ====================================================================== */
+/* 見出し */
+/* ====================================================================== */
+/* ----- 大見出し ----- */
+h2 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding-left: 18px;
+	width: 840px;
+	height: 45px;
+	color: #fff;
+	font-size: 19px;
+	line-height: 2.5;
+	box-sizing: border-box;
+	background-image: url(../../img/event/melphalir_fest/misc/head/large.png);
+}
+/* ----- 中見出し ----- */
+h3 {
+	position: relative;
+	padding-left: 15px;
+	color: #803f23;
+	font-weight: bold;
+	font-size: 14px;
+}
+	h3:after {
+		position: absolute;
+		top: 4px;
+		left: 0;
+		content: '';
+		display: block;
+		width: 13px;
+		height: 13px;
+		background-image: url(../../img/event/vilano_fest2018/misc/head/middle.png);
+	}
+/* ----- 大見出し ----- */
+h4 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 15px;
+	padding-left:15px;
+	width: 798px;
+	height: 30px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 2;
+	box-sizing: border-box;
+	background-image: url(../../img/event/vilano_fest2018/misc/head/sub.png);
+}
+/* ====================================================================== */
+/* フレーム */
+/* ====================================================================== */
+
+/* ===== ルーレットベース背景 ===== */
+#main {
+	position: relative;
+	z-index: 0;
+	left: 120px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 926px;
+}
+	#main-content {
+		background-image: url(../../img/event/vilano_fest2018/common_roulette/content_bg.png);
+		background-repeat: repeat-y;
+	}
+
+/* ===== 紫色の大フレーム ===== */
+.content-box {
+	position: relative;
+	z-index: 0;
+	left: 110px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 886px;
+	top:-20px;
+}
+	.content-box-header {
+		height: 70px;
+		text-align: center;
+		background-image: url(../../img/event/melphalir_fest/misc/frame/header.png);
+	}
+	.content-box-footer {
+		height: 25px;
+		background-image: url(../../img/event/melphalir_fest/misc/frame/footer.png);
+		background-position: center bottom;
+	}
+	.content-box-main {
+		background-image: url(../../img/event/melphalir_fest/misc/frame/main.png);
+	}
+
+/* ===== コンテンツインデント ===== */
+.indent-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+/* ヘッドタイトル */
+/* ---------------------------------------------------------------------- */
+#head-title {
+	height:297px;
+	text-align: center;
+	background-image: url(../../img/event/vilano_fest2018/common_roulette/title_bg.png);
+}
+	#head-title img {
+		position: relative;
+		top: 10px;
+	}
+
+/* リード */
+/* ---------------------------------------------------------------------- */
+#box-read {
+	width:840px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom:30px;
+}
+	.box-read-top {
+		height:11px;
+		background-image: url(../../img/event/vilano_fest2018/common_roulette/box_read_top.png);
+	}
+	.box-read-main {
+		background-image: url(../../img/event/vilano_fest2018/common_roulette/box_read_main.png);
+		background-repeat: repeat;
+		padding:15px;
+		text-align:left;
+	}
+	.box-read-bottom {
+		height:10px;
+		background-image: url(../../img/event/vilano_fest2018/common_roulette/box_read_bottom.png);
+	}
+	.box-read-main hr {
+		width:820;
+		margin:15px auto;
+	}
+		h1 {
+		position: relative;
+		color:#603d0f;
+		font-weight: bold;
+		padding-left:18px;
+		margin-bottom:10px;
+		}
+		h1:before {
+	position: absolute;
+	top:0;
+	left:0;
+	background-image: url(../../img/event/10th_anniversary/roulette/misc/icon/ico_circle.png);
+	background-repeat: no-repeat;
+	width:16px;
+	height:16px;
+	content:"";
+}
+
+.box-read-main ul {
+	float:left;
+	text-indent:-15px;
+	padding-left:20px;
+}
+
+.box-read-main .ico-item {
+	width:31px;
+	height:63px;
+	background-image: url(../../img/event/melphalir_fest/ico_item/icon_vilano_ticket.png);
+	background-repeat: no-repeat;
+	float:left;
+	margin-right:10px;
+	margin-left:5px;
+}
+
+/* 見出し */
+/* ---------------------------------------------------------------------- */
+
+.ttl-bar {
+	text-align:center!important;
+	margin:0 auto!important;
+}
+
+.ttl-bar img {
+    width: 810px;
+}
+
+
+/* ====================================================================== */
+/* ボックス */
+/* ====================================================================== */
+
+/* カラム共通 */
+/* ---------------------------------------------------------------------- */
+.box-3-col,
+.box-2-col {
+}
+	.box-3-col-head,
+	.box-2-col-head {
+		height: 34px;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 2.5;
+	}
+	.box-3-col-main,
+	.box-2-col-main {
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+
+/* ===== カラムリスト ===== */
+.box-3-list,
+.box-2-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 810px;
+}
+	.box-3-item,
+	.box-2-item {
+		float: left;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+/* ３カラム */
+/* ---------------------------------------------------------------------- */
+.box-3-col {
+	width: 260px;
+}
+	.box-3-col-head {
+		background-image: url(../../img/event/melphalir_fest/common_roulette/3_column_top.png);
+	}
+	.box-3-col-main {
+		background-image: url(../../img/event/melphalir_fest/common_roulette/3_column_bottom.png);
+	}
+
+/* ２カラム */
+/* ---------------------------------------------------------------------- */
+.box-2-col {
+	width: 395px;
+}
+	.box-2-col-head {
+		background-image: url(../../img/event/melphalir_fest/common_roulette/2_column_top.png);
+	}
+	.box-2-col-main {
+		background-image: url(../../img/event/melphalir_fest/common_roulette/2_column_bottom.png);
+	}
+
+/* ===== 装備サムネ用 ====== */
+.equip-box {
+	text-decoration: none;
+}
+	.equip-box ul {
+		position: relative;
+	}
+	/* アイテム画像 */
+	.equip-box li:first-child {
+		padding-top: 2px;
+		text-align: center;
+	}
+	/* 拡大アイコン */
+	.equip-box li:first-child + li {
+		position: absolute;
+		top: 94px;
+		left: 186px;
+		width: 66px;
+		height: 22px;
+		background-image: url(../../img/roulette/misc/icon/widen.png);
+	}
+		.equip-box:hover li:first-child + li {
+			background-position: 0 bottom;
+		}
+		/* アイテムが入らない状態：拡大アイコンを消す */
+		.equip-box.disabled li:first-child + li {
+			display: none;
+		}
+	/* アイテム名 */
+	.equip-box li:first-child + li + li {
+		padding-top: 5px;
+		padding-left: 12px;
+		font-weight: bold;
+	}
+	/* ----- 武器用ボックス ----- */
+	.weapon-box li:first-child + li + li {
+		padding-bottom: 7px;
+		color: #ffdc51;
+	}
+	/* ----- 男装備ボックス ----- */
+	.armor-m-box li:first-child + li + li {
+		padding-bottom: 4px;
+		color: #72cfff;
+		border-bottom: 1px solid #b38a47;
+	}
+	/* ----- 女装備ボックス ----- */
+	.armor-f-box li:first-child + li + li {
+		padding-bottom: 7px;
+		color: #ff7fb8;
+	}
+	/* ----- 男アクセボックス ----- */
+	.access-m-box,
+	.access-f-box {
+
+	}
+		/* 拡大アイコン */
+		.equip-box.access-m-box li:first-child + li,
+		.equip-box.access-f-box li:first-child + li {
+			left: 163px;
+		}
+		/* アイテム名 */
+		.equip-box.access-m-box li:first-child + li + li,
+		.equip-box.access-f-box li:first-child + li + li {
+			padding-bottom: 7px;
+		}
+		.equip-box.access-m-box li:first-child + li + li {
+			color: #72cfff;
+		}
+		.equip-box.access-f-box li:first-child + li + li {
+			color: #ff7fb8;
+		}
+
+/* ===== ボイスチケット ===== */
+.voice-ticket {
+	padding-top: 9px;
+	padding-bottom: 12px;
+}
+	.voice-ticket-content {
+		margin-right: auto;
+		margin-left: auto;
+		width: 370px;
+		height: 61px;
+		background-image: url(../../img/roulette/misc/icon/voice_ticket.png);
+		background-repeat: no-repeat;
+	}
+	/* ----- テキスト情報 ----- */
+	.voice-ticket-info {
+		float: left;
+		padding-top: 10px;
+		padding-left: 40px;
+	}
+		.voice-ticket-info p {
+			color: #fff;
+			font-size: 12px;
+			font-weight: bold;
+		}
+		.voice-ticket-info p:first-child {
+			font-size: 14px;
+		}
+	/* ----- 再生 ----- */
+	.voice-ticket-navi {
+		float: right;
+		padding-top: 16px;
+	}
+		.voice-ticket-navi li {
+			float: left;
+			margin-left: 5px;
+		}
+		.voice-ticket-navi li:first-child {
+			margin-left: 0;
+		}
+	.voice-ticket-play {
+		width: 63px;
+		height: 30px;
+		background-image: url(../../img/roulette/button/voice_play.png);
+	}
+
+/* ===== 見出し位置アイコン ===== */
+/* ----- NEW ----- */
+.new-icon {
+	position: relative;
+	top: 5px;
+	margin-left: 10px;
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	background-image: url(../../img/roulette/misc/icon/new.png);
+}
+/* クラスアイコン */
+.cestus-icon,
+.fencer-icon,
+.scout-icon,
+.sorcerer-icon,
+.warrior-icon {
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.cestus-icon { background-image: url(../../img/roulette/misc/icon/cestus.png); }
+.fencer-icon { background-image: url(../../img/roulette/misc/icon/fencer.png); }
+.scout-icon { background-image: url(../../img/roulette/misc/icon/scout.png); }
+.sorcerer-icon { background-image: url(../../img/roulette/misc/icon/sorcerer.png); }
+.warrior-icon { background-image: url(../../img/roulette/misc/icon/warrior.png); }
+
+/* ====================================================================== */
+/* 注釈一覧 */
+/* ====================================================================== */
+.notice-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+	.notice-list dt {
+		margin-bottom: 6px;
+		padding-left: 13px;
+		color: #e2be42;
+		font-weight: bold;
+		background-image: url(../../img/roulette/misc/icon/circle.png);
+		background-repeat: no-repeat;
+		background-position: 0 -3px;
+	}
+	.notice-list dd {
+		color: #fff;
+		text-indent: -1em;
+		padding-left: 1em;
+	}
+.notice-color {
+	color:#ff6363;
+}
+/* ====================================================================== */
+/* モーダル */
+/* ====================================================================== */
+.modal {
+	width: 690px;
+	background-image: url(../../img/roulette/modal/l/bottom.png);
+	background-position: center bottom;
+}
+	.modal-content {
+		padding-bottom: 19px;
+		background-image: url(../../img/roulette/modal/l/top.png);
+		background-repeat: no-repeat;
+	}
+	/* モーダル内装備画像 */
+	.modal-image {
+		padding-top: 19px;
+		text-align: center;
+	}
+	.modal-data {
+		padding-top: 4px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 650px;
+	}
+		.modal-data table {
+			width: 100%;
+		}
+	/* エラーが起きた場合 */
+	.modal-error {
+		padding-top: 100px;
+		padding-bottom: 90px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+	}
+
+#cboxPrevious,
+#cboxNext {
+	display: none !important;
+}
+
+/* ====================================================================== */
+/* モーダル2 */
+/* ====================================================================== */
+.modal2 {
+	width: 810px;
+	background-image: url(../../img/event/melphalir_fest/modal/bottom.png@ver=20200721);
+	background-position: center bottom;
+}
+	.modal-content2 {
+		padding-bottom: 19px;
+		background-image: url(../../img/event/melphalir_fest/modal/top.png@ver=20200721);
+		background-repeat: no-repeat;
+	}
+	/* モーダル内装備画像 */
+	.modal-image2 {
+		padding-top: 19px;
+		text-align: center;
+	}
+	.modal-data2 {
+		padding-top: 4px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 770px;
+	}
+		.modal-data2 table {
+			width: 100%;
+		}
+	/* エラーが起きた場合 */
+	.modal-error2 {
+		padding-top: 100px;
+		padding-bottom: 90px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+	}
+
+/* ====================================================================== */
+/* メニュー */
+/* ====================================================================== */
+#menu {
+	position: absolute;
+	z-index: 1;
+	width: 213px;
+	height: 810px;
+	background-image: url(../../img/event/melphalir_fest/menu/bg.png);
+}
+	/* ===== メニューの一固定 ===== */
+	#menu.fixed {
+		position: fixed;
+		top: 0;
+	}
+	/* ===== メニュートップページ向け ===== */
+	body.top #menu {
+		position: relative;
+	}
+	/* ===== メニューボタン枠 ===== */
+	#menu ul {
+		padding-top: 54px;
+	}
+	#menu li {
+	}
+	/* ===== メニューボタン ===== */
+	#menu a {
+		position: relative;
+		display: block;
+		background-image: url(http://www.fantasy-earth.com/img/event/melphalir_fest/menu/text.png?var=20200722);
+	}
+		/* ボタン無効状態 */
+		#menu a:disabled {
+			cursor: default;
+		}
+		/* リファインケイオス */
+		#menu-roulette-1 {
+			height: 85px;
+			background-position: left 0;
+		}
+			#menu-roulette-1:hover {
+				background-position: right 0;
+			}
+		/* 復刻ギャラクシー */
+		#menu-roulette-2 {
+			height: 76px;
+			background-position: left -94px;
+		}
+			#menu-roulette-2.disabled,
+			#menu-roulette-2.disabled:hover {
+				background-position: center -94px;
+			}
+			#menu-roulette-2:hover {
+				background-position: right -94px;
+			}
+		/* ルーレット3 */
+		#menu-roulette-3 {
+			height: 77px;
+			background-position: left -183px;
+		}
+			#menu-roulette-3.disabled,
+			#menu-roulette-3.disabled:hover {
+				background-position: center -183px;
+			}
+			#menu-roulette-3:hover {
+				background-position: right -183px;
+			}
+		/* ルーレット4 */
+		#menu-roulette-4 {
+			height: 95px;
+			background-position: left -267px;
+		}
+			#menu-roulette-4.disabled,
+			#menu-roulette-4.disabled:hover {
+				background-position: center -267px;
+			}
+			#menu-roulette-4:hover {
+				background-position: right -267px;
+			}
+		/* ルーレット5 */
+		#menu-roulette-5 {
+			height: 94px;
+			background-position: left -370px;
+		}
+			#menu-roulette-5.disabled,
+			#menu-roulette-5.disabled:hover {
+				background-position: center -370px;
+			}
+			#menu-roulette-5:hover {
+				background-position: right -370px;
+			}
+		/* ルーレット6 */
+		#menu-roulette-6 {
+			height: 102px;
+			background-position: left -468px;
+		}
+			#menu-roulette-6.disabled,
+			#menu-roulette-6.disabled:hover {
+				background-position: center -468px;
+			}
+			#menu-roulette-6:hover {
+				background-position: right -468px;
+			}
+		/* イベ */
+		#menu-event {
+			height: 56px;
+			background-position: left -576px;
+		}
+			#menu-event:hover {
+				background-position: right -576px;
+			}
+		/* キャンペ */
+		#menu-campaign {
+			height: 64px;
+			background-position: left -634px;
+		}
+			#menu-campaign:hover {
+				background-position: right -634px;
+			}
+		/* デコ */
+		#menu-decoration {
+			height: 59px;
+			background-position: left -698px;
+		}
+			#menu-decoration:hover {
+				background-position: right -698px;
+			}
+	/* ===== メニューアイコン ===== */
+	.menu-icon {
+		position: absolute;
+		bottom: 2px;
+		right: -5px;
+		display: block;
+	}
+
+/* ====================================================================== */
+/* トップへ戻るリンク */
+/* ====================================================================== */
+#goto-top-button {
+	display: block;
+	margin-left: 400px;
+	width: 500px;
+	height: 145px;
+	background-image: url(http://www.fantasy-earth.com/img/event/melphalir_fest/misc/logo/fest.png);
+	background-repeat: no-repeat;
+	position: relative;
+	top:-15px;
+}
+
+/* ====================================================================== */
+/* スクロールトップ */
+/* ====================================================================== */
+#scroll-top {
+	position: fixed;
+	bottom: 170px;
+	right: 0;
+	z-index: 10;
+	overflow: hidden;
+	width: 170px;
+	height: 110px;
+}
+	#scroll-top a {
+		position: absolute;
+		right: -170px;
+		cursor: pointer;
+		display: block;
+		width: 170px;
+		height: 110px;
+		background-image: url(../../img/event/melphalir_fest/misc/button/scroll_top.png);
+	}
+
+/* ====================================================================== */
+/* トップページ */
+/* ====================================================================== */
+/* ===== バナー箱 ===== */
+#banner-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1194px;
+	height: 170px;
+	background-image: url(../../img/event/vilano_fest2018/top/banner/box.png);
+}
+	#banner-box img {
+		width: 220px;
+	}
+	#banner-box ul {
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 70px;
+		width: 1194px;
+		display:flex;
+		justify-content: center;
+	}
+	#banner-box li {
+		margin-right:10px;
+	}
+		#banner-box li:last-child {
+			margin-right:0px;
+		}
+
+/* ====================================================================== */
+/* ルーレット */
+/* ====================================================================== */
+/* ===== ルーレットのタブナビ ===== */
+#roulette-tab-navi {
+	margin:0 auto 30px;
+	width:890px;
+}
+	#roulette-tab-1 a,#roulette-tab-2 a,#roulette-tab-3 a {
+		cursor: pointer;
+		background-image: url(../../img/event/vilano_fest2018/roulette_1/btn.png@1);
+	}
+		#roulette-tab-1 a {
+			display: block;
+			overflow: hidden;
+			width:279px;
+			height:244px;
+			background-position: left top;
+		}
+		#roulette-tab-2 a {
+			display: block;
+			overflow: hidden;
+			width:278px;
+			height:244px;
+			background-position: center top;
+		}
+		#roulette-tab-3 a {
+			display: block;
+			overflow: hidden;
+			width:279px;
+			height:244px;
+			background-position: right top;
+		}
+#roulette-tab-1 a:hover {
+	background-position: left center;
+}
+#roulette-tab-1 a.active {
+	background-position: left bottom;
+}
+#roulette-tab-2 a:hover {
+	background-position: center center;
+}
+#roulette-tab-2 a.active {
+	background-position: center bottom;
+}
+#roulette-tab-3 a:hover {
+	background-position: right center;
+}
+#roulette-tab-3 a.active {
+	background-position: right bottom;
+}
+	#roulette-tab-navi ul {
+		padding-left: 25px;
+	}
+	#roulette-tab-navi li {
+		float: left;
+	}
+	#roulette-tab-navi a {
+		display: block;
+		overflow: hidden;
+	}
+
+		#roulette-tab-navi a.active,
+		#roulette-tab-navi a.active:hover {
+			cursor: default;
+		}
+
+
+/* プレイの手順 */
+/* ---------------------------------------------------------------------- */
+#about-step {
+}
+	#about-step table {
+		margin-right: auto;
+		margin-left: auto;
+		width: 600px;
+	}
+	#about-step th {
+		width: 10px;
+		font-size: 1px;
+	}
+	#about-step td {
+		color: #fff;
+		vertical-align: top;
+	}
+	#about-step p {
+		padding-top: 8px;
+	}
+	#about-step strong {
+		color: #51ff59;
+		font-weight: bold;
+	}
+
+
+/* ====================================================================== */
+/* テーブル */
+/* ====================================================================== */
+.table {
+	border: 3px solid #b38a47;
+}
+	.table .th,
+	.table .td-em,
+	.table .td {
+		padding-top: 8px;
+		padding-left: 8px;
+		padding-right: 8px;
+		padding-bottom: 6px;
+		border: 1px solid #b38a47;
+	}
+	.table .th {
+		color: #99c49b;
+		font-weight: bold;
+		background-color: #1a4d1d;
+	}
+	.table .td-em {
+		color: #e2be42;
+		font-weight: bold;
+		background-color: #3e2810;
+	}
+	.table .td {
+		color: #fff;
+		background-color: #27190a;
+	}
+
+/* ===== その他一覧 ===== */
+#other-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+	#other-list th {
+		width: 25%;
+	}
+	#other-list .td-em {
+		width: 20%;
+	}
+
+/* ===== 手順 ===== */
+#step-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+	#step-list th {
+		width: 20%;
+	}
+
+
+/* ====================================================================== */
+/* イベント */
+/* ====================================================================== */
+/* ===== キャッチメニュー ===== */
+
+.event-catch-navi-area, .campaign-catch-navi-area {
+	width:840px;
+	margin:0 auto;
+	text-align:center;
+}
+.event-catch-navi-area ul,.campaign-catch-navi-area ul {
+	margin:0 auto;
+	list-style-type:none;
+	padding-left: 0;
+	display: inline-block;
+}
+.event-cacth-navi,.campaign-cacth-navi {
+	width: 840px;
+	margin: auto;
+	overflow: hidden;
+}
+.event-cacth-navi a  {
+	display: block;
+	float:left;
+	background-image: url(http://www.fantasy-earth.com/img/event/melphalir_fest/event/event_catch_navi.png?var=20200715);
+	background-repeat:no-repeat;
+}
+.event-cacth-navi01 a {
+	width:840px;
+	height:103px;
+	background-position:0 0;
+}
+.event-cacth-navi01 a:hover,.event-cacth-navi01 a.active {
+	background-position:0 -340px;
+}
+.event-cacth-navi02 a {
+	width:420px;
+	height:117px;
+	background-position:0 -103px;
+}
+.event-cacth-navi02 a:hover,.event-cacth-navi02 a.active {
+	background-position:-0 -443px;
+}
+.event-cacth-navi03 a {
+	width:420px;
+	height:117px;
+	background-position:-420px -103px;
+}
+.event-cacth-navi03 a:hover,.event-cacth-navi03 a.active {
+	background-position:-420px -443px;
+}
+.event-cacth-navi03 a.disabled {
+	background-position:-420px -783px;
+}
+.event-cacth-navi04 a {
+	width: 420px;
+	height: 121px;
+	background-position: 0 -220px;
+}
+.event-cacth-navi04 a:hover,.event-cacth-navi04 a.active {
+	background-position:0  -560px;
+}
+.event-cacth-navi04 a.disabled {
+	background-position:0  -900px;
+}
+.event-cacth-navi05 a {
+	width:420px;
+	height:121px;
+	background-position:-420px -220px;
+}
+.event-cacth-navi05 a:hover,.event-cacth-navi05 a.active {
+	background-position:-420px -560px;
+}
+.event-cacth-navi05 a.disabled {
+	background-position:-420px -900px;
+}
+
+a.active {
+	cursor:default;
+}
+
+.campaign-cacth-navi01 a, .campaign-cacth-navi02 a, .campaign-cacth-navi03 a, .campaign-cacth-navi04 a {
+	float:left;
+	display: inline-block;
+	background-image: url(http://www.fantasy-earth.com/img/event/melphalir_fest/campaign/campaign-catch-navi.png);
+	background-repeat:no-repeat;
+}
+.campaign-cacth-navi01 a {
+	width:420px;
+	height:90px;
+	background-position:0 0;
+}
+.campaign-cacth-navi01 a:hover,.campaign-cacth-navi01 a.active {
+	background-position:0 -180px;
+}
+
+.campaign-cacth-navi02 a {
+	width:420px;
+	height:90px;
+	background-position:-420px 0;
+}
+.campaign-cacth-navi02 a:hover,.campaign-cacth-navi02 a.active {
+	background-position:-420px -180px;
+}
+.campaign-cacth-navi03 a {
+	width:420px;
+	height:90px;
+	background-position:0 -90px;
+}
+.campaign-cacth-navi03 a:hover,.campaign-cacth-navi03 a.active {
+	background-position:0 -270px;
+}
+.campaign-cacth-navi04 a {
+	width:420px;
+	height:90px;
+	background-position:-420px -90PX;
+}
+.campaign-cacth-navi04 a:hover,.campaign-cacth-navi04 a.active {
+	background-position:-420px -270px;
+}
+a.active {
+	cursor: default;
+}
+
+/* ===== アイコン ===== */
+.ico-num {
+	width:28px;
+	height:28px;
+	background-image: url(../../img/event/melphalir_fest/event/icon_num.png);
+	background-repeat: no-repeat;
+	padding-top:5px;
+	text-align: center;
+	color:#fff;
+	font-weight: bold;
+	float:left;
+}
+.hr {
+	margin:30px auto;
+	width:840px;
+	height:2px;
+	border-bottom:2px solid #e0d1ad;
+}
+.hr02 {
+	margin:20px auto;
+	width:800px;
+	height:2px;
+	border-bottom:2px solid #e0d1ad;
+}
+.hr03 {
+	margin:0 auto;
+	width:800px;
+	height:1px;
+	border-bottom:1px solid #926823;
+}
+
+/* ===== ナンバーインデント ===== */
+.num-indent-box {
+	margin-right: auto;
+	margin-left: auto;
+	width: 720px;
+	padding-top:3px;
+	font-size:14px;
+}
+/* ===== アイテムテーブル ===== */
+.event-item-table th, .campaign-item-table th {
+	background-color:#836558;
+	color:#fff;
+	font-weight: bold;
+	text-align:center;
+	border:1px solid #fff;
+}
+.event-item-table td,.campaign-item-table td {
+	border:1px solid #fff;
+}
+
+.event-item-table th,.event-item-table td {
+	padding:10px;
+}
+.campaign-item-table th,.campaign-item-table td {
+	padding:6px 10px;
+}
+
+#event04_rule .event-item-table tr:first-child th {
+	font-weight:bold;
+	text-align:left;
+}
+#event04_rule .event-item-table th {
+	font-weight: 400;
+	font-size:14px;
+}
+.tdcolor01{
+	background-color:#cdbb93;
+}
+.tdcolor02{
+	background-color:#eee0bd;
+}
+.tdcolor03{
+	background-color:#ff9600;
+}
+.tdcolor04{
+	background-color:#e45600;
+	color:#fff;
+	font-weight: bold;
+	text-align:center;
+	padding:5px!important;
+}
+.item-box img{
+	vertical-align:middle;
+	margin-right:10px;
+}
+/* ===== ランダムアイテムテーブル ===== */
+
+.event-randam-table{
+	font-size:12px;
+}
+.event-randam-table th {
+	background-color:#836558;
+	color:#fff;
+	font-weight: bold;
+	padding:10px;
+	text-align:center;
+	border:1px solid #fff;
+}
+.event-randam-table td {
+	text-align:center;
+	padding:10px;
+	border:1px solid #fff;
+	background-color:#eee0bd;
+}
+.event-randam-table .tdcolor03{
+	background-color:#ff9600!important;
+}
+.event-item-table02 .ico_new {
+	vertical-align:middle;
+	margin:0 5px 0 0;
+}
+
+/* ===== イベント２アイテムテーブル ===== */
+
+.event-item-table02{
+	font-size:12px;
+}
+.event-item-table02 img {
+	margin-bottom:5px;
+}
+.event-item-table02 th {
+	background-color:#836558;
+	color:#fff;
+	font-weight: bold;
+	padding:5px;
+	text-align:center;
+	border:1px solid #fff;
+}
+.event-item-table02 td {
+	text-align:center;
+	padding:10px 5px;
+	border:1px solid #fff;
+	background-color:#eee0bd;
+}
+.event-item-table02 .tdcolor03{
+	background-color:#ff9600!important;
+}
+
+
+.txt_red {
+	color: #B30104;
+}
+
+ul.note li, p.note {/*注意事項*/
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+/*campaign banner*/
+#cp4_01 div, #cp4_02 div, #cp4_03 div, #cp4_04 div, #cp4_05 div, #cp4_06 div {
+    /*background-color: #000;*/ /* カラーフィルタ効果の色を指定 */
+    display: inline-block;  /* (任意：インラインブロック化したい場合) */
+}
+#cp4_01 img, #cp4_02 img, #cp4_03 img, #cp4_04 img, #cp4_05 img, #cp4_06 img {
+    /*opacity: 0.3;*/    /* カラーフィルタ効果の度合いを指定(※) */
+    display: block;
+	margin: 0;
+}
+
+
+/* ===== ルーレット ===== */
+ul#roulette_menu  {
+	width: 850px;
+	height: 360px;
+	margin-bottom: 10px;
+	margin-left: 105px;
+	margin-right: auto;
+}
+ul#roulette_menu li {
+	float: left;
+}
+ul#roulette_menu li:last-child{
+	margin-right: 0;
+}
+	.roulette_bottun {
+		display: block;
+		overflow: hidden;
+		width: 359px;
+		height: 164px;
+		text-indent: -9999em;
+		margin-bottom: 5px;
+	}
+		.roulette_bottun:hover,
+		.roulette_bottun.current{
+			background-position: 0 bottom;
+		}
+		.roulette_bottun.current{
+			cursor: default;
+		}
+
+	#roulette_menu #bottun1 {
+		background-image:url("../../img/event/melphalir_fest/roulette/roulette_button_01.png");
+	}
+	#roulette_menu #bottun2 {
+		background-image:url("../../img/event/melphalir_fest/roulette/roulette_button_02.png");
+	}
+	#roulette_menu #bottun3 {
+		background-image:url("../../img/event/melphalir_fest/roulette/roulette_button_03.png");
+	}
+	#roulette_menu #bottun4 {
+		background-image:url("../../img/event/melphalir_fest/roulette/roulette_button_04.png");
+	}
+

@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="ja" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
+	<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery1-9-0.js"></script>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery-ui1-9.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/square-enix.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/swanky-purse/jquery-ui-1.9.2.custom.css" />	
+
+	<link type="text/css" rel="stylesheet" href="../style/reset.css" />
+	<link type="text/css" rel="stylesheet" href="../style/core.css" />
+	<link type="text/css" rel="stylesheet" href="../style/common.css" />
+					<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"></script>
+	<script type="text/javascript" src="../script/lib/velocity.min.js"></script>
+	<script type="text/javascript" src="../script/lib/taco.min.js"></script>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX" />
+	<meta property="og:title" content="ファンタジーアース ゼロ" />
+	<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta property="og:url" content="http://www.fantasy-earth.com/" />
+	<meta property="og:image" content="http://www.fantasy-earth.com/img/misc/og.jpg" />
+
+	<link type="text/css" rel="stylesheet" href="../style/base.css" />
+					<script type="text/javascript" src="../script/common/plugin.js"></script>
+	<script type="text/javascript" src="../script/common/two_column.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="../style/news.css" />
+		</head>
+<body class="">
+	<!-- === headerArea === -->
+	<div id="sqexHeader-black">
+		<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"><img src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif" width="130" height="14" border="0" alt="SQUARE ENIX" /></a>
+	</div>
+	<!-- === /headerArea === -->
+
+		<!-- 背景ラッパ -->
+	<div id="wrapper">
+
+		<!-- ヘッダエリア -->
+		<div id="header">
+			<!-- ヘッダ影 -->
+			<ul id="header-shadow">
+				<li id="header-main">
+					<!-- ロゴ：トップへ戻る -->
+					<a href="../index.html">
+						<img src="../img/header/logo.png" />
+					</a>
+				</li>
+			</ul>
+		</div><!-- header -->
+
+		<!-- メインコンテンツエリア -->
+		<div id="main">
+			<!-- メニューエリア -->
+			<div id="main-navi">
+				<ul id="main-navi-container">
+					<!-- 蔦の飾り -->
+					<li id="main-navi-ivy-deco"></li>
+					<li id="main-navi-content">
+						<ul>
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-intro"
+									href="../intro/feature.html">
+									FEZとは
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../intro/feature.html">
+														<span>FEZの特徴</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/story.html">
+														<span>ストーリー</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/netzawar.html">
+														<span>国家紹介</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-playguide" 
+									href="../playguide/base.html">
+									プレイガイド
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../playguide/base.html">
+														<span>操作方法</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/map.html">
+														<span>地図</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/class.html">
+														<span>クラス/スキル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/state.html">
+														<span>状態異常</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/item_rec.html">
+														<span>アイテム</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/shop.html">
+														<span>施設・NPC</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-gamesystem" 
+									href="../gamesystem/war.html">
+									ゲームシステム
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../gamesystem/war.html">
+														<span>戦争</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/official.html">
+														<span>オフィシャルショップ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/enchant.html">
+														<span>エンチャント</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/amulet.html">
+														<span>アミュレット・スペル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/reinforce.html">
+														<span>装備強化</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/force.html">
+														<span>部隊</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/coliseum.html">
+														<span>闘技場</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/casino.html">
+														<span>カジノ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/quest.html">
+														<span>クエスト</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/renpei.html">
+														<span>練兵</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/accessory.html">
+														<span>アクセサリ</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-library" 
+									href="../library/wallpaper.html">
+									ライブラリ
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../library/wallpaper.html">
+														<span>壁紙</span>
+													</a>
+												</li>
+												<li>
+													<a href="../library/item_library/index.html">
+														<span>アイテム図鑑</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-support" 
+									href="detail.php@id=84171#">
+									サポート
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="http://support.jp.square-enix.com/faqtop.php?id=13021&amp;la=0" target="_blank">
+														<span>FAQ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://support.jp.square-enix.com/contacttop.php?id=13021&amp;la=0" target="_blank">
+														<span>お問い合わせ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.jp.square-enix.com/account/" target="_blank">
+														<span>アカウント</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/account/profile" target="_blank">
+														<span>BRIDGEプロフィール</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/cash/history/deposit/" target="_blank">
+														<span>オーブ履歴確認</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+						</ul>
+					</li>
+				</ul>
+			</div><!-- main-navi -->
+
+			<!-- 蔦の飾り -->
+			<div id="main-ivy-deco"></div>
+				<!-- メイン２カラムフレーム -->
+	<div id="main-two-column">
+		<!-- フレームの中間の背景 -->
+		<div id="main-two-column-middle"></div>
+		<div id="main-two-column-top">
+			<div id="main-two-column-bottom">
+				<div id="main-two-column-content">
+					<ul>
+						<!-- 左側コンテンツ -->
+						<li id="main-two-column-left">
+								<!-- メインコンテンツ領域 -->
+	<div id="main-content">
+		<!-- 大見出し -->
+		<div class="main-content-headtitle">
+			<img src="../img/news/headtitle.png" />
+		</div>
+			<div class="content-box">
+		<!-- 上のふた -->
+		<div class="content-box-top"></div>
+		<div class="content-box-middle">
+			<!-- ニュース見出し -->
+			<div id="news-detail-head">
+				<ul>
+					<li>
+						<span class="news-icon-event"></span>
+					</li>
+					<li>
+						<span>2022-04-27</span>
+					</li>
+					<li>
+						<span>『メルファリアゴールデンウィーク』の実施</span>
+					</li>
+				</ul>
+			</div><!-- news-detail-head -->
+
+			<!-- 通常罫線 -->
+			<hr />
+			
+			<!-- ニュース詳細 -->
+			<div id="news-detail-content"><img class="center" src="	https://cache.sqex-bridge.jp/img/f4b448fa3e9cb771a63ed1a97eec3eab24de5777e3ee61602815c28b2986beff"></a>
+<div class="large-content">
+	<p class="ml20 mb30">
+		<br />
+		いつも『ファンタジーアース ゼロ』をご利用いただき、誠にありがとうございます。<br>
+		<br>
+		4月27日(水)定期メンテナンス後より5月11日(水)定期メンテナンス前まで、<br />
+『メルファリアゴールデンウィーク』を実施いたします。<br>
+<br>
+期間中は、下記のイベントを実施いたします！<br>
+①ゴールデンウィーク特別イベント開催！<br>
+②GWオーブアイテムセール<br>
+③GWブーストキャンペーン！<br>
+④毎日応援　ボリュームアップ！<br>
+	</p>
+	<hr class="deco" />
+
+
+    <h4>①ゴールデンウィーク特別イベント開催！</h4>
+		<p class="ml20 mb30">
+イベント期間中に通常戦争に参加し、9個のミッションをクリアすることで、<br />
+ゴールドコインやリファイン頭防具を獲得することができます。<br/>
+<br/>
+また、通常戦争で総合RANKによってポイントを獲得できます。<br/>
+一定数のポイントを獲得することで、豪華アイテムを手に入れることが可能です。
+
+		<h5>イベント期間</h5>
+		<p class="ml20 mb30">4月27日(水)定期メンテナンス終了後より5月11日(水)定期メンテナンス開始前まで</p>
+		<h5>アイテム交換期間</h5>
+		<p class="ml20 mb30">4月27日(水)定期メンテナンス終了後より5月18日(水)定期メンテナンス開始前まで</p>
+
+	<h5>ミッションイベントについて</h5>
+<p class="ml20 mb30">
+		NPC『<ｲﾍﾞﾝﾄ>シャルロット』からミッションを確認することができます。<br />
+※強襲戦線は対象外になります。</p>
+	<h6 class="ml20">ミッション一覧と報酬について</h6>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ミッション内容</th>
+			<th class="th text-c">報酬</th>
+		</tr>
+		<tr>
+			<td class="td">通常戦争に10回参加する</td>
+			<td class="td">ゴールドヘッドギア×1</td>
+		</tr>
+		<tr>
+			<td class="td">通常戦争で5回勝利する</td>
+			<td class="td">スペル(CP)10個セット×1</td>
+		</tr>
+		<tr>
+			<td class="td">総合RANKB以上を7回獲得する</td>
+			<td class="td">EXエンチャント5個セット×1</td>
+		</tr>
+		<tr>
+			<td class="td">通常戦争で累計10キルする</td>
+			<td class="td">流転の羽×1</td>
+		</tr>
+		<tr>
+			<td class="td">PCダメージを累計80,000与える</td>
+			<td class="td">穿孔の石×1</td>
+		</tr>
+		<tr>
+			<td class="td">建築ダメージを累計80,000与える</td>
+			<td class="td">強固の石×3</td>
+		</tr>
+		<tr>
+			<td class="td">100リング獲得する</td>
+			<td class="td">報酬の秘伝書×2</td>
+		</tr>
+		<tr>
+			<td class="td">召喚獣を累計5回召喚する</td>
+			<td class="td">レアステーキ×20</td>
+		</tr>
+		<tr>
+			<td class="td">建築物を累計5回建築する</td>
+			<td class="td">ハイリジェネレート×20</td>
+		</tr>
+	</table>
+
+<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ミッション内容</th>
+			<th class="th text-c">報酬</th>
+		</tr>
+		<tr>
+			<td class="td">ミッションを5個クリア</td>
+			<td class="td">ゴールドコイン×1</td>
+		</tr>
+		<tr>
+			<td class="td">ミッションを7個クリア</td>
+			<td class="td">ゴールドコイン×1</td>
+		</tr>
+		<tr>
+			<td class="td">ミッションを9個クリア</td>
+			<td class="td">ゴールドコイン×1</td>
+		</tr>
+	</table>
+
+
+<h6 class="ml20">リファイン頭防具</h6>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ゴールドヘッドギア</th>
+		</tr>
+		<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/33acd9276cd4ee64f794ba73f88e1f4e15ba51672ef37aa6c39012fdfca6067e" width="250" /></td>
+		</tr>
+	</table>
+
+
+<h5>総合RANKポイントについて</h5>
+<p class="ml20 mb30">
+		通常戦争の総合ランクに応じて下記のポイントを獲得できます。<br/>
+獲得したポイントの合計は、NPC『<ｲﾍﾞﾝﾄ>シャルロット』から確認することができます。<br />
+※強襲戦線は対象外になります。</p>
+<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">総合RANK</th>
+			<th class="th text-c">ポイント</th>
+		</tr>
+		<tr>
+			<td class="td">SS</td>
+			<td class="td">6</td>
+		</tr>
+		<tr>
+			<td class="td">S</td>
+			<td class="td">4</td>
+		</tr>
+		<tr>
+			<td class="td">A</td>
+			<td class="td">3</td>
+		</tr>
+		<tr>
+			<td class="td">B</td>
+			<td class="td">2</td>
+		</tr>
+		<tr>
+			<td class="td">C</td>
+			<td class="td">2</td>
+		</tr>
+		<tr>
+			<td class="td">D</td>
+			<td class="td">1</td>
+		</tr>
+		<tr>
+			<td class="td">E</td>
+			<td class="td">0</td>
+		</tr>
+</table>
+
+
+<h6 class="ml20">総合RANKポイントの報酬について</h6></p>
+<p class="ml20">
+		一定のポイントを貯めることによって、豪華報酬が獲得できます。
+
+<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">総合RANKポイント</th>
+			<th class="th text-c">報酬</th>
+		</tr>
+		<tr>
+			<td class="td">5</td>
+			<td class="td">ハイパワーポット×20</td>
+		</tr>
+		<tr>
+			<td class="td">10</td>
+			<td class="td">試練の秘伝書(CP)×2</td>
+		</tr>
+		<tr>
+			<td class="td">15</td>
+			<td class="td">追憶の壺×1</td>
+		</tr>
+		<tr>
+			<td class="td">20</td>
+			<td class="td">流転の羽×1</td>
+		</tr>
+		<tr>
+			<td class="td">25</td>
+			<td class="td">ゴールドコイン×1</td>
+		</tr>
+		<tr>
+			<td class="td">30</td>
+			<td class="td">ゴールドコイン×1</td>
+		</tr>
+</table>
+
+<h5>イベントNPC</h5>
+	<table class="ml20 mb30">
+		<tr>
+			<td>
+				<img src="	https://cache.sqex-bridge.jp/img/cd8d219123950e820db70af3b0fe2ccf675ca9237d80ecfa3d310a171a583ace" width="188" />
+			</td>
+			<td>
+				<table class="ml20 mb30 table left" width="290">
+					<caption class="text-c">NPC &lt;ｲﾍﾞﾝﾄ&gt;シャルロット　座標</caption>
+					<tr>
+						<th class="th" width="120">国家</th>
+						<th class="th">区画</th><th class="th" width="25">座標</th>
+					</tr>
+					<tr>
+						<td class="td2">ネツァワル王国</td>
+						<td class="td">商業区</td>
+						<td class="td">F:3</td>
+					</tr>
+					<tr>
+						<td class="td2">エルソード王国</td>
+						<td class="td">中心街</td>
+						<td class="td">D:4</td>
+					</tr>
+					<tr>
+						<td class="td2">ホルデイン王国</td>
+						<td class="td">中心街</td>
+						<td class="td">F:4</td>
+					</tr>
+					<tr>
+						<td class="td2">ゲブランド帝国</td>
+						<td class="td">高級市街</td>
+						<td class="td">D:6</td>
+					</tr>
+					<tr>
+						<td class="td2">カセドリア連合王国</td>
+						<td class="td">商業区</td>
+						<td class="td">F:4</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>  
+
+    <h4>②GWオーブアイテムセール</h4>
+    <p class="ml20 mb30">
+       4月27日(水)定期メンテナンス後から5月11日(水)定期メンテナンス前まで、<br />
+        『GWオーブアイテムセール』を開催いたします。<br />
+        <br />
+        期間中、ショップで販売されている消耗品と便利アイテムの一部オーブ品を割引いたします。
+
+ <h5>販売ショップについて</h5>
+    <p class="ml20 mb30">
+        割引品が販売されているショップは下記になります。<br />
+        <br />【各国首都】<br />アクセサリショップ、道具屋、高級武器・防具ショップ、通常武器・防具ショップ、演出屋<br />
+        <br />【ヴィネル島】<br />アクセサリショップ、道具屋、武器・防具ショップ<br />
+    </p>
+
+
+    <h5>割引価格について</h5>
+    <p class="ml20 mb30">
+        割引価格については下記のようになります。
+    </p>
+
+
+   <table class="ml20 mb30">
+        <tr><th class="th text-c">アイテム名</th><th class="th text-c">通常価格(A)</th><th class="th text-c">割引価格(A)</th></tr>
+        <tr><td class="td">ハイリジェネレート×99<td class="td">17</td><td class="td">12</td></tr>
+        <tr><td class="td">ハイパワーポット×99</td><td class="td">17</td><td class="td">12</td></tr>
+        <tr><td class="td">フィズアタックゲイン×50</td><td class="td">22</td><td class="td">15</td></tr>
+        <tr><td class="td">フィズガードゲイン×50</td><td class="td">22</td><td class="td">15</td></tr>
+        <tr><td class="td">Pwアップ×50</td><td class="td">22</td><td class="td">15</td></tr>
+        <tr><td class="td">HPアップ×50</td><td class="td">40</td><td class="td">30</td></tr>
+        <tr><td class="td">パワーリジェネ×50</td><td class="td">40</td><td class="td">30</td></tr>
+        <tr><td class="td">Pwスペル×4</td><td class="td">48</td><td class="td">35</td></tr>
+        <tr><td class="td">アタックスペル×4</td><td class="td">48</td><td class="td">35</td></tr>
+        <tr><td class="td">ガードスペル×4</td><td class="td">48</td><td class="td">35</td></tr>
+        <tr><td class="td">HPスペル×4</td><td class="td">48</td><td class="td">35</td></tr>
+        <tr><td class="td">PwスペルⅡ×4</td><td class="td">27</td><td class="td">18</td></tr>
+        <tr><td class="td">アタックスペルⅡ×4</td><td class="td">24</td><td class="td">17</td></tr>
+        <tr><td class="td">ガードスペルⅡ×4</td><td class="td">27</td><td class="td">18</td></tr>
+        <tr><td class="td">HPスペルⅡ×4</td><td class="td">27</td><td class="td">18</td></tr>
+
+<tr><td class="td">Pwリジェネスペル</td><td class="td">16</td><td class="td">12</td></tr>
+ <tr><td class="td">Pwスペル</td><td class="td">16</td><td class="td">12</td></tr>
+        <tr><td class="td">アタックスペル</td><td class="td">16</td><td class="td">12</td></tr>
+        <tr><td class="td">ガードスペル</td><td class="td">16</td><td class="td">12</td></tr>
+        <tr><td class="td">HPスペル</td><td class="td">16</td><td class="td">12</td></tr>
+        <tr><td class="td">PwスペルⅡ</td><td class="td">9</td><td class="td">7</td></tr>
+        <tr><td class="td">アタックスペルⅡ</td><td class="td">8</td><td class="td">6</td></tr>
+        <tr><td class="td">ガードスペルⅡ</td><td class="td">9</td><td class="td">7</td></tr>
+        <tr><td class="td">HPスペルⅡ</td><td class="td">9</td><td class="td">7</td></tr>
+        <tr><td class="td">強靭の結晶×10</td><td class="td">105</td><td class="td">73</td></tr>
+        <tr><td class="td">強固の結晶×10</td><td class="td">105</td><td class="td">73</td></tr>
+        <tr><td class="td">穿孔の結晶×10</td><td class="td">140</td><td class="td">98</td></tr>
+        <tr><td class="td">エクスバンク契約書×10</td><td class="td">300</td><td class="td">245</td></tr>
+        <tr><td class="td">アイテム枠拡張証×1</td><td class="td">60</td><td class="td">42</td></tr>
+    </table>
+
+<h4>③GWブーストキャンペーン！</h4>
+	<p class="ml20 mb30">
+  4月27日(水)定期メンテナンス後から5月11日(水)定期メンテナンス前まで、<br />
+『GWブーストキャンペーン！』を開催いたします。<br /><br />
+期間中、特別ブースト『経験値5倍・リング1.5倍』を実施いたします。<br />
+この機会にぜひ戦争へ参加してレベル上げにお役立てください。
+
+<h4>④毎日応援　ボリュームアップ！</h4>
+	<p class="ml20 mb30">
+ 4月27日(水)定期メンテナンス後から5月11日(水)定期メンテナンス前まで、<br />
+『毎日応援 ボリュームアップ！』を開催いたします。<br /><br />
+	毎日応援で支給されるアイテムが通常時の2倍になります。<br/>
+ 	また、支給されるラインアップの中に、シルバーコイン×1が追加されます。
+	</p>
+
+	<hr class="deco" />
+    <p class="ml20 mb30">今後とも『ファンタジーアース ゼロ』を、よろしくお願いいたします。</p>
+</div>
+</div><!-- news-detail-main -->
+		</div><!-- content-box-middle -->
+		<!-- 下のふた -->
+		<div class="content-box-bottom-pack">
+			<a class="back-button button" href="javascript:history.back();">
+				戻る
+			</a>
+		</div>
+	</div><!-- content-box -->
+
+	</div><!-- "main-content -->
+						</li>
+						<!-- 右側コンテンツ -->
+						<li id="main-two-column-right">
+							<!-- 大きめにアピールするエリア -->
+							<ul id="main-two-column-right-content-list">
+								<li>
+									<a class="button" id="free-entry-button" target="_blank" title="無料 新規登録はこちら"
+										href="../account/entry/entry">
+										無料 新規登録はこちら
+									</a>
+								</li>
+								<li>
+									<a class="button" id="client-download-button" title="無料クライアントダウンロード"
+										href="http://cache.dl.fantasy-earth.com/fezero/client/FEZ_setup.zip">
+										無料クライアントダウンロード
+									</a>
+								</li>
+								<li class="pt15 pb15">
+									<!-- メンテナンスバナー -->
+									<img class="" src="../img/main/two_column/right/maintenance.png" alt="定期メンテナンス 毎週水曜日11:00~17:00" />
+								</li>
+																	<li>
+																															<a href="../roulette/index.html" title="ヴィラーノルーレット" target="_blank">
+												<img src="../banner/side/r_bnr_vilano_220511.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../beginnersguide/index.html" title="初心者ガイド" target="_blank">
+												<img src="../banner/side/r_bnr_beginner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../update/mpoint/index.html" title="毎日応援" target="_blank">
+												<img src="../banner/side/r_bnr_dailylogin.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../library/item_library/index.html" title="アイテム図鑑" target="_blank">
+												<img src="../banner/side/r_bnr_item_library.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../voicehistory/index.html" title="ボイスヒストリー" target="_blank">
+												<img src="../banner/side/r_bnr_voicehistory.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../info/onlinemanner.html" title="ゲームプレイマナー" target="_blank">
+												<img src="../banner/side/r_bnr_onlinemanner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../netcafe/index.html" title="公認ネットカフェ" target="_blank">
+												<img src="../banner/side/r_bnr_netcafe.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="http://www.fantasy-earth.com/camp/s/list/" title="キャンペーンシリアルコード受取" target="_blank">
+												<img src="../banner/side/r_bnr_getcmps.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="https://store.line.me/stickershop/product/1113699/ja" title="LINEスタンプ" target="_blank">
+												<img src="../banner/side/r_bnr_sticker.png" />
+											</a>
+																			</li>
+																<li>
+									<div class="twitter-box">
+										<a class="twitter-timeline" 
+											data-link-color="#810000" 
+											data-border-color="#BAB19E" 
+											data-chrome="nofooter transparent" 
+											data-lang="ja" 
+											data-height="450" 
+											href="https://twitter.com/fez_staff?ref_src=twsrc%5Etfw">Tweets by fez_staff</a> 
+										<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+									</div>
+								</li>
+							</ul><!-- main-two-column-right-large-area -->
+						</li>
+					</ul>
+				</div><!-- main-two-column-main -->
+			</div><!-- main-two-column-bottom -->
+		</div><!-- main-two-column-top-->
+	</div><!-- main-two-column -->
+		</div><!-- main -->
+
+		<!-- フッターエリア -->
+		<div id="footer">
+		</div><!-- footer -->
+
+	</div><!-- wrapper -->
+	<!-- スクロールトップ -->
+	<div id="scroll-top">
+		<a class="button">ページトップ</a>
+	</div>
+
+	<!-- === footerArea === -->
+	<div id="sqexFooter" class="sqex-footer-black">
+		<div id="footerWebAdmin01">
+		</div>
+		<!-- デフォルトフッター -->
+		<div id="sqex-footer-contents">
+			<ul>
+				<li class="sqex-footer-first">
+					<a href="../info/baseinfo.html">ゲーム基本情報</a>
+				</li>
+				<li>
+					<a href="../info/agreement.html">特定商取引に基づく表記</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
+				</li>
+				<li>
+					<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank">サポートセンター</a>
+				</li>
+			</ul>
+			<div id="footerWebAdmin02">
+				<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

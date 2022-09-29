@@ -1,0 +1,22 @@
+/* main */
+#main_box{ width:902px; margin:0 auto; padding-top:15px; font-size:12px; }
+
+#main_box .header { width:880px; height:310px; font-size:12px;
+	background-image:url(../../img/event/schedule_2022/header.png); margin:0px auto 30px auto; display:block; text-align:left; }
+
+#main_box .inner { width:895px; margin:20px auto 10px auto; padding-left:10px; }
+#main_box .textblock { padding:7px; width:765px; background-color:#eee8dc; border:solid 1px #a7948d; text-align:left; margin:0 auto 30px auto; }
+#main_box .caution{ color:#ac1616; font-weight: bold; }
+
+#main_box caption{ font-weight:bold; text-align:center; }
+#main_box table { margin:0 0 20px 0; }
+#main_box table.center { margin:0px auto 20px auto; }
+#main_box table.left{ float:left; margin:0px 8px 20px 0px; }
+
+#main_box img.center { margin:0px auto 20px auto; }
+#main_box img.left { float:left; margin:0px 8px 20px 0px; }
+
+
+#main_box .imglink img{ margin:0px 10px 20px 0px; }
+
+

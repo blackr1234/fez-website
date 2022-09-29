@@ -1,0 +1,87 @@
+/* main */
+#pub_box{ width:550px; margin:0px auto; font-size:12px; }
+#pub_box img{ margin: 5px auto; vertical-align:middle; }
+#pub_box .hr{ margin: 30px auto; }
+#pub_box .center{ text-align:center; }
+
+/* ----- 新規CSSの定義を上書き ----- */
+#pub_box table { 
+	border-collapse: separate;
+	border-spacing: 1px;
+}
+#pub_box h2 {
+	margin-bottom: 0;
+	padding-left: 0;
+	background-image: none;
+}
+h4 {
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	width: auto;
+	height: auto;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.5;
+	background-image: none;
+}
+h5 {
+	margin-bottom: 0;
+	padding-left: 0;
+	font-size: 1em;
+	background-image: none;
+}
+
+#pub_box p span{ font-weight:bold; color:#f00; }
+
+.f-left{ float:left; }
+.f-right{ float:left; }
+
+.pub_table { width:550px; margin:15px auto; font-size:12px; background:#000; }
+.pub_table caption{ background:#666; color:#fff; text-align:center; border:solid 1px #000; font-weight:bold; margin-bottom:1px; padding:3px 5px; }
+.pub_table thead th{ background:#ccc; padding:3px 5px; }
+.pub_table tbody th{ background:#eee; padding:3px 5px; font-weight:normal; }
+.pub_table td{ background:#fff; padding:3px 5px; word-warp:break-word; }
+
+.pub_table .th00{ background:#fff; }
+.pub_table .th03{ padding:0px 5px; }
+
+.pub_table .net { background:#ffeeee; }
+.pub_table .iel { background:#eefcff; }
+.pub_table .hol { background:#fffeee; }
+.pub_table .geb { background:#f7eeff; }
+.pub_table .ces { background:#eefff0; }
+
+#link-box { position:relative; height:30px; margin: 10px 0 50px 0px; }
+#link-box img{ vertical-align:middle; }
+#link-box .back-p{ display:block; position:absolute; font-weight:bold; }
+#link-box .next-p{ display:block; position:absolute; font-weight:bold; right:0px;  }
+
+/* sub navi */
+#sub-navi { margin:0px auto 30px auto; }
+#sub-navi .top{ width:538px; height:20px; margin:0px; background:url(../pub/navi/back_top.gif) center no-repeat;}
+#sub-navi .middle{ width:538px; margin:0px; background:url(../pub/navi/back_re-y.gif) center repeat-y; }
+#sub-navi .middle .item-box{ width:500px; margin:0px auto; }
+#sub-navi .middle a{ display:block; float:left; width:119px; height:20px; margin:3px; background:url(../pub/navi/sub_navi_off.gif) center no-repeat; cursor:pointer; color:#fff; text-decoration:none; }
+#sub-navi .middle a span{ display:block; margin-left:20px;}
+#sub-navi .middle a:hover{ background:url(../pub/navi/sub_navi_on.gif) center no-repeat; }
+#sub-navi .middle a.on{ background:url(../pub/navi/sub_navi_on.gif) center no-repeat; }
+#sub-navi .bottom{ width:538px; height:20px; margin:0px; background:url(../pub/navi/back_bottom.gif) center no-repeat;}
+
+#sub-navi .child{ display:none; margin:0px 9px; }
+#sub-navi .child .top{ width:522px; height:11px; margin:0px; background:url(../pub/navi/back02_top.gif) center no-repeat;}
+#sub-navi .child .middle{ width:522px; margin:0px; background:url(../pub/navi/back02_re-y.gif) center repeat-y; }
+#sub-navi .child .item-box{ width:500px; margin:0px auto; }
+#sub-navi .child .middle a{ display:block; float:left; width:119px; height:20px; margin:3px; background:url(../pub/navi/sub_navi_child_off.gif) left no-repeat; cursor:pointer; color:#fff; text-decoration:none; }
+#sub-navi .child .middle a span{ display:block; margin-left:20px;}
+#sub-navi .child .middle a:hover{ background:url(../pub/navi/sub_navi_child_on.gif) left no-repeat; }
+#sub-navi .child .middle a.on{ background:url(../pub/navi/sub_navi_child_on.gif) left no-repeat; }
+#sub-navi .child .bottom{ width:522px; height:9px; margin:0px; background:url(../pub/navi/back02_bottom.gif) center no-repeat;}
+
+/* slideBox */
+.open, .open02{ cursor: pointer; color:#0066CC; }
+.slideBox{ clear:both; display:none; }
+.slideBox p.accessory_list{ display:block; width:24%; margin:0; border:#CCC solid 1px; float:left; margin:0 2px 2px 0; text-align:center; font-size:10px; }

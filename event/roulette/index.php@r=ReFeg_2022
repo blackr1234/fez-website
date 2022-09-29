@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="ja" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
+	<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
+	<link rel="shortcut icon" href="../../favicon.ico" />
+	<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery1-9-0.js"></script>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery-ui1-9.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/square-enix.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/swanky-purse/jquery-ui-1.9.2.custom.css" />	
+
+	<link type="text/css" rel="stylesheet" href="../../style/reset.css" />
+	<link type="text/css" rel="stylesheet" href="../../style/core.css" />
+	<link type="text/css" rel="stylesheet" href="../../style/common.css" />
+			<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"></script>
+	<script type="text/javascript" src="../../script/lib/velocity.min.js"></script>
+	<script type="text/javascript" src="../../script/lib/taco.min.js"></script>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX" />
+	<meta property="og:title" content="ファンタジーアース ゼロ" />
+	<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta property="og:url" content="http://www.fantasy-earth.com/" />
+	<meta property="og:image" content="http://www.fantasy-earth.com/img/misc/og.jpg" />
+			<script type="text/javascript" src="../../script/common/plugin.js"></script>
+	<script type="text/javascript" src="../../script/lib/colorbox/jquery.colorbox.js"></script>
+	<link type="text/css" rel="stylesheet" href="../../script/lib/colorbox/colorbox_plain.css" />
+	<link type="text/css" rel="stylesheet" href="../../style/roulette.css" />
+			<script type="text/javascript">
+	var BASE_PATH = "/";
+	</script>
+	<script type="text/javascript" src="../../script/lib/jplayer/jquery.jplayer.min.js"></script>
+	<script type="text/javascript" src="../../script/roulette/main.js"></script>
+
+</head>
+<body class="">
+	<!-- === headerArea === -->
+	<div id="sqexHeader-black">
+		<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"><img src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif" width="130" height="14" border="0" alt="SQUARE ENIX" /></a>
+	</div>
+	<!-- === /headerArea === -->
+
+		<div id="fixed-bg"></div>
+	<!-- メインエリア -->
+	<div id="main">
+		<div id="main-content">
+				<!-- ヘッドタイトル -->
+	<div id="head-title">
+		<img src="../../img/event/ReFeg_2022/roulette_header.png" />
+	</div><!-- head-title -->
+
+
+	<div class="mt25" id="whats-update">
+		<div id="whats-update-conetnt">
+			<div class="t-center">
+				<span style="font-size:16px;font-weight:bold;color:#bc0010;">
+					｢ファンタジーアース ジェネシス｣の盟主装備がリファインカラーで登場！<br />
+					ぜひ、この機会にゲットしよう！<br />
+				</span>
+				<dd><span style="font-weight:bold;color:red;">
+				※手に入るアイテムの総数が決まっており、取得状況や残りの数を把握できる特別なルーレットとなっております。</span>
+				</dd>
+			</div>
+			<dl class="mt10">
+				<dt>FEGコイン</dt>
+				<dd style="margin-top: 6px;">
+					<table class="">
+					<tbody>
+						<tr valign="top">
+							<td><img src="../../img/event/ReFeg_2022/feg_coin.png" style="margin-right:10px;"></td>
+							<td>
+								<span style="color:#000;">
+									「リファインFEG盟主2ルーレット」で遊ぶための角型コイン。
+									<br />ヴィネル島「道具屋」にて購入することができます。
+									<br />FEGコイン1枚でルーレットを1回遊ぶことができます。
+								</span>
+							</td>
+						</tr>
+					</tbody>
+					</table>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+			<!-- 防具一覧 -->
+		<div class="mt30">
+			<div class="headline">
+				<img alt="ニューデザイン防具一覧" src="../../img/roulette/head/armors.png" />
+				<!--<img alt="レアアイテム防具一覧" src="/img/roulette/head/armors01.png" />-->
+			</div>
+
+			<!-- カラムリスト -->
+			<div class="mt10">
+				<ul class="box-3-list">
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=b24a27dbc010c1ecb693950b259fc247&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/b24a27dbc010c1ecb693950b259fc247/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li style="">
+												男性：ハルトモデルⅢセット
+											</li>
+										</ul>
+									</a>
+																			<a class="equip-box armor-f-box" rel="img-link"
+											href="item_modal.php@r=ReFeg_2022&amp;id=b61c6e2343c1f6b19ed2b236266159ac&amp;type=armor">
+											<ul>
+												<li>
+													<img src="../../img/event/ReFeg_2022/ss/b61c6e2343c1f6b19ed2b236266159ac/s.png" width="250" height="117" />
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>
+													女性：アストライアモチフⅢセット
+												</li>
+											</ul>
+										</a>
+																	</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=e70cc6705cb4d34eb5b752a900c05de6&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/e70cc6705cb4d34eb5b752a900c05de6/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li style="">
+												男性：ゼノモデルⅢセット
+											</li>
+										</ul>
+									</a>
+																			<a class="equip-box armor-f-box" rel="img-link"
+											href="item_modal.php@r=ReFeg_2022&amp;id=b39d840c700d3ec0809ee42dcf3a0dc2&amp;type=armor">
+											<ul>
+												<li>
+													<img src="../../img/event/ReFeg_2022/ss/b39d840c700d3ec0809ee42dcf3a0dc2/s.png" width="250" height="117" />
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>
+													女性：レグルスモチフⅢセット
+												</li>
+											</ul>
+										</a>
+																	</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=f09826ff776b43fc51d825cdb7313e21&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/f09826ff776b43fc51d825cdb7313e21/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li style="">
+												男性：リィヴモデルⅢセット
+											</li>
+										</ul>
+									</a>
+																			<a class="equip-box armor-f-box" rel="img-link"
+											href="item_modal.php@r=ReFeg_2022&amp;id=95edff229033329d62b0bec001b5482e&amp;type=armor">
+											<ul>
+												<li>
+													<img src="../../img/event/ReFeg_2022/ss/95edff229033329d62b0bec001b5482e/s.png" width="250" height="117" />
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>
+													女性：フロースモチフⅢセット
+												</li>
+											</ul>
+										</a>
+																	</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=3b11f1cf3449f87b423d2978277fde5e&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/3b11f1cf3449f87b423d2978277fde5e/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li style="">
+												男性：アスピダモデルⅢセット
+											</li>
+										</ul>
+									</a>
+																			<a class="equip-box armor-f-box" rel="img-link"
+											href="item_modal.php@r=ReFeg_2022&amp;id=fde074bd5e763b90a59658cfb8799220&amp;type=armor">
+											<ul>
+												<li>
+													<img src="../../img/event/ReFeg_2022/ss/fde074bd5e763b90a59658cfb8799220/s.png" width="250" height="117" />
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>
+													女性：ベリアルモチフⅢセット
+												</li>
+											</ul>
+										</a>
+																	</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									クラス共通防具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box armor-m-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=a92a56418bc9a51c44a0ddc7959905bd&amp;type=armor">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/a92a56418bc9a51c44a0ddc7959905bd/s.png" width="250" height="117" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li style="color: #ff7fb8;">
+												女性：ラオフモチフⅢセット
+											</li>
+										</ul>
+									</a>
+																			<a class="equip-box armor-f-box" rel="img-link"
+											href="item_modal.php@r=ReFeg_2022&amp;id=e903cb9ccc9397d7e427ed202dc063db&amp;type=armor">
+											<ul>
+												<li>
+													<img src="../../img/event/ReFeg_2022/ss/e903cb9ccc9397d7e427ed202dc063db/s.png" width="250" height="117" />
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>
+													女性：メルモチフⅢセット
+												</li>
+											</ul>
+										</a>
+																	</dd>
+							</dl>
+						</li>
+									</ul>
+			</div>
+		</div>
+	
+			<!-- 武器一覧 -->
+		<div class="mt25">
+			<div class="headline">
+				<img alt="ニューデザイン武器一覧" src="../../img/roulette/head/weapons.png" />
+				<!--<img alt="レアアイテム武器一覧" src="/img/roulette/head/weapons01.png" />-->
+			</div>
+
+			<div class="mt10">
+				<ul class="box-3-list">
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="warrior-icon"></span>片手武器セット<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=34f86ab87c29b507b025dd5be8e08115&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/34f86ab87c29b507b025dd5be8e08115/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												一閃Ⅲセット
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="warrior-icon"></span>両手武器<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=508172859c9662566b42d411d419bb84&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/508172859c9662566b42d411d419bb84/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												ストラティゴスアッシュⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="warrior-icon"></span>大剣<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=92c0cd463c35e8b0c333b6327986ff0b&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/92c0cd463c35e8b0c333b6327986ff0b/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												フューレンシュヴェールトⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="scout-icon"></span>短剣<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=3b0945ebbfb024ff2d0c11c74230ef8c&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/3b0945ebbfb024ff2d0c11c74230ef8c/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												ウンベカントⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="scout-icon"></span>弓<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=8db48a04e9797eef608aad90db992f3b&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/8db48a04e9797eef608aad90db992f3b/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												魔弓ペリッシュⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="scout-icon"></span>銃<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=3569d12744b11d1782f2c04af2318686&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/3569d12744b11d1782f2c04af2318686/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												アバリシアフチーレⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="sorcerer-icon"></span>杖<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=51d6f756d265ca5728e44c697d8e397a&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/51d6f756d265ca5728e44c697d8e397a/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												ツァールトブルーメンⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="sorcerer-icon"></span>魔導具<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=8d35486347d03fe732add3d574404182&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/8d35486347d03fe732add3d574404182/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												トッキーⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="fencer-icon"></span>刺突剣<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=04282f615b40960c0e2b19eb3f0c116e&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/04282f615b40960c0e2b19eb3f0c116e/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												シャルマンレーヌⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+											<li class="box-3-item">
+							<dl class="box-3-col">
+								<dt class="box-3-col-head">
+									<span class="cestus-icon"></span>手甲<span class="new-icon"></span>
+								</dt>
+								<dd class="box-3-col-main">
+									<a class="equip-box weapon-box" rel="img-link"
+										href="item_modal.php@r=ReFeg_2022&amp;id=df831a6a592c62f61066b1d20d4966fb&amp;type=weapon">
+										<ul>
+											<li>
+												<img src="../../img/event/ReFeg_2022/ss/df831a6a592c62f61066b1d20d4966fb/s.png" />
+											</li>
+											<li><!-- 拡大アイコン --></li>
+											<li>
+												ラオフィストⅢ
+											</li>
+										</ul>
+									</a>
+								</dd>
+							</dl>
+						</li>
+									</ul>
+			</div>
+		</div>
+	
+	
+	
+			<!-- その他一覧 -->
+		<div class="mt25">
+			<div class="headline">
+				<img alt="その他一覧" src="../../img/roulette/head/others.png" />
+			</div>
+
+			<div class="mt10">
+				<table class="table" id="other-list">
+					<tr>
+																				<td class="td-em">
+								忘却の壷
+							</td>
+																				<td class="td-em">
+								転身の羽
+							</td>
+																				<td class="td-em">
+								EXフィズアタックゲイン
+							</td>
+																				<td class="td-em">
+								EXフィズガードゲイン
+							</td>
+																				<td class="td-em">
+								EXHPアップ
+							</td>
+																					</tr><tr>
+														<td class="td-em">
+								EXPwアップ
+							</td>
+																				<td class="td-em">
+								EXパワーリジェネ
+							</td>
+																				<td class="td-em">
+								EXビルドアタックブースト
+							</td>
+																				<td class="td-em">
+								ヴィネルワイン
+							</td>
+																				<td class="td-em">
+								レアステーキ
+							</td>
+																					</tr><tr>
+														<td class="td-em">
+								ノナの銀糸
+							</td>
+																				<td class="td-em">
+								強固の結晶
+							</td>
+																				<td class="td-em">
+								穿孔の結晶
+							</td>
+																				<td class="td-em">
+								エクスバンク契約書
+							</td>
+																									<td class="td-em">&nbsp;</td>
+											</tr>
+				</table>
+
+			</div>
+		</div>
+	
+	<div class="mt25">
+		<div class="headline">
+			<img alt="ルーレットプレイの手順" src="../../img/roulette/head/step.png" />
+		</div>
+
+		<!-- ステップ表 -->
+		<div class="mt16 mb15" id="about-step">
+			<table>
+				<tr>
+					<th>&nbsp;</th>
+					<td>
+						<img alt="step1" src="../../img/roulette/misc/step/1.png" />
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<img alt="step2" src="../../img/roulette/misc/step/2.png" />
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<img alt="step3" src="../../img/event/ReFeg_2022/3.png" />
+					</td>
+				</tr>
+				<tr>
+					<th>&nbsp;</th>
+					<td>
+						<p><strong>< カジノ案内人NPC ></strong>  または大陸マップ<br />からガルム遊技場のカジノへ入場します。</p>
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<p>カジノ内の <strong>< 道具屋NPC ></strong> に話しかけて<br />FEGコインを購入します。</p>
+					</td>
+					<th>&nbsp;</th>
+					<td>
+						<p><strong>< ﾘﾌｧｲﾝFEG盟主2ﾙｰﾚｯﾄ ></strong> に<br />コインを預けて、ルーレットスタート！</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<hr style="width: 800px;" />
+
+		<!-- ルーレットデータ -->
+		<div class="mt20">
+			<table class="table" id="step-list">
+				<tr>
+					<td class="td-em">
+						名称
+					</td>
+					<td class="td">
+						リファインFEG盟主2ルーレット
+					</td>
+				</tr>
+				<tr>
+					<td class="td-em">
+						商品重複の有無
+					</td>
+					<td class="td">
+						同じレアアイテムは重複して当たらない
+					</td>
+				</tr>
+				<tr>
+					<td class="td-em">
+						数量限定の有無
+					</td>
+					<td class="td">
+						男性キャラクター 総数108点<br />
+						女性キャラクター 総数110点
+					</td>
+				</tr>
+				<tr>
+					<td class="td-em">
+						提供割合に関係する特記
+					</td>
+					<td class="td">
+						男性用レアアイテムは男性キャラクター、女性用レアアイテムは女性キャラクターのみ当たる。
+						<br />販売期間中に提供割合の変更は行わない。
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="mt18 pb30">
+			<dl class="notice-list">
+				<dt>
+					注意事項
+				</dt>
+				<dd>
+					※本ルーレットは「FEGコイン」でのみプレイすることができます。
+				</dd>
+				<dd>
+					※どのレアアイテムも1キャラクターにつき1度しか入手することができません。
+					<br />入手したレアアイテムをリサイクル、または破棄した場合、再度入手することはできませんのでご注意ください。
+				</dd>
+				<dd>
+					※性別に制限のあるレアアイテムは、キャラクターの性別と同じレアアイテムのみ入手することができます。
+				</dd>
+				<dd>
+					※クラス制限があるレアアイテムは、キャラクターのクラスに関係なく入手することができます。
+				</dd>
+				<dd>
+					※入手したアイテムはカジノ内にある「プライズ」にて受取することができます。
+				</dd>
+				<dd>
+					※装備のイメージを維持するため、一部のモーションで貫通や埋没等が発生する場合がございます。
+				</dd>
+			</dl>
+		</div>
+
+	</div>
+
+<br />
+
+		</div>
+	</div><!-- main -->
+	<!-- スクロールトップ -->
+	<div id="scroll-top">
+		<a class="button">ページトップ</a>
+	</div>
+
+	<!-- === footerArea === -->
+	<div id="sqexFooter" class="sqex-footer-black">
+		<div id="footerWebAdmin01">
+		</div>
+		<!-- デフォルトフッター -->
+		<div id="sqex-footer-contents">
+			<ul>
+				<li class="sqex-footer-first">
+					<a href="../../info/baseinfo.html">ゲーム基本情報</a>
+				</li>
+				<li>
+					<a href="../../info/agreement.html">特定商取引に基づく表記</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
+				</li>
+				<li>
+					<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank">サポートセンター</a>
+				</li>
+			</ul>
+			<div id="footerWebAdmin02">
+				<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

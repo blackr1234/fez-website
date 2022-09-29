@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* ============================================================ */
+/* ヘッダ上固定関連の定義 */
+/* ============================================================ */
+#header-box {
+	height: 131px;
+}
+	#header {
+		position: absolute;
+		z-index: 10;
+		width: 100%;
+		height: 131px;
+		background-image: url(../img/voicehistory/voice_history_header.jpg);
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-color: #fff;
+	}
+	#header.fixed {
+		position: fixed;
+		top: 0;
+	}
+#header-main {
+	position: relative;
+}
+.header-link {
+	position: absolute;
+	top:18px;
+	left: 0;
+	right: 650px;
+	margin: auto;
+	display:block;
+	width:250px;
+	height:100px;
+}
+.btnarea {
+	width:1005px;
+	text-align:center;
+	margin:0 auto;
+	background-image: url(../img/voicehistory/btn_bg.png);
+}
+.btnarea ul {
+	text-align:center;
+	margin:0 auto;
+	position: relative;
+	z-index: :99;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+	list-style:none;
+}
+.btnarea li  {
+	float:left;
+	list-style:none;
+}
+.btn_male,
+.btn_female,
+.btn_male a,
+.btn_female a {
+	display:block;
+	width:490px;
+	height:50px;
+	background-image: url(../img/voicehistory/voicehistory_menu.png);
+}
+.btn_male a {
+	background-position: left 0;
+}
+.btn_female a {
+	background-position: 490px 0 ;
+}
+
+.btn_male a:hover, .btn_male {
+	background-position:  0 bottom;
+}
+.btn_female a:hover, .btn_female {
+	background-position: 490px bottom ;
+}
+
+#main {
+	padding-bottom: 100px;
+	background-position: center 50px;
+}
+	#no-navi {
+		position: absolute;
+		z-index: 11;
+		width: 100%;
+	}
+	#no-navi.fixed {
+		position: fixed;
+		top: 131px;
+	}
+	#main-ivy-deco {
+		top: 50px;
+		background-position: center top;
+	}
+	#main-one-column {
+		top: 50px;
+	}
+
+/* ============================================================ */
+/* 声優リスト */
+/* ============================================================ */
+.actorlist {
+	text-align:center;
+	color:#613b00;
+	font-size:12px;
+}
+	/* ----- １行 ----- */
+	.actorlist-row {
+		display: flex;
+		width:910px;
+		-webkit-align-items: stretch;
+		align-items: stretch;
+		text-align:center;
+		margin:0 auto;
+	}
+
+
+	/* ----- セル ----- */
+	.actorlist-cell {
+		box-sizing: border-box;
+		width:214px;
+		border:1px solid #ab987f;
+		box-shadow:0px 0px 0px 3px #e9d6b1;
+		-moz-box-shadow:0px 0px 0px 3px #e9d6b1;
+		-webkit-box-shadow:0px 0px 0px 3px #e9d6b1;
+		background-color: #f1ede4;
+		text-align:center;
+		margin-right:18px;
+		margin-bottom:25px;
+		padding-bottom:5px;
+	}
+	.actorlist-cell:nth-of-type(4) {
+		margin-right:0px;
+	}
+.voice_list {
+	width:196px;
+	font-weight:bold;
+	color:#000;
+	font-size:11px;
+	position: relative;
+	text-align:left;
+	margin:3px auto;
+}
+.voicetype {
+	margin:0 auto 10px auto;
+}
+
+.btn_voice ul {
+	margin:10px auto 10px auto;
+}
+.btn_voice li {
+	width:62px;
+	float:left;
+	margin-right:5px;
+}
+.btn_voice li:last-child {
+	margin-right:0px;
+}
+.btn_voice a {
+	background-image:url(../img/voicehistory/btn_voice.png);
+	width:62px;
+	height:29px;
+	display:block;
+	font-size:0;
+	text-decoration: none;
+}
+.btn_voice a:hover {
+	background-position: bottom;
+}
+.voice_name {
+	font-weight: bold;
+	font-size:14px;
+	margin:0 auto 10px auto;
+	padding:5px 0;
+}
+.male {
+	color:#0073af!important;
+	background-color:#bde0eb;
+}
+.female {
+	color:#af0036!important;
+	background-color:#edc2db;
+	
+}
+
+.ico_male:before, .ico_female:before {
+	position:absolute;
+	top:0px;
+	left:0;
+	width:17px;
+	height:17px;
+	background-repeat: no-repeat;
+	content:"";
+}
+.ico_male:before {
+	background-image:url(../img/voicehistory/ico_dia_m.png);
+}
+.ico_female:before {
+	background-image:url(../img/voicehistory/ico_dia_w.png);
+}
+.ico_male div, .ico_female div {
+	padding-left:18px;
+}

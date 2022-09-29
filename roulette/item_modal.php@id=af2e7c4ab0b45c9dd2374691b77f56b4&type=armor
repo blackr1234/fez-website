@@ -1,0 +1,152 @@
+<div class="modal">
+	<div class="modal-content">
+					<!-- 画像エリア -->
+			<div class="modal-image">
+				<img src="../img/roulette/ss/af2e7c4ab0b45c9dd2374691b77f56b4/l.png" />
+			</div>
+							<!-- 情報エリア -->
+				<div class="modal-data">
+																										<table class="table">
+							<tr>
+								<th class="th text-center" width="30%">
+									名前
+								</th>
+								<th class="th text-center" width="12%">
+									種類
+								</th>
+								<th class="th text-center" width="10%">
+									能力
+								</th>
+								<th class="th text-center" width="10%">
+									レベル
+								</th>
+								<th class="th text-center" width="14%">
+									クラス
+								</th>
+								<th class="th text-center" width="14%">
+									耐久
+								</th>
+								<th class="th text-center">
+									性別
+								</th>
+							</tr>
+															<tr>
+									<td class="td-em">
+										黒曜揚羽弐ノ冠
+																					<p>【装飾品化可能】</p>
+																			</td>
+									<td class="td text-center">
+										頭
+									</td>
+									<td class="td text-center">
+										11
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♂
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										黒曜揚羽弐ノ羽織
+																			</td>
+									<td class="td text-center">
+										体
+									</td>
+									<td class="td text-center">
+										18
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♂
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										黒曜揚羽弐ノ篭手
+																			</td>
+									<td class="td text-center">
+										腕
+									</td>
+									<td class="td text-center">
+										13
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♂
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										黒曜揚羽弐ノ脚衣
+																			</td>
+									<td class="td text-center">
+										脚
+									</td>
+									<td class="td text-center">
+										18
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♂
+									</td>
+								</tr>
+															<tr>
+									<td class="td-em">
+										黒曜揚羽弐ノ脛当
+																			</td>
+									<td class="td text-center">
+										足
+									</td>
+									<td class="td text-center">
+										13
+									</td>
+									<td class="td text-center">
+										15
+									</td>
+									<td class="td text-center">
+																					全クラス
+																			</td>
+									<td class="td text-center">
+										17100
+									</td>
+									<td class="td text-center">
+										♂
+									</td>
+								</tr>
+													</table>
+									</div>
+						</div><!-- modal-content -->
+</div><!-- modal -->

@@ -1,0 +1,326 @@
+.menu_block{ display:none; }
+/* ====================================================================== */
+/* メニューエリア */
+/* ====================================================================== */
+
+	#item-navi-container {
+		position: relative;
+		width: 100%;
+		height: 50px;
+	}
+	/* ===== メニューメインエリア ===== */
+	#item-navi-content {
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		width: 420px;
+	}
+		/* ----- ボタン受け皿 ----- */
+		.item-navi-item {
+			position: relative;
+			float: left;
+			width: 105px;
+		}
+		.item-navi-button {
+			display: block;
+			overflow: hidden;
+			width: 105px;
+			height: 30px;
+			text-indent: -9999em;
+			background-image: url(http://www.fantasy-earth.com/old/pub/library/item/menu.png);
+		}
+		/* 実装年 */
+		#item-navi-year {
+		}
+			#item-navi-year:hover {
+				background-position: 0 bottom;
+			}
+		/* 武器 */
+		#item-navi-weapon {
+			background-position: -105px top;
+		}
+			#main-navi-weapon:hover {
+				background-position: -105px bottom;
+			}
+		/* 防具 */
+		#item-navi-armor {
+			background-position: -210px top;
+		}
+			#item-navi-armor:hover {
+				background-position: -210px bottom;
+			}
+		/* 装飾品 */
+		#item-navi-accessory {
+			background-position: -315px top;
+		}
+			#item-navi-accessory:hover {
+				background-position: -315px bottom;
+			}
+		
+ul.item-menu1 {
+	margin: 0px;
+}
+ul.item-menu1 li {
+	width: 125px;
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+}
+ul.item-menu1 a {
+	background-color: #2e2c29;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+ul.item-menu1 a:hover {
+	background-color: #333333;
+	color: #dd0000;
+}
+ul.item-menu1 ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	position: absolute;
+}
+ul.item-menu1 li:hover > ul {
+   display: block;
+}
+ul.item-menu1 ul li {
+   width: 135px;
+   border-top: 1px solid #fff;
+}
+ul.item-menu1 ul li a {
+   line-height: 35px;
+   text-align: left;
+   padding-left: 5px;
+   font-weight: normal;
+}
+ul.item-menu1 ul li a:hover {
+   background-color: #bfbfb8;
+   color: #005500;
+}
+ul.item-menu1 ul ul {
+   margin: 0px;
+   padding: 0px;
+   display: none;
+   position: absolute;
+   top: -1px;
+   left: 100%;
+   border-left: 1px solid #fff;
+}			
+.box{
+  display: inline-block;
+  width:24px;
+  height:18px;
+  background:#333;
+  border-radius:5px 5px 5px 5px;
+  border: 1px solid #333;
+  line-height: 18px;
+  color: white;
+}			
+.box1{
+  display: inline-block;
+  width:24px;
+  height:18px;
+  background:white;
+  border-radius:5px 5px 5px 5px;
+  border: 1px solid #333;
+  line-height: 18px;
+  text-decoration: none;
+  transition: background-color .5s
+}			
+.box1:hover{
+  display: inline-block;
+  width:24px;
+  height:18px;
+  background:#333;
+  border-radius:5px 5px 5px 5px;
+  border: 1px solid #333;
+  color: white;
+  line-height: 18px;
+}
+ul.item-menu2 {
+	margin: 0px;
+}
+ul.item-menu2 li {
+	width: 105px;
+	display: inline-block;
+	list-style-type: none;
+	position: relative;
+}
+ul.item-menu2 a {
+	background-color: #2e2c29;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+ul.item-menu2 a:hover {
+	background-color: #333333;
+	color: #dd0000;
+}
+ul.item-menu2 ul {
+	margin: 0px;
+	padding: 0px;
+	display: none;
+	position: absolute;
+}
+
+/* ====================================================================== */
+/* サブメニュー */
+/* ====================================================================== */
+/* ----- 開閉処理部分 ----- */
+.item-sub-navi {
+	position: absolute;
+	display: none;
+	overflow: hidden;
+}
+	.item-sub-navi-container {
+		position: relative;
+		width: 197px;
+		background-image: url(../../../img/navi/sub/frame/bottom.png);
+		background-position: center bottom;
+	}
+	/* ----- フレームのふた ----- */
+	.item-sub-navi-content {
+		padding-top: 2px;
+		padding-right: 3px;
+		padding-bottom: 4px;
+		padding-left: 3px;
+		background-image: url(../../../img/navi/sub/frame/top.png);
+		background-repeat: no-repeat;
+	}
+	.item-sub-navi-content-box-header {
+		height: 70px;
+		text-align: center;
+		background-image: url(../../../img/navi/sub/frame/top.png);
+	}
+	.item-sub-navi-content-box-footer {
+		height: 25px;
+		background-image: url(http://www.fantasy-earth.com/img/navi/sub/frame/footer.png);
+		background-position: center bottom;
+	}
+	.item-sub-navi-content-box-main {
+		background-image: url(../../../img/navi/sub/frame/bottom.png);
+	}
+	/* ----- 黒背景 ----- */
+	.item-sub-navi ul {
+		padding-bottom: 1px;
+		border: 1px solid #4c4c4c;
+		background-color: #000;
+	}
+	.item-sub-navi li {
+		padding: 1px 1px 0 1px;
+	}
+	/* ----- ボタン通常 ----- */
+	.item-sub-navi li a {
+		display: block;
+		color: #fff;
+		font-size: 13px;
+		text-decoration: none;
+		border: 1px solid #414141;
+		background-image: url(../../../img/navi/sub/button/normal.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+		/* ホバー */
+		.item-sub-navi li a:hover {
+			padding: 1px;
+			border: none;
+			background-image: url(../../../img/navi/sub/button/hover.png);
+			background-position: center bottom;
+		}
+		/* 矢印アイコン */
+		.item-sub-navi li a span {
+			padding-top: 4px;
+			padding-bottom: 3px;
+			padding-left: 22px;
+			display: block;
+			background-image: url(../../../img/navi/sub/icon/arrow.png);
+			background-repeat: no-repeat;
+			background-position: 2px center;
+		}
+		
+
+	
+/* ====================================================================== */
+/* サブメニュー2 */
+/* ====================================================================== */
+/* ----- 開閉処理部分 ----- */
+.item-sub-navi2 {
+	position: absolute;
+	left: 100%;
+	display: none;
+	overflow: hidden;
+}
+	.item-sub-navi-container2 {
+		position: relative;
+		width: 197px;
+		background-image: url(../../../img/navi/sub/frame/bottom.png);
+		background-position: center bottom;
+	}
+	/* ----- フレームのふた ----- */
+	.item-sub-navi-content2 {
+		padding-top: 2px;
+		padding-right: 3px;
+		padding-bottom: 4px;
+		padding-left: 3px;
+		background-image: url(../../../img/navi/sub/frame/top.png);
+		background-repeat: no-repeat;
+	}
+	.item-sub-navi-content2-box-header {
+		height: 70px;
+		text-align: center;
+		background-image: url(../../../img/navi/sub/frame/top.png);
+	}
+	.item-sub-navi-content2-box-footer {
+		height: 25px;
+		background-image: url(http://www.fantasy-earth.com/img/navi/sub/frame/footer.png);
+		background-position: center bottom;
+	}
+	.item-sub-navi-content2-box-main {
+		background-image: url(../../../img/navi/sub/frame/bottom.png);
+	}
+	/* ----- 黒背景 ----- */
+	.item-sub-navi2 ul {
+		padding-bottom: 1px;
+		border: 1px solid #4c4c4c;
+		background-color: #000;
+	}
+	.item-sub-navi2 li {
+		padding: 1px 1px 0 1px;
+	}
+	/* ----- ボタン通常 ----- */
+	.item-sub-navi2 li a {
+		display: block;
+		color: #fff;
+		font-size: 13px;
+		text-decoration: none;
+		border: 1px solid #414141;
+		background-image: url(../../../img/navi/sub/button/normal.png);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+		/* ホバー */
+		.item-sub-navi2 li a:hover {
+			padding: 1px;
+			border: none;
+			background-image: url(../../../img/navi/sub/button/hover.png);
+			background-position: center bottom;
+		}
+		/* 矢印アイコン */
+		.item-sub-navi2 li a span {
+			padding-top: 4px;
+			padding-bottom: 3px;
+			padding-left: 22px;
+			display: block;
+			background-image: url(../../../img/navi/sub/icon/arrow.png);
+			background-repeat: no-repeat;
+			background-position: 2px center;
+		}
+

@@ -1,0 +1,582 @@
+@charset "UTF-8";
+
+/* ====================================================================== */
+/* 全体定義 */
+/* ====================================================================== */
+html, 
+body {
+	min-width: 926px;
+}
+
+hr {
+	margin: 0 auto 0 auto;
+	padding: 0;
+	border: none;
+	border-bottom: 1px solid #256128;
+}
+
+/* ====================================================================== */
+/* スクロールトップ */
+/* ====================================================================== */
+#scroll-top {
+	position: fixed;
+	bottom: 170px;
+	right: 0;
+	z-index: 10;
+	overflow: hidden;
+	width: 136px;
+	height: 43px;
+}
+	#scroll-top a {
+		position: absolute;
+		right: -136px;
+		cursor: pointer;
+		display: block;
+		width: 136px;
+		height: 43px;
+		background-image: url(../img/misc/button/scroll_top.png);
+	}
+
+/* ====================================================================== */
+/* 背景系 */
+/* ====================================================================== */
+/* ===== 固定背景 ===== */
+#fixed-bg {
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/roulette/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+}
+
+/* ===== ルーレットベース背景 ===== */
+#main {
+	margin-right: auto;
+	margin-left: auto;
+	width: 926px;
+	background-image: url(../img/roulette/main/bg.png);
+}
+	#main-content {
+		background-image: url(../img/roulette/main/content_bg.png);
+		background-repeat: no-repeat;
+		background-position: center 261px;
+	}
+
+/* ====================================================================== */
+/* 各要素 */
+/* ====================================================================== */
+
+/* ヘッドタイトル */
+/* ---------------------------------------------------------------------- */
+#head-title {
+	height: 261px;
+	text-align: center;
+	background-image: url(../img/roulette/title/bg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+	#head-title img {
+		position: relative;
+		top: 10px;
+	}
+
+/* 見出し */
+/* ---------------------------------------------------------------------- */
+.headline {
+	text-align: center;
+}
+
+/* ===== ルーレットベース背景 ===== */
+/* 履歴 */
+/* ---------------------------------------------------------------------- */
+#whats-update {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 10px;
+	width: 840px;
+	background-image: url(../img/roulette/update/bottom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+	#whats-update-conetnt {
+		padding-top: 18px;
+		padding-bottom: 12px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-image: url(../img/roulette/update/top.png);
+		background-repeat: no-repeat;
+	}
+	#whats-update-conetnt dt {
+		padding-left: 18px;
+		color: #1b4c36;
+		font-size: 14px;
+		font-weight: bold;
+		background-image: url(../img/misc/icon/dia.png);
+		background-repeat: no-repeat;
+		background-position: 0 1px;
+	}
+	#whats-update-conetnt dd {
+		padding-top: 2px;
+	}
+	
+
+/* リード */
+/* ---------------------------------------------------------------------- */
+#box-read {
+	width:840px;
+	margin: 20px auto;
+}
+	.box-read-top {
+		height:11px;
+		background-image: url(../img/roulette/common_roulette/top.png);
+	}
+	.box-read-main {
+		background-image: url(../img/roulette/common_roulette/main.png);
+		background-repeat: repeat;
+		padding:15px;
+		text-align:left;
+	}
+	.box-read-bottom {
+		height:10px;
+		background-image: url(../img/roulette/common_roulette/bottom.png);
+	}
+.box-read-main hr {
+	width:820;
+	margin:15px auto;
+	}
+	.box-read-main h1 {
+	position: relative;
+	color:#603d0f;
+	font-weight: bold;
+	padding-left:18px;
+	margin-bottom:10px;
+	}
+
+	.box-read-main h1:before {
+	position: absolute;
+	top:0;
+	left:0;
+	background-image: url(http://www.fantasy-earth.com/img/misc/icon/ico_circle.png);
+	background-repeat: no-repeat;
+	width:16px;
+	height:16px;
+	content:"";
+}
+	.box-read-main ul {
+		float:left;
+		text-indent:-15px;
+		padding-left:20px;
+	}
+
+	.box-read-main .ico-item {
+		width:31px;
+		height:63px;
+		background-image: url(http://www.fantasy-earth.com/img/roulette/ico_item.png);
+		background-repeat: no-repeat;
+		float:left;
+		margin-right:10px;
+		margin-left:5px;
+	}
+/* プレイの手順 */
+/* ---------------------------------------------------------------------- */
+#about-step {
+}
+	#about-step table {
+		margin-right: auto;
+		margin-left: auto;
+		width: 800px;
+	}
+	#about-step th {
+		width: 10px;
+		font-size: 1px;
+	}
+	#about-step td {
+		color: #fff;
+		vertical-align: top;
+	}
+	#about-step p {
+		padding-top: 8px;
+	}
+	#about-step strong {
+		color: #51ff59;
+		font-weight: bold;
+	}
+
+/* ====================================================================== */
+/* テーブル */
+/* ====================================================================== */
+.table {
+	border: 3px solid #559158;
+}
+	.table .th,
+	.table .td-em,
+	.table .td {
+		padding-top: 8px;
+		padding-left: 8px;
+		padding-right: 8px;
+		padding-bottom: 6px;
+		border: 1px solid #256128;
+	}
+	.table .th {
+		color: #99c49b;
+		font-weight: bold;
+		background-color: #1a4d1d;
+	}
+	.table .td-em {
+		color: #e2be42;
+		font-weight: bold;
+		background-color: #011302;
+	}
+	.table .td { 
+		color: #fff;
+		background-color: #0a270b;
+	}
+
+/* ===== その他一覧 ===== */
+#other-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+	#other-list th {
+		width: 25%;
+	}
+	#other-list .td-em {
+		width: 20%;
+	}
+
+/* ===== 手順 ===== */
+#step-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+	#step-list th {
+		width: 20%;
+	}
+
+/* ====================================================================== */
+/* ボックス */
+/* ====================================================================== */
+
+/* カラム共通 */
+/* ---------------------------------------------------------------------- */
+.box-3-col,
+.box-2-col {
+}
+	.box-3-col-head,
+	.box-2-col-head {
+		height: 34px;
+		color: #fff;
+		font-size: 14px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 2.5;
+	}
+	.box-3-col-main,
+	.box-2-col-main {
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+
+/* ===== カラムリスト ===== */
+.box-3-list,
+.box-2-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 810px;
+}
+	.box-3-item,
+	.box-2-item {
+		float: left;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+
+/*=====1段目センター揃え=====*/
+/* アクセサリー装備 */
+.li-1-col .box-2-item:first-child {
+	float: none;
+	width: 395px;
+	margin: 0 auto;
+}
+/* ヴィラーノ装備 クラス共通防具1段目センター揃え
+.armor-top .box-3-item {
+    width: 260px;
+    margin: 0 auto;
+    float: none;
+}*/
+/* ヴィラーノ装備 防具1段目センター揃え*/
+.armor-top .box-3-item:first-child {
+    width: 260px;
+    margin: 0 auto;
+    float: none;
+}
+
+/* ３カラム */
+/* ---------------------------------------------------------------------- */
+.box-3-col {
+	width: 260px;
+}
+	.box-3-col-head {
+		background-image: url(../img/roulette/misc/box/3_column/top.png);
+	}
+	.box-3-col-main {
+		background-image: url(../img/roulette/misc/box/3_column/bottom.png);
+	}
+
+/* ２カラム */
+/* ---------------------------------------------------------------------- */
+.box-2-col {
+	width: 395px;
+}
+	.box-2-col-head {
+		background-image: url(../img/roulette/misc/box/2_column/top.png);
+	}
+	.box-2-col-main {
+		background-image: url(../img/roulette/misc/box/2_column/bottom.png);
+	}
+
+/* ===== 装備サムネ用 ====== */
+.equip-box {
+	text-decoration: none;
+}
+	.equip-box ul {
+		position: relative;
+	}
+	/* アイテム画像 */
+	.equip-box li:first-child {
+		padding-top: 2px;
+		text-align: center;
+	}
+	/* 拡大アイコン */
+	.equip-box li:first-child + li {
+		position: absolute;
+		top: 94px;
+		left: 186px;
+		width: 66px;
+		height: 22px;
+		background-image: url(../img/roulette/misc/icon/widen.png);
+	}
+		.equip-box:hover li:first-child + li {
+			background-position: 0 bottom;
+		}
+		/* アイテムが入らない状態：拡大アイコンを消す */
+		.equip-box.disabled li:first-child + li {
+			display: none;
+		}
+	/* アイテム名 */
+	.equip-box li:first-child + li + li {
+		padding-top: 5px;
+		padding-left: 12px;
+		font-weight: bold;
+	}
+	/* ----- 武器用ボックス ----- */
+	.weapon-box li:first-child + li + li {
+		padding-bottom: 7px;
+		color: #51ff59;
+	}
+	/* ----- 男装備ボックス ----- */
+	.armor-m-box li:first-child + li + li {
+		padding-bottom: 4px;
+		color: #72cfff;
+		border-bottom: 1px solid #559158;
+	}
+	/* ----- 女装備ボックス ----- */
+	.armor-f-box li:first-child + li + li {
+		padding-bottom: 7px;
+		color: #ff7fb8;
+	}
+	/* ----- 男アクセボックス ----- */
+	.access-m-box,
+	.access-f-box {
+
+	}
+		/* 拡大アイコン */
+		.equip-box.access-m-box li:first-child + li,
+		.equip-box.access-f-box li:first-child + li {
+			left: 163px;
+		}
+		/* アイテム名 */
+		.equip-box.access-m-box li:first-child + li + li,
+		.equip-box.access-f-box li:first-child + li + li {
+			padding-bottom: 7px;
+		}
+		.equip-box.access-m-box li:first-child + li + li {
+			color: #72cfff;
+		}
+		.equip-box.access-f-box li:first-child + li + li {
+			color: #ff7fb8;
+		}
+
+/* ===== ボイスチケット ===== */
+.voice-ticket {
+	padding-top: 9px;
+	padding-bottom: 12px;
+}
+	.voice-ticket-content {
+		margin-right: auto;
+		margin-left: auto;
+		width: 370px;
+		height: 61px;
+		background-image: url(../img/roulette/misc/icon/voice_ticket.png);
+		background-repeat: no-repeat;
+		position: relative;
+	}
+	/* ----- テキスト情報 ----- */
+	.voice-ticket-info {
+		float: left;
+		padding-top: 10px;
+		padding-left: 40px;
+		width: 130px;/*2019.08.28.追記*/
+	}
+	.voice-ticket-info.info02 {
+		float: left;
+		padding-top: 5px;
+		padding-left: 40px;
+	}
+		.voice-ticket-info p {
+			color: #fff;
+			font-size: 12px;
+			font-weight: bold;
+		}
+		.voice-ticket-info p:first-child {
+			font-size: 13px;
+		}
+	/* ----- 再生 ----- */
+.navi02 {
+	position: absolute;
+	top:15px;
+	right:0;
+}
+	.voice-ticket-navi {
+		float: right;
+		padding-top: 16px;
+	}
+		.voice-ticket-navi li {
+			float: left;
+			margin-left: 5px;
+		}
+		.voice-ticket-navi li:first-child {
+			margin-left: 0;
+		}
+	.voice-ticket-play {
+		width: 63px;
+		height: 30px;
+		background-image: url(../img/roulette/button/voice_play.png);
+	}
+
+/* ===== 見出し位置アイコン ===== */
+/* ----- NEW ----- */
+.new-icon {
+	position: relative;
+	top: 5px;
+	margin-left: 10px;
+	display: inline-block;
+	width: 40px;
+	height: 20px;
+	background-image: url(../img/roulette/misc/icon/new.png);
+}
+/* クラスアイコン */
+.cestus-icon,
+.fencer-icon,
+.scout-icon,
+.sorcerer-icon,
+.warrior-icon {
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+}
+.cestus-icon { background-image: url(../img/roulette/misc/icon/cestus.png); }
+.fencer-icon { background-image: url(../img/roulette/misc/icon/fencer.png); }
+.scout-icon { background-image: url(../img/roulette/misc/icon/scout.png); }
+.sorcerer-icon { background-image: url(../img/roulette/misc/icon/sorcerer.png); }
+.warrior-icon { background-image: url(../img/roulette/misc/icon/warrior.png); }
+
+/* ====================================================================== */
+/* 注釈一覧 */
+/* ====================================================================== */
+.notice-list {
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+	.notice-list dt {
+		margin-bottom: 6px;
+		padding-left: 13px;
+		color: #e2be42;
+		font-weight: bold;
+		background-image: url(../img/roulette/misc/icon/circle.png);
+		background-repeat: no-repeat;
+		background-position: 0 -3px;
+	}
+	.notice-list dd {
+		color: #fff;
+		text-indent: -1em;
+		padding-left: 1em;
+	}
+
+/* ====================================================================== */
+/* モーダル */
+/* ====================================================================== */
+.modal {
+	width: 690px;
+	background-image: url(../img/roulette/modal/l/bottom.png);
+	background-position: center bottom;
+}
+	.modal-content {
+		padding-bottom: 19px;
+		background-image: url(../img/roulette/modal/l/top.png);
+		background-repeat: no-repeat;
+	}
+	/* モーダル内装備画像 */
+	.modal-image {
+		padding-top: 19px;
+		text-align: center;
+	}
+	.modal-data {
+		padding-top: 4px;
+		margin-right: auto;
+		margin-left: auto;
+		width: 650px;
+	}
+		.modal-data table {
+			width: 100%;
+		}
+	/* エラーが起きた場合 */
+	.modal-error {
+		padding-top: 100px;
+		padding-bottom: 90px;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+	}
+
+#cboxPrevious,
+#cboxNext {
+	display: none !important;
+}
+
+/*2019年ボイスルーレット*/
+.voice_new_area2019 ul.box-2-list li.box-2-item:nth-child(3),
+.voice_new_area2019 ul.box-2-list li.box-2-item:nth-child(5),
+.voice_new_area2019 ul.box-2-list li.box-2-item:nth-child(7) {
+	visibility: hidden!important;
+}
+
+.voice_area2019 ul.box-2-list li:nth-child(14),
+.voice_area2019 ul.box-2-list li:nth-child(16),
+.voice_area2019 ul.box-2-list li:nth-child(18)
+ {
+	visibility: hidden!important;
+}

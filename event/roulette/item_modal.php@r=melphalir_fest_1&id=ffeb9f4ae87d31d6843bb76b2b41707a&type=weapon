@@ -1,0 +1,86 @@
+<div id="modal-box">
+	<div id="modal-frame">
+		<div class="modal2">
+			<div class="modal-content2">
+									<!-- 画像エリア -->
+					<div class="modal-image2">
+						<img src="../../img/event/melphalir_fest/ss/ffeb9f4ae87d31d6843bb76b2b41707a/l.png" width="770" height="430" />
+					</div>
+											<!-- 情報エリア -->
+						<div class="modal-data2">
+																						<table class="table">
+									<tr>
+										<th class="th text-center" width="28%">
+											名前
+										</th>
+										<th class="th text-center" width="12%">
+											種類
+										</th>
+										<th class="th text-center" width="10%">
+											能力
+										</th>
+										<th class="th text-center" width="10%">
+											レベル
+										</th>
+										<th class="th text-center" width="14%">
+											クラス
+										</th>
+										<th class="th text-center" width="14%">
+											耐久
+										</th>
+										<th class="th text-center">
+											スロット
+										</th>
+									</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												イクサバ彷徨ウ骨刀
+											</td>
+											<td class="td text-center">
+																									片手
+																							</td>
+											<td class="td text-center">
+												100
+											</td>
+											<td class="td text-center">
+												20
+											</td>
+											<td class="td text-center">
+												<span class="warrior-icon"></span>
+											</td>
+											<td class="td text-center">
+												58410
+											</td>
+											<td class="td text-center">
+												4
+											</td>
+										</tr>
+																			<tr>
+											<td class="td-em" style="font-size: 14px;">
+												生者ヲ怨ム骨盾
+											</td>
+											<td class="td text-center">
+																									盾
+																							</td>
+											<td class="td text-center">
+												24
+											</td>
+											<td class="td text-center">
+												20
+											</td>
+											<td class="td text-center">
+												<span class="warrior-icon"></span>
+											</td>
+											<td class="td text-center">
+												20820
+											</td>
+											<td class="td text-center">
+												-
+											</td>
+										</tr>
+																	</table>
+																											</div>
+												</div><!-- modal-content -->
+		</div><!-- modal -->
+	</div>
+</div>

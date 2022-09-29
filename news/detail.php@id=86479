@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="ja" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
+	<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
+	<link rel="shortcut icon" href="../favicon.ico" />
+	<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery1-9-0.js"></script>
+	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery-ui1-9.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/square-enix.css" />
+	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/swanky-purse/jquery-ui-1.9.2.custom.css" />	
+
+	<link type="text/css" rel="stylesheet" href="../style/reset.css" />
+	<link type="text/css" rel="stylesheet" href="../style/core.css" />
+	<link type="text/css" rel="stylesheet" href="../style/common.css" />
+					<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"></script>
+	<script type="text/javascript" src="../script/lib/velocity.min.js"></script>
+	<script type="text/javascript" src="../script/lib/taco.min.js"></script>
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX" />
+	<meta property="og:title" content="ファンタジーアース ゼロ" />
+	<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+	<meta property="og:url" content="http://www.fantasy-earth.com/" />
+	<meta property="og:image" content="http://www.fantasy-earth.com/img/misc/og.jpg" />
+
+	<link type="text/css" rel="stylesheet" href="../style/base.css" />
+					<script type="text/javascript" src="../script/common/plugin.js"></script>
+	<script type="text/javascript" src="../script/common/two_column.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="../style/news.css" />
+		</head>
+<body class="">
+	<!-- === headerArea === -->
+	<div id="sqexHeader-black">
+		<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"><img src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif" width="130" height="14" border="0" alt="SQUARE ENIX" /></a>
+	</div>
+	<!-- === /headerArea === -->
+
+		<!-- 背景ラッパ -->
+	<div id="wrapper">
+
+		<!-- ヘッダエリア -->
+		<div id="header">
+			<!-- ヘッダ影 -->
+			<ul id="header-shadow">
+				<li id="header-main">
+					<!-- ロゴ：トップへ戻る -->
+					<a href="../index.html">
+						<img src="../img/header/logo.png" />
+					</a>
+				</li>
+			</ul>
+		</div><!-- header -->
+
+		<!-- メインコンテンツエリア -->
+		<div id="main">
+			<!-- メニューエリア -->
+			<div id="main-navi">
+				<ul id="main-navi-container">
+					<!-- 蔦の飾り -->
+					<li id="main-navi-ivy-deco"></li>
+					<li id="main-navi-content">
+						<ul>
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-intro"
+									href="../intro/feature.html">
+									FEZとは
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../intro/feature.html">
+														<span>FEZの特徴</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/story.html">
+														<span>ストーリー</span>
+													</a>
+												</li>
+												<li>
+													<a href="../intro/netzawar.html">
+														<span>国家紹介</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-playguide" 
+									href="../playguide/base.html">
+									プレイガイド
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../playguide/base.html">
+														<span>操作方法</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/map.html">
+														<span>地図</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/class.html">
+														<span>クラス/スキル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/state.html">
+														<span>状態異常</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/item_rec.html">
+														<span>アイテム</span>
+													</a>
+												</li>
+												<li>
+													<a href="../playguide/shop.html">
+														<span>施設・NPC</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-gamesystem" 
+									href="../gamesystem/war.html">
+									ゲームシステム
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../gamesystem/war.html">
+														<span>戦争</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/official.html">
+														<span>オフィシャルショップ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/enchant.html">
+														<span>エンチャント</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/amulet.html">
+														<span>アミュレット・スペル</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/reinforce.html">
+														<span>装備強化</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/force.html">
+														<span>部隊</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/coliseum.html">
+														<span>闘技場</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/casino.html">
+														<span>カジノ</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/quest.html">
+														<span>クエスト</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/renpei.html">
+														<span>練兵</span>
+													</a>
+												</li>
+												<li>
+													<a href="../gamesystem/accessory.html">
+														<span>アクセサリ</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-library" 
+									href="../library/wallpaper.html">
+									ライブラリ
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="../library/wallpaper.html">
+														<span>壁紙</span>
+													</a>
+												</li>
+												<li>
+													<a href="../library/item_library/index.html">
+														<span>アイテム図鑑</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+							<li class="main-navi-item">
+								<a class="main-navi-button" id="main-navi-support" 
+									href="detail.php@id=86479#">
+									サポート
+								</a>
+								<!-- プルダウンメニュー -->
+								<div class="sub-navi">
+									<div class="sub-navi-container">
+										<div class="sub-navi-content">
+											<ul>
+												<li>
+													<a href="http://support.jp.square-enix.com/faqtop.php?id=13021&amp;la=0" target="_blank">
+														<span>FAQ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://support.jp.square-enix.com/contacttop.php?id=13021&amp;la=0" target="_blank">
+														<span>お問い合わせ</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.jp.square-enix.com/account/" target="_blank">
+														<span>アカウント</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/account/profile" target="_blank">
+														<span>BRIDGEプロフィール</span>
+													</a>
+												</li>
+												<li>
+													<a href="http://www.fantasy-earth.com/cash/history/deposit/" target="_blank">
+														<span>オーブ履歴確認</span>
+													</a>
+												</li>
+											</ul>
+										</div><!-- sub-navi-content -->
+									</div>
+								</div><!-- sub-navi -->
+							</li><!-- main-navi-item -->
+						</ul>
+					</li>
+				</ul>
+			</div><!-- main-navi -->
+
+			<!-- 蔦の飾り -->
+			<div id="main-ivy-deco"></div>
+				<!-- メイン２カラムフレーム -->
+	<div id="main-two-column">
+		<!-- フレームの中間の背景 -->
+		<div id="main-two-column-middle"></div>
+		<div id="main-two-column-top">
+			<div id="main-two-column-bottom">
+				<div id="main-two-column-content">
+					<ul>
+						<!-- 左側コンテンツ -->
+						<li id="main-two-column-left">
+								<!-- メインコンテンツ領域 -->
+	<div id="main-content">
+		<!-- 大見出し -->
+		<div class="main-content-headtitle">
+			<img src="../img/news/headtitle.png" />
+		</div>
+			<div class="content-box">
+		<!-- 上のふた -->
+		<div class="content-box-top"></div>
+		<div class="content-box-middle">
+			<!-- ニュース見出し -->
+			<div id="news-detail-head">
+				<ul>
+					<li>
+						<span class="news-icon-other"></span>
+					</li>
+					<li>
+						<span>2022-09-07</span>
+					</li>
+					<li>
+						<span>『メルファリアフェスティバルチケット交換ランキング(防具編①)』の公開</span>
+					</li>
+				</ul>
+			</div><!-- news-detail-head -->
+
+			<!-- 通常罫線 -->
+			<hr />
+			
+			<!-- ニュース詳細 -->
+			<div id="news-detail-content"><div class="large-content">
+	<p class="ml20 mb30">
+		いつも『ファンタジーアース ゼロ』をご利用いただき、誠にありがとうございます。<br /><br/>
+ファンタジーアース ゼロは、9月28日(水)15:00をもちまして、サービスを終了させて頂きます。
+<br/>
+サービス終了についてのお知らせは、【<a href="detail.php@id=84981" target="_blank">こちら</a>】からご確認ください。<br/>
+また、今後のイベントスケジュールにつきましては【<a href="../event/schedule_2022.html" target="_blank">こちら</a>】からご確認ください。<br/>
+<br/>
+
+</p>
+	<hr class="deco" />
+<h4>メルファリアフェスティバルチケットの交換ランキングを公開！</h4>
+	<p class="ml20 mb30">
+今回、メルファリアフェスティバルチケットの総交換回数は、19,815回！<br/>
+この中から、メルファリアフェスティバルチケットで交換された装備のランキングをクラス・武器ごとに集計し発表いたします！<br/>
+初登場した武器・防具が交換される傾向が高いですが、ぜひお楽しみ頂ければ幸いです。<br/>
+※カッコの数字は、交換回数になります。<br/>
+<br/>
+防具編②(セスタス・フェンサー・クラス共通装備)は、【<a href="detail.php@id=86480" target="_blank">こちら</a>】からご確認ください。<br/>
+武器編は、【<a href="detail.php@id=86482" target="_blank">こちら</a>】からご確認ください。<br/>
+    </p>
+<h5>男性ウォリアー</h5>
+<table class="ml100"><table align="center" border="1">
+	<tr>
+			<th class="th text-c">1位：シャドーリーガルセット(17)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/acc5f9932a2427f05f54172fe063ead1e00f4112380eecfee06118638df1ec03" width="250" /></td>
+	</tr>
+</table>
+
+
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">2位：カイムセット(14)</th>
+			<th class="th text-c">2位：ウルスラグナセット(14)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/be41ab2d1918b3f35c10568e1014a5ac58328aaf656b0895d7b191babd968d85" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/4db6f701ccc9ca1d0ae070ef1691504fc4773bf52cc9a657f9fa9f5f391ba365" width="250" /></td>
+</td>
+	</tr>
+</table>
+	<p class="ml20">
+TOP3以外のランキングはこちら！</p>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ランキング</th>
+			<th class="th text-c">装備名</th>
+		</tr>
+		<tr>
+			<td class="td">4位</td>
+			<td class="td">アレスセット(12)</td>
+		</tr>
+		<tr>
+			<td class="td">4位</td>
+			<td class="td">ルキフグスセット(12)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">ポボスセット(11)</td>
+		</tr>
+		<tr>
+			<td class="td">7位</td>
+			<td class="td">チョンチョニーセット(10)</td>
+		</tr>
+		<tr>
+			<td class="td">8位</td>
+			<td class="td">アグロヴァルセット(9)</td>
+		</tr>
+		<tr>
+			<td class="td">9位</td>
+			<td class="td">シルティンセット(8)</td>
+		</tr>
+		<tr>
+			<td class="td">9位</td>
+			<td class="td">ディシダルセット(8)</td>
+		</tr>
+	</table>
+
+<h5>女性ウォリアー</h5>
+<table class="ml20">
+	<tr>
+			<th class="th text-c">1位：ヘーベーセット(131)</th>
+			<th class="th text-c">2位：アスワンセット(29)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/ae73ecc93b1a9cdb87ae48babfff8e7747367ef7d9645be2e65b2ef0c6583f2a" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/6d8c9b48e2fb577bfee149b500b7241a87235d0dbd112d98a77b78f19100aece" width="250" /></td>
+</td>
+	</tr>
+</table>
+
+
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">3位：クロートーセット(26)</th>
+			<th class="th text-c">3位：ハイアゼリーセット(26)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/d0e83bf56cddf955ef438cdc300d73c1a54e54349dad9ee3bd504eda0a8ad451" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/2259a1ede73480b7928a2ef63df9918951470abcc751e48a9ead0f2221e89fb5" width="250" /></td>
+</td>
+	</tr>
+</table>
+	<p class="ml20">
+TOP3以外のランキングはこちら！</p>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ランキング</th>
+			<th class="th text-c">装備名</th>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">テミスセット(23)</td>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">アルミナスセット(23)</td>
+		</tr>
+		<tr>
+			<td class="td">7位</td>
+			<td class="td">ラフィネセット(20)</td>
+		</tr>
+		<tr>
+			<td class="td">7位</td>
+			<td class="td">ジャルフセット(20)</td>
+		</tr>
+		<tr>
+			<td class="td">9位</td>
+			<td class="td">シャドーロワイヤルセット(18)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">ロワイヤルセット(16)</td>
+		</tr>
+	</table>
+
+<h5>男性スカウト</h5>
+<table class="ml20">
+	<tr>
+			<th class="th text-c">1位：シャドールナールセット(38)</th>
+			<th class="th text-c">2位：オレルスセット(26)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/0d9e653e6a1ae6467f9bae5bfe5bfc59c63592c7871621cf1524e30ee45239e5" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/787bd23957295af0c9e67d717cfa32794b8842dda148101a381048f93ae82920" width="250" /></td>
+</td>
+	</tr>
+</table>
+
+
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">3位：サルガッソーセット(11)</th>
+			<th class="th text-c">3位：トールセット(11)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/884811d8a73d7dcf7680892383eace99d31df379613f4f3d3871ea141d3872bf" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/0e9f420f8164fee2cee302a674daa2dd88b7d45fef136b0eef615a7f6ba1a015" width="250" /></td>
+</td>
+	</tr>
+</table>
+	<p class="ml20">
+TOP3以外のランキングはこちら！</p>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ランキング</th>
+			<th class="th text-c">装備名</th>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">パンデイロセット(10)</td>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">イミテリーセット(10)</td>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">ラクサーシャセット(10)</td>
+		</tr>
+		<tr>
+			<td class="td">8位</td>
+			<td class="td">ルナールセット(9)</td>
+		</tr>
+		<tr>
+			<td class="td">9位</td>
+			<td class="td">オルフェウスセット(7)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">ブロッケンセット(5)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">リアルガーセット(5)</td>
+		</tr>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">アンブラセット(5)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">ドレークセット(5)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">コルセッジセット(5)</td>
+		</tr>
+	</table>
+
+<h5>女性スカウト</h5>
+<table class="ml100"><table align="center" border="1">
+	<tr>
+			<th class="th text-c">1位：シャドールナルドセット(36)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/263407d6eeda50a089a0c6d552478a1058bf186bf16123003a41c6caa26b8236" width="250" /></td>
+	</tr>
+</table>
+
+
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">2位：ケレースセット(34)</th>
+			<th class="th text-c">3位：シヴセット(16)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/1c0eab5d88a708e7a1c3791c138734db0d94bce7e5031f1a3a9ba6e18717a112" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/90ca8b8bd93a03d89855e899c07e3025c7dcfc1ce2f71d227d479e7d2be08850" width="250" /></td>
+</td>
+	</tr>
+</table>
+	<p class="ml20">
+TOP3以外のランキングはこちら！</p>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ランキング</th>
+			<th class="th text-c">装備名</th>
+		</tr>
+		<tr>
+			<td class="td">4位</td>
+			<td class="td">テルースセット(15)</td>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">ガイアセット(13)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">ルナルドセット(13)</td>
+		</tr>
+		<tr>
+			<td class="td">7位</td>
+			<td class="td">ヘンフェザーセット(8)</td>
+		</tr>
+		<tr>
+			<td class="td">8位</td>
+			<td class="td">スルーズセット(7)</td>
+		</tr>
+		<tr>
+			<td class="td">9位</td>
+			<td class="td">ノッキングセット(6)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">バイラーナセット(5)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">エスターテアリアセット(5)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">ハイミールセット(5)</td>
+		</tr>
+	</table>
+<h5>男性ソーサラー</h5>
+<table class="ml100"><table align="center" border="1">
+	<tr>
+			<th class="th text-c">1位：尾裂狐セット(36)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/7c9ea84b9ab98b9e7d15a2c0912a5ddb9adb2d112b414d2ca138a43a5b8117cc" width="250" /></td>
+	</tr>
+</table>
+
+
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">2位：シャドープリーストセット(10)</th>
+			<th class="th text-c">3位：ハデスセット(8)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/1c607f13a1cbc035d2a1d1dedcdc242e998e24a1314155272dbb7ffab45d83b8" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/6afb2bea26fd10f30336e9470b9ccf71d3cca9769dab78f18d9f41877b440c48" width="250" /></td>
+</td>
+	</tr>
+</table>
+	<p class="ml20">
+TOP3以外のランキングはこちら！</p>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ランキング</th>
+			<th class="th text-c">装備名</th>
+		</tr>
+		<tr>
+			<td class="td">4位</td>
+			<td class="td">ノルドマギアセット(7)</td>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">プリーストセット(6)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">ティレウスセット(4)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">マゴスセット(4)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">アイデスセット(4)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">プルトンセット(4)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">テオネラモデルセット(4)</td>
+		</tr>
+	</table>
+<h5>女性ソーサラー</h5>
+<table class="ml100"><table align="center" border="1">
+	<tr>
+			<th class="th text-c">1位：ソールセット(40)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/b64808c85171b09798130ba1034fb4927a0abc16d7b07ff5fceb0c745c6c2a05" width="250" /></td>
+	</tr>
+</table>
+
+
+<table class="ml20 mb30">
+	<tr>
+			<th class="th text-c">2位：テオネラモチフセット(29)</th>
+			<th class="th text-c">3位：ノートセット(26)</th>
+	</tr>
+	<tr>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/034bca5dd7a46c435c64ac9189a893e8c72df7d73bb6c460c423c4350e321610	" width="250" /></td>
+			<td class="td text-c"><img src="https://cache.sqex-bridge.jp/img/ebccdfa2c1f5e8edf0af16989a7bea77cbb0194ea4371ac1d9d5e182f8ea2487" width="250" /></td>
+</td>
+	</tr>
+</table>
+	<p class="ml20">
+TOP3以外のランキングはこちら！</p>
+	<table class="ml20 mb30">
+		<tr>
+			<th class="th text-c">ランキング</th>
+			<th class="th text-c">装備名</th>
+		</tr>
+		<tr>
+			<td class="td">4位</td>
+			<td class="td">マリーアセット(21)</td>
+		</tr>
+		<tr>
+			<td class="td">5位</td>
+			<td class="td">シャドープレーテセット(18)</td>
+		</tr>
+		<tr>
+			<td class="td">6位</td>
+			<td class="td">ネッサローズセット(17)</td>
+		</tr>
+		<tr>
+			<td class="td">7位</td>
+			<td class="td">アラディアセット(12)</td>
+		</tr>
+		<tr>
+			<td class="td">7位</td>
+			<td class="td">ゴルゴーンセット(12)</td>
+		</tr>
+		<tr>
+			<td class="td">7位</td>
+			<td class="td">プレーテセット(12)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">プラムセット(10)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">フォレッティセット(10)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">マゴアズールセット(10)</td>
+		</tr>
+		<tr>
+			<td class="td">10位</td>
+			<td class="td">パッショナートセット(10)</td>
+		</tr>
+	</table>
+
+	<hr class="deco" />
+<br/>
+
+引き続き、『ファンタジーアース ゼロ』をよろしくお願いいたします。</p></div><!-- news-detail-main -->
+		</div><!-- content-box-middle -->
+		<!-- 下のふた -->
+		<div class="content-box-bottom-pack">
+			<a class="back-button button" href="javascript:history.back();">
+				戻る
+			</a>
+		</div>
+	</div><!-- content-box -->
+
+	</div><!-- "main-content -->
+						</li>
+						<!-- 右側コンテンツ -->
+						<li id="main-two-column-right">
+							<!-- 大きめにアピールするエリア -->
+							<ul id="main-two-column-right-content-list">
+								<li>
+									<a class="button" id="free-entry-button" target="_blank" title="無料 新規登録はこちら"
+										href="../account/entry/entry">
+										無料 新規登録はこちら
+									</a>
+								</li>
+								<li>
+									<a class="button" id="client-download-button" title="無料クライアントダウンロード"
+										href="http://cache.dl.fantasy-earth.com/fezero/client/FEZ_setup.zip">
+										無料クライアントダウンロード
+									</a>
+								</li>
+								<li class="pt15 pb15">
+									<!-- メンテナンスバナー -->
+									<img class="" src="../img/main/two_column/right/maintenance.png" alt="定期メンテナンス 毎週水曜日11:00~17:00" />
+								</li>
+																	<li>
+																															<a href="../roulette/index.html" title="ヴィラーノルーレット" target="_blank">
+												<img src="../banner/side/r_bnr_vilano_220511.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../beginnersguide/index.html" title="初心者ガイド" target="_blank">
+												<img src="../banner/side/r_bnr_beginner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../update/mpoint/index.html" title="毎日応援" target="_blank">
+												<img src="../banner/side/r_bnr_dailylogin.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../library/item_library/index.html" title="アイテム図鑑" target="_blank">
+												<img src="../banner/side/r_bnr_item_library.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../voicehistory/index.html" title="ボイスヒストリー" target="_blank">
+												<img src="../banner/side/r_bnr_voicehistory.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../info/onlinemanner.html" title="ゲームプレイマナー" target="_blank">
+												<img src="../banner/side/r_bnr_onlinemanner.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="../netcafe/index.html" title="公認ネットカフェ" target="_blank">
+												<img src="../banner/side/r_bnr_netcafe.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="http://www.fantasy-earth.com/camp/s/list/" title="キャンペーンシリアルコード受取" target="_blank">
+												<img src="../banner/side/r_bnr_getcmps.png" />
+											</a>
+																			</li>
+																	<li>
+																															<a href="https://store.line.me/stickershop/product/1113699/ja" title="LINEスタンプ" target="_blank">
+												<img src="../banner/side/r_bnr_sticker.png" />
+											</a>
+																			</li>
+																<li>
+									<div class="twitter-box">
+										<a class="twitter-timeline" 
+											data-link-color="#810000" 
+											data-border-color="#BAB19E" 
+											data-chrome="nofooter transparent" 
+											data-lang="ja" 
+											data-height="450" 
+											href="https://twitter.com/fez_staff?ref_src=twsrc%5Etfw">Tweets by fez_staff</a> 
+										<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+									</div>
+								</li>
+							</ul><!-- main-two-column-right-large-area -->
+						</li>
+					</ul>
+				</div><!-- main-two-column-main -->
+			</div><!-- main-two-column-bottom -->
+		</div><!-- main-two-column-top-->
+	</div><!-- main-two-column -->
+		</div><!-- main -->
+
+		<!-- フッターエリア -->
+		<div id="footer">
+		</div><!-- footer -->
+
+	</div><!-- wrapper -->
+	<!-- スクロールトップ -->
+	<div id="scroll-top">
+		<a class="button">ページトップ</a>
+	</div>
+
+	<!-- === footerArea === -->
+	<div id="sqexFooter" class="sqex-footer-black">
+		<div id="footerWebAdmin01">
+		</div>
+		<!-- デフォルトフッター -->
+		<div id="sqex-footer-contents">
+			<ul>
+				<li class="sqex-footer-first">
+					<a href="../info/baseinfo.html">ゲーム基本情報</a>
+				</li>
+				<li>
+					<a href="../info/agreement.html">特定商取引に基づく表記</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
+				</li>
+				<li>
+					<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
+				</li>
+				<li>
+					<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank">サポートセンター</a>
+				</li>
+			</ul>
+			<div id="footerWebAdmin02">
+				<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
