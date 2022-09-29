@@ -1,0 +1,879 @@
+﻿@charset "UTF-8";
+
+img {
+  border: 0;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.clearfix:after{
+  content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+
+/* header */
+div#sqexHeader-black {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 37px;
+  background-color:#000000;
+  border-bottom: 1px solid #838383;
+  font-family:Verdana,Arial,Meiryo,"Hiragino Kaku Gothic Pro",Osaka,"MS P Gothic",sans-serif;
+  z-index:20000!important;
+  position:relative;
+}
+div#sqexHeader-black #sqexlogo{
+  float:left;
+  display:inline;
+}
+
+div#sqexHeader-black #sqexlogo img {
+  margin:13px 0 0 10px;
+}
+
+div#sqexHeader-black #sqexaccount{
+  float:right;
+  margin-top: 4px;
+  margin-right:10px;
+}
+
+div#sqexHeader-black_nogcse {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height: 37px;
+  background-color:#000000;
+  border-bottom: 1px solid #838383;
+  font-family:Verdana,Arial,Meiryo,"Hiragino Kaku Gothic Pro",Osaka,"MS P Gothic",sans-serif;
+  z-index:20000!important;
+  position:relative;
+}
+div#sqexHeader-black_nogcse #sqexlogo{
+  float:left;
+  display:inline;
+}
+
+div#sqexHeader-black_nogcse #sqexlogo img {
+  margin:13px 0 0 10px;
+}
+
+div#sqexHeader-black_nogcse #sqexaccount{
+  float:right;
+  margin-top: 4px;
+  margin-right:10px;
+}
+
+div#sqexHeader-white {
+  width:100%;
+  margin: 0;
+  padding: 0;
+  height: 37px;
+  background-color:#FFFFFF;
+  border-bottom: 1px solid #838383;
+  font-family:Verdana,Arial,Meiryo,"Hiragino Kaku Gothic Pro",Osaka,"MS P Gothic",sans-serif;
+  z-index:20000!important;
+  position:relative;
+}
+div#sqexHeader-white #sqexlogo{
+  float:left;
+  display:inline;
+}
+div#sqexHeader-white #sqexlogo img {
+  margin:13px 0 0 10px;
+}
+div#sqexHeader-white #sqexaccount{
+  float:right;
+  margin-top: 4px;
+  margin-right:10px;
+}
+
+div#sqexHeader-white_nogcse {
+  width:100%;
+  margin: 0;
+  padding: 0;
+  height: 37px;
+  background-color:#FFFFFF;
+  border-bottom: 1px solid #838383;
+  font-family:Verdana,Arial,Meiryo,"Hiragino Kaku Gothic Pro",Osaka,"MS P Gothic",sans-serif;
+  z-index:20000!important;
+  position:relative;
+}
+div#sqexHeader-white_nogcse #sqexlogo{
+  float:left;
+  display:inline;
+}
+div#sqexHeader-white_nogcse #sqexlogo img {
+  margin:13px 0 0 10px;
+}
+div#sqexHeader-white_nogcse #sqexaccount{
+  float:right;
+  margin-top: 4px;
+  margin-right:10px;
+}
+
+div#sqex-header-contents-inner {
+  z-index:1;
+}
+
+div#sqex-header-contents-inner #sqexlogo img {
+  margin-left:-130px;
+}
+
+
+/* -----------------------------------------------------------
+
+CSS Information
+
+ Style Info:     デフォルトのスタイルのリセット及び基本設定(フッター)
+
+=Reset
+=div#sqexFooter
+=div.sqex-footer-white
+=div.sqex-footer-black
+=div#sqexFooter div.column2
+
+----------------------------------------------------------- */
+
+/*----------------------------------------------------
+=Reset
+----------------------------------------------------*/
+#sqexFooter div,
+#sqexFooter dl,
+#sqexFooter dt,
+#sqexFooter dd,
+#sqexFooter ul,
+#sqexFooter li,
+#sqexFooter p {
+  margin: 0;
+  padding: 0;
+}
+#sqexFooter li {
+  list-style-type: none;
+}
+#sqexFooter img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+
+/*----------------------------------------------------
+=div#sqexFooter
+----------------------------------------------------*/
+div#sqexFooter {
+  margin-top: 0px;
+  /*min-width: 980px;*/
+  border-top: 1px solid #666;
+  font-size: 12px;
+  clear: both;
+  text-align: center;
+  font-family:Verdana,Arial,Meiryo,"Hiragino Kaku Gothic Pro",Osaka,"MS P Gothic",sans-serif;
+  font-weight:normal!important;
+}
+div#sqexFooter a:link,
+div#sqexFooter a:visited,
+div#sqexFooter a:hover,
+div#sqexFooter a:active {
+  text-decoration: none!important;
+  font-weight:normal!important;
+}
+div#sqexFooter a:hover {
+  text-decoration: underline!important;
+  font-weight:normal!important;
+}
+div#sqex-footer-contents {
+  border-bottom: 1px solid #333;
+}
+
+div#sqexFooter div.sqex-footer-spbuy{/*スマホ＆モバイルの購入ボタンをつける*/
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #333;
+  padding:10px 0;
+  text-align:center;
+}
+div#sqexFooter div.sqex-footer-spbuy a {
+  margin-left: 20px;
+}
+div#sqexFooter div.sqex-footer-spbuy img {
+  max-height: 40px;
+  vertical-align: middle;
+}
+
+div#sqex-footer-contents-inner {
+  overflow: hidden;
+  _zoom: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 65px;
+}
+* html div#sqex-footer-contents-inner {
+  height: 65px;
+  width: 100%;
+}
+
+div#sqexFooter div.sqex-footer-logos ,
+div#sqexFooter div.sqex-footer-logos2 {
+  height: 65px;
+  line-height: 65px;
+  text-align: left;
+}
+* html div#sqexFooter div.sqex-footer-logos {
+  padding-top: 11px;
+  height: 54px;
+  line-height: 54px;
+}
+*:first-child+html div#sqexFooter div.sqex-footer-logos {
+  padding-top: 11px;
+  height: 54px;
+  line-height: 1;
+}
+* html div#sqexFooter div.sqex-footer-logos2 {
+  padding-top: 5px;
+  height: 60px;
+  line-height: 60px;
+}
+*:first-child+html div#sqexFooter div.sqex-footer-logos2 {
+  padding-top: 5px;
+  height: 60px;
+  line-height: 1;
+}
+div#sqexFooter div.sqex-footer-logos img ,
+div#sqexFooter div.sqex-footer-logos2 img {
+  vertical-align: middle;
+}
+div#sqexFooter div.sqex-footer-links img{
+  max-height: 40px;
+  vertical-align: middle;
+}
+div#sqexFooter dl.sqex-footer-shares img {
+  max-height: 25px;
+  vertical-align: top;
+}
+div#sqexFooter div.sqex-footer-links {
+  position: absolute;
+  right: 10px;
+  padding-top: 11px;
+  height: 54px;
+  text-align: right;
+}
+div#sqexFooter div.sqex-footer-links a {
+  margin-left: 20px;
+}
+div#sqexFooter dl.sqex-footer-shares {
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 46px;
+  text-align: center;
+  z-index:1000;
+}
+div#sqexFooter dl.sqex-footer-shares dt,
+div#sqexFooter dl.sqex-footer-shares dd {
+  display: inline;
+  margin-right: 15px;
+  /*vertical-align:top;*//*2011.07.13*/
+}
+div#sqexFooter dl.sqex-footer-shares dt {
+  margin-left: 15px;
+}
+
+html>/**/body div#sqexFooter dl.sqex-footer-shares dd.gp1 div{/*Google+1ボタン IE8対策*/
+display/***/:none9;
+}
+
+div#sqexFooter div.sqex-footer-logos ,
+div#sqexFooter div.sqex-footer-logos2 {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  width: 40%;
+}
+div#sqexFooter div.sqex-footer-logos div ,
+div#sqexFooter div.sqex-footer-logos2 div {
+  display: table-cell;
+  height: 65px;
+  vertical-align: middle;
+}
+div#sqexFooter div.sqex-footer-logos img {
+  max-height: 40px;
+  margin-right: 13px;
+  vertical-align: middle;
+}
+div#sqexFooter div.sqex-footer-logos2 img {
+  max-height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+div#sqexFooter div.sqex-footer-logos img.foreign-rating,
+div#sqexFooter div.sqex-footer-logos2 img.foreign-rating {
+  max-height: 100px;
+}
+div#sqexFooter div.sqex-footer-logos object {
+    margin-right:20px;
+    height:40px;
+    width:auto;
+    vertical-align: middle;
+}
+div#sqexFooter div.sqex-footer-logos object.footerlogo-rectangle {
+    height:22px;
+    padding:9px 0;
+}
+div#sqexFooter ul {
+  padding: 10px 0;
+  text-align: center;
+  line-height: 1;
+  border-bottom: 1px solid #333;
+  width:100%;
+}
+* html div#sqexFooter ul {
+  border-bottom: 1px solid #333;
+  width:100%;
+}
+div#sqexFooter ul li {
+  display: inline;
+  padding-left: 11px;
+  padding-right: 10px;
+  border-left: 1px dotted #666;
+}
+div#sqexFooter ul li.sqex-footer-first {
+  border: none;
+}
+div#sqexFooter p.sqex-footer-tm {
+  color: #6a6a6a;
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 14px 15px 0 15px;
+  border-top: 1px solid #333;
+  text-align: left;
+  line-height: 1.1;
+}
+
+div#sqexFooter p.sqex-footer-tm2_k {
+  color: #ababab;
+  font-size: 10px;
+  padding: 14px 15px 0 15px;
+  text-align: left!important;
+  line-height: 1.1;
+}
+div#sqexFooter p.sqex-footer-tm2_w {
+  color: #515151;
+  font-size: 10px;
+  padding: 14px 15px 0 15px;
+  text-align: left!important;
+  line-height: 1.1;
+}
+
+
+div.sqex-footer-tooltip{  
+width: 332px;
+position: absolute;  
+top:-1000px;
+left:-1000px;
+line-height:1.0em!important;
+z-index:100;
+}  
+
+div.sqex-footer-tooltip p{
+border: 1px solid #666666;
+color: #333333;  
+background: #FEFEFE;  
+padding:5px;
+font-size:10px;
+}  
+
+
+div#sqexFooter div.sqex-footer-copy-logo {
+  overflow: hidden;
+  _zoom: 1;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 65px;
+}
+
+div#sqexFooter .sqex-footer-exlogo {
+    float:right;
+	margin:10px 10px 10px 0;
+}
+
+div#sqexFooter p.sqex-footer-copyright {
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+  z-index:1000;
+  width:70%;
+}
+div#sqexFooter p.sqex-footer-copyright-mobile {
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 0px solid #333;
+  text-align: center;
+  line-height: 1;
+  z-index:1000;
+  width:60%;
+}
+
+div#sqexFooter div.sqex-footer-copy-logo span.sqexch{
+  position: absolute;
+  right: 10px;
+  padding: 11px 0 0 11px;
+  text-align: right;
+}  
+
+
+div#sqexFooter div.sqex-footer-copy-logo span.sqexch a{
+	margin-left:10px;
+}  
+
+p.sqex-footer-copyright span{
+	display:block;
+	margin:-25px 10px 0 0;
+	text-align:right;
+}  
+
+p.sqex-footer-copyright span a{
+margin-left:10px;
+}  
+
+div#sqexFooter p.sqex-footer-copyright3c{
+	padding: 20px 0;
+	display:table;
+	width:100%;
+	text-align:center;
+}
+
+div#sqexFooter p.sqex-footer-copyright3c span.sqex-footer-copy-l{
+	display:table-cell;
+	width:300px;
+}
+
+div#sqexFooter p.sqex-footer-copyright3c span.sqex-footer-copy-c{
+	display:table-cell;
+}
+
+div#sqexFooter p.sqex-footer-copyright3c span.sqex-footer-copy-r{
+	display:table-cell;
+	width:300px;
+}
+
+
+/*----------------------------------------------------
+=div.sqex-footer-white
+----------------------------------------------------*/
+div.sqex-footer-white {
+  color: #333;
+  background: #FFF;
+}
+div.sqex-footer-white a:link,
+div.sqex-footer-white a:visited,
+div.sqex-footer-white a:hover,
+div.sqex-footer-white a:active {
+  color: #000;
+}
+
+
+/*----------------------------------------------------
+=div.sqex-footer-black
+----------------------------------------------------*/
+div.sqex-footer-black {
+  background: #000;
+  color: #ccc;
+}
+div.sqex-footer-black a:link,
+div.sqex-footer-black a:visited,
+div.sqex-footer-black a:hover,
+div.sqex-footer-black a:active {
+  color: #fff;
+}
+
+
+/*----------------------------------------------------
+=div#sqexFooter div.column2
+----------------------------------------------------*/
+* html div.column2 div#sqex-footer-contents-inner {
+  height: auto;
+}
+div.column2 div#sqex-footer-contents div.sqex-footer-links {
+  position: absolute;
+  float: right;
+  padding-right: 10px;
+  margin-bottom:5px;
+}
+div.column2 div#sqex-footer-contents dl.sqex-footer-shares {
+	/*border-top:1px solid #333;*/
+	border-bottom:1px solid #333;
+}
+div.column2 div#sqex-footer-contents div.sqex-footer-logos ,
+div.column2 div#sqex-footer-contents div.sqex-footer-logos2 {
+  display: table;
+  position: relative;
+  clear: both;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+div.column2 div#sqex-footer-contents div.sqex-footer-logos,
+div.column2 div#sqex-footer-contents div.sqex-footer-logos div ,
+div.column2 div#sqex-footer-contents div.sqex-footer-logos2,
+div.column2 div#sqex-footer-contents div.sqex-footer-logos2 div {
+  padding-top: 0 !important;
+  height: auto !important;
+  line-height: 1 !important;
+  text-align: center;
+}
+
+div.column2 div#sqex-footer-contents div.sqex-footer-logos img,
+div.column2 div#sqex-footer-contents div.sqex-footer-logos2 img {
+  margin-right: 20px;
+}
+
+/*----------------------------------------------------
+=Item-Black
+----------------------------------------------------*/
+div.sqex_win_item ,
+div.sqex_win_item_w {
+	width:100%;
+	margin:0 auto!important;
+	padding:0!important;
+}
+
+div.sqex_win_item {	background-color:#000000;}
+div.sqex_win_item_w {	background-color:#f2f2f2;}
+
+.sqex_item_box ,
+.sqex_item_box_w {
+	width:100%;
+	min-height:182px;
+	height:auto;
+	max-height:450px;
+	margin:0!important;
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+
+*html .sqex_item_box{ height: expression( this.scrollHeight > 452 ? "450px" : "auto" );}
+*html .sqex_item_box_w{ height: expression( this.scrollHeight > 452 ? "450px" : "auto" );}
+
+.sqex_item_box_w {
+	background-color:#f2f2f2;
+}
+
+.sqex_item_box ul , .sqex_item_box ul li , .sqex_item_box_w ul , .sqex_item_box_w ul li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	list-style-image:none;
+}
+
+.sqex_item_box h2 , .sqex_item_box_w h2{	
+	clear:both;
+	width:500px;
+	height:20px;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/sqexfooter_h2_bg.gif) no-repeat;
+	margin:10px 0 5px 6px;
+	font-size:12px;
+	padding:8px 10px;
+	line-height:1.1!important;
+	text-align:left!important;
+}
+
+.sqex_item_box_w h2{
+	color:#FFFFFF;
+}
+
+
+/*e-STORE関連商品用*/
+.sqex_item_box div.sqexitemblock ,
+.sqex_item_box_w div.sqexitemblock_w {
+	float:left;
+	display:inline;
+	width:245px;
+	height:182px;
+	margin:0 3px 5px 5px!important;
+	padding:8px 0;
+}
+.sqex_item_box div.sqexitemblock{	background:#202020 url(https://www.jp.square-enix.com/common/templates/images/items/sqex_itembox_bg.jpg) no-repeat;!important}
+.sqex_item_box_w div.sqexitemblock_w {	background:#f2f2f2 url(https://www.jp.square-enix.com/common/templates/images/items/sqex_itembox_bg_w.jpg) no-repeat;!important}
+
+
+div.sqexitemblock .sqex_footer_item_image ,
+div.sqexitemblock_w .sqex_footer_item_image{
+	float:left;
+	display:inline;
+	width:85px;
+	margin:0 0 0 8px;
+}
+
+div.sqexitemblock .sqex_footer_item_description , 
+div.sqexitemblock_w .sqex_footer_item_description{
+	float:left;
+	display:inline;
+	font-size:12px;
+	width:129px;
+	height:148px!important;
+	margin:3px 8px 0 12px;
+	text-align:left!important;
+}
+
+div.sqexitemblock .sqex_footer_item_description span.ps3,
+div.sqexitemblock_w .sqex_footer_item_description span.ps3{
+	display:block;
+	height:11px!important;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-ps3.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.ps2,
+div.sqexitemblock_w .sqex_footer_item_description span.ps2{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-ps2.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.ps,
+div.sqexitemblock_w .sqex_footer_item_description span.ps{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-ps.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.psvita,
+div.sqexitemblock_w .sqex_footer_item_description span.psvita{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-psvita.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.psp,
+div.sqexitemblock_w .sqex_footer_item_description span.psp{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-psp.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.xbox360,
+div.sqexitemblock_w .sqex_footer_item_description span.xbox360{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-360.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.wiiu,
+div.sqexitemblock_w .sqex_footer_item_description span.wiiu{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-wiiu.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.wii,
+div.sqexitemblock_w .sqex_footer_item_description span.wii{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-wii.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.n3ds,
+div.sqexitemblock_w .sqex_footer_item_description span.n3ds{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-n3ds.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.nds,
+div.sqexitemblock_w .sqex_footer_item_description span.nds{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-nds.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.pc,
+div.sqexitemblock_w .sqex_footer_item_description span.pc{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-win.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.book,
+div.sqexitemblock_w .sqex_footer_item_description span.book{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-book.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.music,
+div.sqexitemblock_w .sqex_footer_item_description span.music{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-music.gif) no-repeat right;
+} 
+div.sqexitemblock .sqex_footer_item_description span.goods,
+div.sqexitemblock_w .sqex_footer_item_description span.goods{
+	height:11px!important;
+	display:block;
+	background:url(https://www.jp.square-enix.com/common/templates/images/items/icon-goods.gif) no-repeat right;
+} 
+
+/*グッズバナー用*/
+/*
+.sqex_item_box div.sqexgoodsblock ,
+.sqex_item_box_w div.sqexgoodsblock_w {
+	float:left;
+	display:inline;
+	width:500px;
+	height:93px;
+	margin:0 3px 15px 6px;
+	padding:11px 0;
+}
+
+.sqex_item_box div.sqexgoodsblock{	background:#202020 url(https://www.jp.square-enix.com/common/templates/images/items/sqex_goodsbnbox_bg.jpg) no-repeat;}
+.sqex_item_box_w div.sqexgoodsblock_w {	background:#f2f2f2 url(https://www.jp.square-enix.com/common/templates/images/items/sqex_goodsbnbox_bg_w.jpg) no-repeat;}
+
+
+div.sqexgoodsblock .sqex_footer_goods_image,
+div.sqexgoodsblock_w .sqex_footer_goods_image{
+	float:left;
+	display:inline;
+	width:315px;
+	margin:0 0 0 8px;
+}
+
+div.sqexgoodsblock .sqex_footer_item_description ,
+div.sqexgoodsblock_w .sqex_footer_item_description{
+	float:left;
+	display:inline;
+	font-size:12px;
+	width:154px;
+	height:93px;
+	margin:0 8px 0 12px;
+	text-align:left!important;
+}
+
+*html div.sqexgoodsblock .sqex_footer_item_description ,
+*html div.sqexgoodsblock_w .sqex_footer_item_description{
+	float:left;
+	display:inline;
+	font-size:12px;
+	width:160px;
+	height:93px;
+	margin:0 0 0 12px;
+	text-align:left!important;
+}
+*/
+
+/*e-STORE、グッズ共通*/
+
+div.sqexgoodsblock .sqex_footer_goods_image img,
+div.sqexitemblock .sqex_footer_item_image img ,
+div.sqexgoodsblock_w .sqex_footer_goods_image img,
+div.sqexitemblock_w .sqex_footer_item_image img{
+	border:1px solid #666666;
+}
+
+div.sqexgoodsblock .sqex_footer_item_description .sqex_footer_item_name,
+div.sqexitemblock .sqex_footer_item_description .sqex_footer_item_name ,
+div.sqexgoodsblock_w .sqex_footer_item_description .sqex_footer_item_name,
+div.sqexitemblock_w .sqex_footer_item_description .sqex_footer_item_name {
+	color:#CC0033;
+	font-size:12px;
+	margin:5px 0 0 0;
+	line-height:125%!important;
+}
+
+div.sqexgoodsblock .sqex_footer_item_description .sqex_footer_item_name a,
+div.sqexgoodsblock .sqex_footer_item_description .sqex_footer_item_name a:link,
+div.sqexitemblock .sqex_footer_item_description .sqex_footer_item_name a,
+div.sqexitemblock .sqex_footer_item_description .sqex_footer_item_name a:link{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+div.sqexgoodsblock .sqex_footer_item_description .sqex_footer_item_name a,
+div.sqexgoodsblock .sqex_footer_item_description .sqex_footer_item_name a:link,
+div.sqexgoodsblock .sqex_footer_item_description .sqex_footer_item_name a:visited,
+div.sqexitemblock .sqex_footer_item_description .sqex_footer_item_name a,
+div.sqexitemblock .sqex_footer_item_description .sqex_footer_item_name a:link,
+div.sqexitemblock .sqex_footer_item_description .sqex_footer_item_name a:visited{
+	color:#FFFFFF!important;
+	text-decoration:none;
+}
+
+div.sqexgoodsblock .sqex_footer_item_description .sqex_footer_item_name a:hover,
+div.sqexitemblock .sqex_footer_item_description .sqex_footer_item_name a:hover{
+	color:#FFFFFF!important;
+	text-decoration:underline;
+}
+
+div.sqexgoodsblock_w .sqex_footer_item_description .sqex_footer_item_name a,
+div.sqexgoodsblock_w .sqex_footer_item_description .sqex_footer_item_name a:link,
+div.sqexitemblock_w .sqex_footer_item_description .sqex_footer_item_name a,
+div.sqexitemblock_w .sqex_footer_item_description .sqex_footer_item_name a:link{
+	color:#333333!important;
+	text-decoration:none;
+}
+
+div.sqexgoodsblock_w .sqex_footer_item_description .sqex_footer_item_name a:hover,
+div.sqexitemblock_w .sqex_footer_item_description .sqex_footer_item_name a:hover{
+	color:#666666!important;
+	text-decoration:underline;
+}
+
+div.sqexitemblock .sqex_footer_item_cart,
+div.sqexitemblock_w .sqex_footer_item_cart{
+	clear:both;
+	width:101px;
+	margin:0 8px 0 136px;
+}
+
+div.sqexgoodsblock .sqex_footer_goods_cart ,
+div.sqexgoodsblock_w .sqex_footer_goods_cart{
+	padding:43px 8px 0 53px;
+}
+div.sqexitemblock .sqex_footer_item_cart a ,
+div.sqexgoodsblock .sqex_footer_goods_cart a ,
+div.sqexitemblock_w .sqex_footer_item_cart a ,
+div.sqexgoodsblock_w .sqex_footer_goods_cart a {
+	display: block;
+	width: 101px;
+	height: 33px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	text-indent: -9999px; /* テキストを画面の表示より外に */
+	outline: none; /* リンク破線を不可視に */
+}
+div.sqexitemblock .sqex_footer_item_cart a:hover ,
+div.sqexgoodsblock .sqex_footer_goods_cart a:hover ,
+div.sqexitemblock_w .sqex_footer_item_cart a:hover ,
+div.sqexgoodsblock_w .sqex_footer_goods_cart a:hover {
+	background-position: 0 100%;
+}
+div.sqexitemblock .sqex_footer_item_cart a ,
+div.sqexgoodsblock .sqex_footer_goods_cart a {
+	background-image: url(../images/items/sqex_item_detail_btn.jpg);
+}
+div.sqexitemblock_w .sqex_footer_item_cart a ,
+div.sqexgoodsblock_w .sqex_footer_goods_cart a {
+	background-image: url(../images/items/sqex_item_detail_btn_w.jpg);
+}
+
+
+/* ------------------------
+　▼追記：採用ボタンなど
+--------------------------*/
+/*.addcomArea*/
+div#sqexFooter ul.addcomArea { display: flex; justify-content: center;}
+div#sqexFooter ul.addcomArea li { border:none; background: none; }
+div#sqexFooter ul.addcomArea li a.recruitBtn {
+  background: rgba(51,51,51,1);
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 100%;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 160px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+div#sqexFooter ul.addcomArea li a.recruitBtn:hover { text-decoration: none!important; }
+div#sqexFooter ul.addcomArea li a.recruitBtn::before, div#sqexFooter ul.addcomArea li a.recruitBtn::after { display: none; }
+/*end.addcomArea*/
