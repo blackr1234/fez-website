@@ -1,1162 +1,1297 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-	<meta http-equiv="Content-language" content="ja" />
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-	<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
-	<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
-	<meta http-equiv="Content-Style-Type" content="text/css" />
-	<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
-	<link rel="shortcut icon" href="../../favicon.ico" />
-	<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
-	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery1-9-0.js"></script>
-	<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/jquery-ui1-9.js"></script>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-language" content="ja" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="keywords" content="Fantasy Earth ZERO, ファンタジーアース　ゼロ,アクションRPG,MMORPG" />
+		<meta name="description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<meta name="google-site-verification" content="cDWjzCPajjPPFnSyCAqB3RFj9gKam1neQoC8FrI9uEQ" />
+		<link rel="shortcut icon" href="../../favicon.ico" />
+		<title>ファンタジーアース ゼロ(FEZ) | SQUARE ENIX</title>
+		<script type="text/javascript" src="../../script/jquery1-9-0.js"></script>
+		<script type="text/javascript" src="../../script/jquery-ui1-9.js"></script>
 
-	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/square-enix.css" />
-	<link type="text/css" rel="stylesheet" href="http://www.jp.square-enix.com/common/templates/css/swanky-purse/jquery-ui-1.9.2.custom.css" />	
+		<link type="text/css" rel="stylesheet" href="../../style/square-enix.css" />
+		<link type="text/css" rel="stylesheet" href="../../style/jquery-ui-1.9.2.custom.css" />
 
-	<link type="text/css" rel="stylesheet" href="../../style/reset.css" />
-	<link type="text/css" rel="stylesheet" href="../../style/core.css" />
-	<link type="text/css" rel="stylesheet" href="../../style/common.css" />
-			<script type="text/javascript" src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"></script>
-	<script type="text/javascript" src="../../script/lib/velocity.min.js"></script>
-	<script type="text/javascript" src="../../script/lib/taco.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="../../style/reset.css" />
+		<link type="text/css" rel="stylesheet" href="../../style/core.css" />
+		<link type="text/css" rel="stylesheet" href="../../style/common.css" />
+		<script
+			type="text/javascript"
+			src="http://www.jp.square-enix.com/common/templates/js/sqexHeader-black.js"
+		></script>
+		<script type="text/javascript" src="../../script/lib/velocity.min.js"></script>
+		<script type="text/javascript" src="../../script/lib/taco.min.js"></script>
 
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX" />
-	<meta property="og:title" content="ファンタジーアース ゼロ" />
-	<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
-	<meta property="og:url" content="http://www.fantasy-earth.com/" />
-	<meta property="og:image" content="http://www.fantasy-earth.com/img/misc/og.jpg" />
-			<script type="text/javascript" src="../../script/common/plugin.js"></script>
-	<script type="text/javascript" src="../../script/lib/colorbox/jquery.colorbox.js"></script>
-	<script type="text/javascript" src="../../script/event/melphalir_fest/common_2.js"></script>
-	<link rel="stylesheet" type="text/css" href="../../style/event/melphalir_fest_2.css" />
-			<!-- モーダル用 -->
-	<script type="text/javascript" src="../../script/lib/colorbox/jquery.colorbox.js"></script>
-	<link type="text/css" rel="stylesheet" href="../../script/lib/colorbox/colorbox_plain.css" />
-	<!-- 音声再生用 -->
-	<script type="text/javascript" src="../../script/lib/jplayer/jquery.jplayer.min.js"></script>
-	<script type="text/javascript">
-		var BASE_PATH = '/';
-	</script>
-	<script type="text/javascript" src="../../script/event/melphalir_fest/roulette.js"></script>
-</head>
-<body class="">
-	<!-- === headerArea === -->
-	<div id="sqexHeader-black">
-		<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"><img src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif" width="130" height="14" border="0" alt="SQUARE ENIX" /></a>
-	</div>
-	<!-- === /headerArea === -->
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:site_name"
+			content="ファンタジーアース ゼロ(FEZ)公式サイト - 無料オンラインゲーム | SQUARE ENIX"
+		/>
+		<meta property="og:title" content="ファンタジーアース ゼロ" />
+		<meta property="og:description" content="100人が入り乱れる大規模戦争 アクションMMORPG 『Fantasy Earth ZERO』" />
+		<script type="text/javascript" src="../../script/common/plugin.js"></script>
+		<script type="text/javascript" src="../../script/lib/colorbox/jquery.colorbox.js"></script>
+		<script type="text/javascript" src="../../script/event/melphalir_fest/common_2.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../style/event/melphalir_fest_2.css" />
+		<!-- モーダル用 -->
+		<script type="text/javascript" src="../../script/lib/colorbox/jquery.colorbox.js"></script>
+		<link type="text/css" rel="stylesheet" href="../../script/lib/colorbox/colorbox_plain.css" />
+		<!-- 音声再生用 -->
+		<script type="text/javascript" src="../../script/lib/jplayer/jquery.jplayer.min.js"></script>
+		<script type="text/javascript">
+			var BASE_PATH = "/";
+		</script>
+		<script type="text/javascript" src="../../script/event/melphalir_fest/roulette.js"></script>
+	</head>
+	<body class="">
+		<!-- === headerArea === -->
+		<div id="sqexHeader-black">
+			<a href="http://www.jp.square-enix.com/" target="_top" id="sqexlogo"
+				><img
+					src="http://www.jp.square-enix.com/common/templates/images/logo-black.gif"
+					width="130"
+					height="14"
+					border="0"
+					alt="SQUARE ENIX"
+			/></a>
+		</div>
+		<!-- === /headerArea === -->
 
 		<div id="content">
 			<div id="fixed-bg"></div>
-	<!-- メインエリア -->
-	<div id="main" style="left:0;!important">
-		<!-- ヘッドタイトル -->
-		<div id="head-title">
-			<img src="../../img/event/melphalir_fest/roulette_6/title.png" />
-		</div>
-		<div id="main-content">
-			<div>
-				<ul id="roulette_menu">
-					<li><a href="index.php@r=melphalir_fest_2" id="bottun1" class="roulette_bottun">ルーレット1</a></li>
-					<li><a href="index.php@r=melphalir_fest_3" id="bottun2" class="roulette_bottun">ルーレット2</a></li>
-					<li><a href="index.php@r=melphalir_fest_5" id="bottun3" class="roulette_bottun">ルーレット3</a></li>
-					<li><a href="index.php@r=melphalir_fest_6#" id="bottun4" class="roulette_bottun current">ルーレット4</a></li>
-				</ul>
-			</div>
-
-			<!-- 概要 -->
-			<div id="box-read">
-				<div class="box-read-top"></div>
-				<div class="box-read-main t-center">
-					<div class="t-center">
-						<span style="font-size:16px;font-weight:bold;color:#bc0010;">
-							メルファリアフェスティバルを記念して、過去の人気の高かった装備を大放出！<br />
-						</span>
-						<dd>
-							<span style="font-weight:bold;color:red;">
-								※手に入るアイテムの総数が決まっており、取得状況や残りの数を把握できる特別なルーレットとなっております。<br />
-								本ルーレットは過去に当選したレアアイテムも再度当選いたします。
-							</span>
-						</dd>
-					</div>
-					<hr>
-					<h1>メルファリアフェスティバルチケット</h1>
-					<div class="ico-item"></div>
-					<ul>
-						<li>・過去のヴィラーノルーレットの防具・武器の中から好きなレアアイテム1つと交換できるチケットとなります。</li>
-						<li>・交換はルーレット画面から行うことができます。</li>
-						<li>・チケットはゲーム内に存在するアイテムではないため、プライズに送付されません。
-							<br />当選すると、交換ページのチケット枚数に加算されます。</li>
-						<li>・本ルーレットで取得できるメルファリアフェスティバルチケットは1キャラクターにつき1枚です。
-							<br /><span class="">※他ルーレットで当選したメルファリアフェスティバルチケットとは重複して取得できます。</span></li>
-						<li>・交換期間は2022年7月6日(水)定期メンテナンス後から2022年8月24日(水)定期メンテナンス前までです。</li>
-					</ul>
-					<br clear="all">
+			<!-- メインエリア -->
+			<div id="main" style="left:0;!important">
+				<!-- ヘッドタイトル -->
+				<div id="head-title">
+					<img src="../../img/event/melphalir_fest/roulette_6/title.png" />
 				</div>
-				<div class="box-read-bottom"></div>
+				<div id="main-content">
+					<div>
+						<ul id="roulette_menu">
+							<li>
+								<a href="index.php@r=melphalir_fest_2" id="bottun1" class="roulette_bottun"
+									>ルーレット1</a
+								>
+							</li>
+							<li>
+								<a href="index.php@r=melphalir_fest_3" id="bottun2" class="roulette_bottun"
+									>ルーレット2</a
+								>
+							</li>
+							<li>
+								<a href="index.php@r=melphalir_fest_5" id="bottun3" class="roulette_bottun"
+									>ルーレット3</a
+								>
+							</li>
+							<li>
+								<a href="index.php@r=melphalir_fest_6#" id="bottun4" class="roulette_bottun current"
+									>ルーレット4</a
+								>
+							</li>
+						</ul>
+					</div>
+
+					<!-- 概要 -->
+					<div id="box-read">
+						<div class="box-read-top"></div>
+						<div class="box-read-main t-center">
+							<div class="t-center">
+								<span style="font-size: 16px; font-weight: bold; color: #bc0010">
+									メルファリアフェスティバルを記念して、過去の人気の高かった装備を大放出！<br />
+								</span>
+								<dd>
+									<span style="font-weight: bold; color: red">
+										※手に入るアイテムの総数が決まっており、取得状況や残りの数を把握できる特別なルーレットとなっております。<br />
+										本ルーレットは過去に当選したレアアイテムも再度当選いたします。
+									</span>
+								</dd>
+							</div>
+							<hr />
+							<h1>メルファリアフェスティバルチケット</h1>
+							<div class="ico-item"></div>
+							<ul>
+								<li>
+									・過去のヴィラーノルーレットの防具・武器の中から好きなレアアイテム1つと交換できるチケットとなります。
+								</li>
+								<li>・交換はルーレット画面から行うことができます。</li>
+								<li>
+									・チケットはゲーム内に存在するアイテムではないため、プライズに送付されません。
+									<br />当選すると、交換ページのチケット枚数に加算されます。
+								</li>
+								<li>
+									・本ルーレットで取得できるメルファリアフェスティバルチケットは1キャラクターにつき1枚です。
+									<br /><span class=""
+										>※他ルーレットで当選したメルファリアフェスティバルチケットとは重複して取得できます。</span
+									>
+								</li>
+								<li>
+									・交換期間は2022年7月6日(水)定期メンテナンス後から2022年8月24日(水)定期メンテナンス前までです。
+								</li>
+							</ul>
+							<br clear="all" />
+						</div>
+						<div class="box-read-bottom"></div>
+					</div>
+
+					<!-- 防具一覧 -->
+					<div class="ttl-bar">
+						<img
+							src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_armors.png"
+							alt="ニューデザイン防具一覧"
+						/>
+					</div>
+
+					<!-- カラムリスト -->
+					<div class="mt10 mb30">
+						<ul class="box-3-list">
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=97cd7079e78b738ecf10becb0e5958e0&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/97cd7079e78b738ecf10becb0e5958e0/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：漢の嗜みセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=547b9361c7826770e93758795daf6d88&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/547b9361c7826770e93758795daf6d88/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：カウガールセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=27f4476c8d2920b2696dd3ed03bcc4ef&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/27f4476c8d2920b2696dd3ed03bcc4ef/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：ハイファリアMセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=f111026238896b8ef6574d7eb7c92972&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/f111026238896b8ef6574d7eb7c92972/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：オスクルトセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=9723c16e1cb3c792d453827c8a6aa3a8&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/9723c16e1cb3c792d453827c8a6aa3a8/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：シェミハザセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=7edd9e832d0ced8e3959d37403abf42a&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/7edd9e832d0ced8e3959d37403abf42a/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：ダインヒルドセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=304b0a8214f0340f273e58c0779c1713&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/304b0a8214f0340f273e58c0779c1713/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：フォンセルセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=a4e1f8ee91b1b9f4d985f0d3d9ca636f&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/a4e1f8ee91b1b9f4d985f0d3d9ca636f/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：シュブニグラースセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=65c55efc7921c4cae69027afbd9a851d&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/65c55efc7921c4cae69027afbd9a851d/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：アネイトトレスセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=a298e94309286b2668c5b36f9ef9051a&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/a298e94309286b2668c5b36f9ef9051a/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：アリヴェセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=5bbd78305d84452bc2ea4171149dc808&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/5bbd78305d84452bc2ea4171149dc808/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：シュブニグラートセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=9af0359519bf3d57a21433e8507d343b&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/9af0359519bf3d57a21433e8507d343b/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：新白虎セット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=8d481756289f8767b383cb5c54aee931&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/8d481756289f8767b383cb5c54aee931/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：ミラウォックセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=9eff7e41f814c01e8960e8e12807641c&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/9eff7e41f814c01e8960e8e12807641c/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：セガールレジーナセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=6bf68428cbd9e0642cff3fee7421c741&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/6bf68428cbd9e0642cff3fee7421c741/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：セロスレックスセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=c4f7eee5390f2cd031f33efdf621c6fd&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/c4f7eee5390f2cd031f33efdf621c6fd/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：エリスモチフセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=a9d24c9ca89bb72d05ffe3f04fc56f4a&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/a9d24c9ca89bb72d05ffe3f04fc56f4a/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：カーススセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=a501f56e69e1e7034afa74f74abda0b3&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/a501f56e69e1e7034afa74f74abda0b3/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：アルマネーテセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=d3d9f44e5e2e994d625d87422e241a89&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/d3d9f44e5e2e994d625d87422e241a89/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：フレゥールセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=3492aac8db63acd0e029b35532a536de&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/3492aac8db63acd0e029b35532a536de/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：ハイペルツセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=efee19aa357d7a1f71dec7c6ffadf49d&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/efee19aa357d7a1f71dec7c6ffadf49d/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：ドラクレアセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=62b95ac933e5dfe2ba603225d93de90e&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/62b95ac933e5dfe2ba603225d93de90e/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：ブラックサレナセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head">クラス共通防具</dt>
+									<dd class="box-3-col-main">
+										<a
+											rel="common"
+											class="equip-box armor-m-box modal-open"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=16220fb225a0353491cd218f71c28ef8&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/16220fb225a0353491cd218f71c28ef8/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>男性：グリューンセット</li>
+											</ul>
+										</a>
+										<a
+											class="equip-box armor-f-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=df47237493ce8b6583e1904a6b08fb1f&amp;type=armor"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/df47237493ce8b6583e1904a6b08fb1f/s.png"
+														width="250"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>女性：サイネリアセット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+
+					<!-- 武器一覧 -->
+					<div class="ttl-bar">
+						<img
+							src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_weapons.png"
+							alt="ニューデザイン武器一覧"
+						/>
+					</div>
+
+					<!-- カラムリスト -->
+					<div class="mt10 mb30">
+						<ul class="box-3-list">
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="warrior-icon"></span>片手武器セット</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=9c51ae98213efcdb6d8a79db5b3a8aaf&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/9c51ae98213efcdb6d8a79db5b3a8aaf/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>クリスタルの緋剣セット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="warrior-icon"></span>両手武器</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=d736e9f20f1cf8f8298bf835a8958152&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/d736e9f20f1cf8f8298bf835a8958152/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>グロスハンマー</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="warrior-icon"></span>大剣</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=552e614e75a9ad07eef4c7d0eaebc41b&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/552e614e75a9ad07eef4c7d0eaebc41b/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>ダウトイレーズ</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="scout-icon"></span>短剣</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=afc433253c7b025b40357c611d0e1bb4&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/afc433253c7b025b40357c611d0e1bb4/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>カルンウェナン</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="scout-icon"></span>弓</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=c37f93a15781497c40f589eba5510ab1&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/c37f93a15781497c40f589eba5510ab1/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>ガスパーロ</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="scout-icon"></span>銃</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=e3bf064e4ff82bb4a1f3f97218c74c43&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/e3bf064e4ff82bb4a1f3f97218c74c43/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>サラロシェル</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="sorcerer-icon"></span>杖</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=202739f231ff88685eb81a6a257c6240&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/202739f231ff88685eb81a6a257c6240/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>邪教者の証</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="sorcerer-icon"></span>魔導具</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=f7f3f58e394b8c7d065886d0d3d2a024&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/f7f3f58e394b8c7d065886d0d3d2a024/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>ビフロンス</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="fencer-icon"></span>刺突剣</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=9f7741be8309397167f2401f2ca5fc71&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/9f7741be8309397167f2401f2ca5fc71/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>ベリエ</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="cestus-icon"></span>手甲</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=a5fcabb9ccca691f828c6a8e1c5ccfff&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/a5fcabb9ccca691f828c6a8e1c5ccfff/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>クラウニング</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="warrior-icon"></span>片手武器セット</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=a6c2acc0aa1d5c20309cc8fa0af11595&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/a6c2acc0aa1d5c20309cc8fa0af11595/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>セラフィック武器セット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="warrior-icon"></span>両手武器</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=5a12ebdf8ae7464030e266d6ca2c6759&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/5a12ebdf8ae7464030e266d6ca2c6759/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>ストラット</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="warrior-icon"></span>大剣</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=984a5fc2724de1cb0ad68f27f21af852&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/984a5fc2724de1cb0ad68f27f21af852/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>トロピカルソード</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="scout-icon"></span>短剣</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=e6eff24e6f5c08ac066d1ba9fdfebcae&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/e6eff24e6f5c08ac066d1ba9fdfebcae/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>テュパサングレイ</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="scout-icon"></span>弓</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=d810c97b8ceb9ce7b67dc6190ad14239&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/d810c97b8ceb9ce7b67dc6190ad14239/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>ミラクルボウ</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="scout-icon"></span>銃</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=e4f896c8de82cf46a5721e009afd6ba4&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/e4f896c8de82cf46a5721e009afd6ba4/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>盈月ノ小銃</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="sorcerer-icon"></span>杖</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=6e10f3467e300c6aa1a1134e9af601e3&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/6e10f3467e300c6aa1a1134e9af601e3/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>月読ノ神杖</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="sorcerer-icon"></span>魔導具</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=4cb57c0972b187ae6c0ce924e387ce85&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/4cb57c0972b187ae6c0ce924e387ce85/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>ビュグラーズ・シャンテ</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="fencer-icon"></span>刺突剣</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=ecace32caca10d3bda5133835ff64140&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/ecace32caca10d3bda5133835ff64140/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>プランテンソーン</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+							<li class="box-3-item">
+								<dl class="box-3-col">
+									<dt class="box-3-col-head"><span class="cestus-icon"></span>手甲</dt>
+									<dd class="box-3-col-main">
+										<a
+											class="equip-box weapon-box modal-open"
+											rel="common"
+											href="item_modal.php@r=melphalir_fest_6&amp;id=2347e7e4c5934bee892950bf9ef4a75d&amp;type=weapon"
+										>
+											<ul>
+												<li>
+													<img
+														src="../../img/event/melphalir_fest/ss/2347e7e4c5934bee892950bf9ef4a75d/s.png"
+														height="117"
+													/>
+												</li>
+												<li><!-- 拡大アイコン --></li>
+												<li>妖手・徒桜</li>
+											</ul>
+										</a>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+
+					<!-- その他 -->
+					<div class="ttl-bar">
+						<img src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_others.png" alt="その他" />
+					</div>
+
+					<div class="mt10 mb30">
+						<table class="table" id="other-list">
+							<tr>
+								<td class="td-em">シルバーコイン</td>
+								<td class="td-em">忘却の壷</td>
+								<td class="td-em">転身の羽</td>
+								<td class="td-em">精練の書</td>
+								<td class="td-em">報酬の書</td>
+							</tr>
+							<tr>
+								<td class="td-em">エクスバンク契約書</td>
+								<td class="td-em">名匠の砥石</td>
+								<td class="td-em">レアステーキ</td>
+								<td class="td-em">ハイリジェネレート</td>
+								<td class="td-em">フィズアタックゲイン</td>
+							</tr>
+							<tr>
+								<td class="td-em">フィズガードゲイン</td>
+								<td class="td-em">ビルドアタックブースト</td>
+								<td class="td-em">ビルドアタックゲイン</td>
+								<td class="td-em">HPアップ</td>
+								<td class="td-em">Pwアップ</td>
+							</tr>
+							<tr>
+								<td class="td-em">パワーリジェネ</td>
+								<td class="td-em">強固の結晶</td>
+								<td class="td-em">穿孔の結晶</td>
+								<td class="td-em">&nbsp;</td>
+								<td class="td-em">&nbsp;</td>
+							</tr>
+						</table>
+					</div>
+
+					<!-- プレイ方法 -->
+					<div class="ttl-bar">
+						<img src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_step.png" alt="プレイ方法" />
+					</div>
+
+					<!-- ステップ表 -->
+					<div class="mt16 mb30" id="about-step">
+						<table>
+							<tr>
+								<td>
+									<img alt="step1" src="../../img/event/melphalir_fest/common_roulette/step/1.png" />
+								</td>
+								<th>&nbsp;</th>
+								<td>
+									<img alt="step2" src="../../img/event/melphalir_fest/common_roulette/step/2.png" />
+								</td>
+								<th>&nbsp;</th>
+								<td>
+									<img alt="step3" src="../../img/event/melphalir_fest/roulette_6/3.png" />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<p>
+										<strong>＜ カジノ案内人NPC ＞</strong>
+										または<br />大陸マップからガルム遊技場の<br />カジノへ入場します。
+									</p>
+								</td>
+								<th>&nbsp;</th>
+								<td>
+									<p>
+										カジノ内の
+										<strong>＜ 道具屋NPC ＞</strong>
+										に<br />話しかけてゴールドコインまたは<br />シルバーコインを購入します。
+									</p>
+								</td>
+								<th>&nbsp;</th>
+								<td>
+									<p>
+										<strong>＜ 復刻メルフェスルーレット ＞</strong>
+										に<br />コインを預けて、ルーレット<br />スタート！
+									</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="hr03"></div>
+
+					<!-- ルーレットデータ -->
+					<div class="mt20">
+						<table class="table" id="step-list">
+							<tr>
+								<td class="td-em">名称</td>
+								<td class="td">復刻メルフェスルーレットVol.4</td>
+							</tr>
+							<tr>
+								<td class="td-em">商品重複の有無</td>
+								<td class="td">
+									同じレアアイテムは重複して当たらない<br />
+									本ルーレットは過去に当たったレアアイテムも当たる
+								</td>
+							</tr>
+							<tr>
+								<td class="td-em">数量限定の有無</td>
+								<td class="td">総数121点</td>
+							</tr>
+							<tr>
+								<td class="td-em">提供割合に関係する特記</td>
+								<td class="td">
+									男性用レアアイテムは男性キャラクター、女性用レアアイテムは女性キャラクターのみ当たる。
+									<br />販売期間中に提供割合の変更は行わない。
+									<br />男性用レアアイテムと女性用レアアイテムの割合は1：1。
+								</td>
+							</tr>
+						</table>
+					</div>
+
+					<div class="mt18 pb30">
+						<dl class="notice-list">
+							<dt>注意事項</dt>
+							<dd>
+								※どのレアアイテムも1キャラクターにつき1度しか入手することができません。
+								<br />入手したレアアイテムをリサイクル、または破棄した場合、再度入手することはできませんのでご注意ください。
+							</dd>
+							<dd>
+								※性別に制限のあるレアアイテムは、キャラクターの性別と同じレアアイテムのみ入手することができます。
+							</dd>
+							<dd>
+								※クラス制限があるレアアイテムは、キャラクターのクラスに関係なく入手することができます。
+							</dd>
+							<dd>※入手したアイテムはカジノ内にある「プライズ」にて受取することができます。</dd>
+							<dd>
+								※ルーレットNPCから確認できる景品一覧では、エフェクトを表示しないため、<br />一部見た目の異なる、又は表示されないアイテムがございます。<br />(景品一覧は、ルーレットNPCの「景品を確認する」よりご覧になれます。）
+							</dd>
+						</dl>
+					</div>
+				</div>
 			</div>
-
-
-				<!-- 防具一覧 -->
-		<div class="ttl-bar">
-			<img src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_armors.png" alt="ニューデザイン防具一覧"/>
+			<!-- main -->
+		</div>
+		<!-- スクロールトップ -->
+		<div id="scroll-top">
+			<a class="button">ページトップ</a>
 		</div>
 
-		<!-- カラムリスト -->
-			<div class="mt10 mb30">
-				<ul class="box-3-list">
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=97cd7079e78b738ecf10becb0e5958e0&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/97cd7079e78b738ecf10becb0e5958e0/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：漢の嗜みセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=547b9361c7826770e93758795daf6d88&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/547b9361c7826770e93758795daf6d88/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：カウガールセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=27f4476c8d2920b2696dd3ed03bcc4ef&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/27f4476c8d2920b2696dd3ed03bcc4ef/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：ハイファリアMセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=f111026238896b8ef6574d7eb7c92972&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/f111026238896b8ef6574d7eb7c92972/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：オスクルトセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=9723c16e1cb3c792d453827c8a6aa3a8&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/9723c16e1cb3c792d453827c8a6aa3a8/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：シェミハザセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=7edd9e832d0ced8e3959d37403abf42a&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/7edd9e832d0ced8e3959d37403abf42a/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：ダインヒルドセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=304b0a8214f0340f273e58c0779c1713&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/304b0a8214f0340f273e58c0779c1713/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：フォンセルセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=a4e1f8ee91b1b9f4d985f0d3d9ca636f&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/a4e1f8ee91b1b9f4d985f0d3d9ca636f/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：シュブニグラースセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=65c55efc7921c4cae69027afbd9a851d&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/65c55efc7921c4cae69027afbd9a851d/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：アネイトトレスセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=a298e94309286b2668c5b36f9ef9051a&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/a298e94309286b2668c5b36f9ef9051a/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：アリヴェセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=5bbd78305d84452bc2ea4171149dc808&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/5bbd78305d84452bc2ea4171149dc808/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：シュブニグラートセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=9af0359519bf3d57a21433e8507d343b&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/9af0359519bf3d57a21433e8507d343b/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：新白虎セット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=8d481756289f8767b383cb5c54aee931&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/8d481756289f8767b383cb5c54aee931/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：ミラウォックセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=9eff7e41f814c01e8960e8e12807641c&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/9eff7e41f814c01e8960e8e12807641c/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：セガールレジーナセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=6bf68428cbd9e0642cff3fee7421c741&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/6bf68428cbd9e0642cff3fee7421c741/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：セロスレックスセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=c4f7eee5390f2cd031f33efdf621c6fd&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/c4f7eee5390f2cd031f33efdf621c6fd/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：エリスモチフセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=a9d24c9ca89bb72d05ffe3f04fc56f4a&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/a9d24c9ca89bb72d05ffe3f04fc56f4a/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：カーススセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=a501f56e69e1e7034afa74f74abda0b3&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/a501f56e69e1e7034afa74f74abda0b3/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：アルマネーテセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=d3d9f44e5e2e994d625d87422e241a89&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/d3d9f44e5e2e994d625d87422e241a89/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：フレゥールセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=3492aac8db63acd0e029b35532a536de&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/3492aac8db63acd0e029b35532a536de/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：ハイペルツセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=efee19aa357d7a1f71dec7c6ffadf49d&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/efee19aa357d7a1f71dec7c6ffadf49d/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：ドラクレアセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=62b95ac933e5dfe2ba603225d93de90e&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/62b95ac933e5dfe2ba603225d93de90e/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：ブラックサレナセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									クラス共通防具
-								</dt>
-								<dd class="box-3-col-main">
-									<a rel="common" class="equip-box armor-m-box modal-open"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=16220fb225a0353491cd218f71c28ef8&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/16220fb225a0353491cd218f71c28ef8/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												男性：グリューンセット
-											</li>
-										</ul>
-									</a>
-									<a class="equip-box armor-f-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=df47237493ce8b6583e1904a6b08fb1f&amp;type=armor">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/df47237493ce8b6583e1904a6b08fb1f/s.png" width="250" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												女性：サイネリアセット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-									</ul>
-			</div>
-			
-
-						<!-- 武器一覧 -->
-			<div class="ttl-bar">
-				<img src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_weapons.png" alt="ニューデザイン武器一覧"/>
-			</div>
-
-			<!-- カラムリスト -->
-			<div class="mt10 mb30">
-				<ul class="box-3-list">
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="warrior-icon"></span>片手武器セット
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=9c51ae98213efcdb6d8a79db5b3a8aaf&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/9c51ae98213efcdb6d8a79db5b3a8aaf/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												クリスタルの緋剣セット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="warrior-icon"></span>両手武器
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=d736e9f20f1cf8f8298bf835a8958152&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/d736e9f20f1cf8f8298bf835a8958152/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												グロスハンマー
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="warrior-icon"></span>大剣
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=552e614e75a9ad07eef4c7d0eaebc41b&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/552e614e75a9ad07eef4c7d0eaebc41b/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												ダウトイレーズ
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="scout-icon"></span>短剣
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=afc433253c7b025b40357c611d0e1bb4&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/afc433253c7b025b40357c611d0e1bb4/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												カルンウェナン
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="scout-icon"></span>弓
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=c37f93a15781497c40f589eba5510ab1&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/c37f93a15781497c40f589eba5510ab1/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												ガスパーロ
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="scout-icon"></span>銃
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=e3bf064e4ff82bb4a1f3f97218c74c43&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/e3bf064e4ff82bb4a1f3f97218c74c43/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												サラロシェル
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="sorcerer-icon"></span>杖
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=202739f231ff88685eb81a6a257c6240&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/202739f231ff88685eb81a6a257c6240/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												邪教者の証
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="sorcerer-icon"></span>魔導具
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=f7f3f58e394b8c7d065886d0d3d2a024&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/f7f3f58e394b8c7d065886d0d3d2a024/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												ビフロンス
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="fencer-icon"></span>刺突剣
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=9f7741be8309397167f2401f2ca5fc71&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/9f7741be8309397167f2401f2ca5fc71/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												ベリエ
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="cestus-icon"></span>手甲
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=a5fcabb9ccca691f828c6a8e1c5ccfff&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/a5fcabb9ccca691f828c6a8e1c5ccfff/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												クラウニング
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="warrior-icon"></span>片手武器セット
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=a6c2acc0aa1d5c20309cc8fa0af11595&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/a6c2acc0aa1d5c20309cc8fa0af11595/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												セラフィック武器セット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="warrior-icon"></span>両手武器
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=5a12ebdf8ae7464030e266d6ca2c6759&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/5a12ebdf8ae7464030e266d6ca2c6759/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												ストラット
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="warrior-icon"></span>大剣
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=984a5fc2724de1cb0ad68f27f21af852&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/984a5fc2724de1cb0ad68f27f21af852/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												トロピカルソード
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="scout-icon"></span>短剣
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=e6eff24e6f5c08ac066d1ba9fdfebcae&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/e6eff24e6f5c08ac066d1ba9fdfebcae/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												テュパサングレイ
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="scout-icon"></span>弓
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=d810c97b8ceb9ce7b67dc6190ad14239&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/d810c97b8ceb9ce7b67dc6190ad14239/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												ミラクルボウ
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="scout-icon"></span>銃
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=e4f896c8de82cf46a5721e009afd6ba4&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/e4f896c8de82cf46a5721e009afd6ba4/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												盈月ノ小銃
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="sorcerer-icon"></span>杖
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=6e10f3467e300c6aa1a1134e9af601e3&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/6e10f3467e300c6aa1a1134e9af601e3/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												月読ノ神杖
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="sorcerer-icon"></span>魔導具
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=4cb57c0972b187ae6c0ce924e387ce85&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/4cb57c0972b187ae6c0ce924e387ce85/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												ビュグラーズ・シャンテ
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="fencer-icon"></span>刺突剣
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=ecace32caca10d3bda5133835ff64140&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/ecace32caca10d3bda5133835ff64140/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												プランテンソーン
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-											<li class="box-3-item">
-							<dl class="box-3-col">
-								<dt class="box-3-col-head">
-									<span class="cestus-icon"></span>手甲
-								</dt>
-								<dd class="box-3-col-main">
-									<a class="equip-box weapon-box modal-open" rel="common"
-										href="item_modal.php@r=melphalir_fest_6&amp;id=2347e7e4c5934bee892950bf9ef4a75d&amp;type=weapon">
-										<ul>
-											<li>
-												<img src="../../img/event/melphalir_fest/ss/2347e7e4c5934bee892950bf9ef4a75d/s.png" height="117" />
-											</li>
-											<li><!-- 拡大アイコン --></li>
-											<li>
-												妖手・徒桜
-											</li>
-										</ul>
-									</a>
-								</dd>
-							</dl>
-						</li>
-									</ul>
-			</div>
-			
-			
-
-						<!-- その他 -->
-			<div class="ttl-bar">
-				<img src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_others.png" alt="その他"/>
-			</div>
-
-			<div class="mt10 mb30">
-				<table class="table" id="other-list">
-					<tr>
-																				<td class="td-em">
-								シルバーコイン
-							</td>
-																				<td class="td-em">
-								忘却の壷
-							</td>
-																				<td class="td-em">
-								転身の羽
-							</td>
-																				<td class="td-em">
-								精練の書
-							</td>
-																				<td class="td-em">
-								報酬の書
-							</td>
-																					</tr><tr>
-														<td class="td-em">
-								エクスバンク契約書
-							</td>
-																				<td class="td-em">
-								名匠の砥石
-							</td>
-																				<td class="td-em">
-								レアステーキ
-							</td>
-																				<td class="td-em">
-								ハイリジェネレート
-							</td>
-																				<td class="td-em">
-								フィズアタックゲイン
-							</td>
-																					</tr><tr>
-														<td class="td-em">
-								フィズガードゲイン
-							</td>
-																				<td class="td-em">
-								ビルドアタックブースト
-							</td>
-																				<td class="td-em">
-								ビルドアタックゲイン
-							</td>
-																				<td class="td-em">
-								HPアップ
-							</td>
-																				<td class="td-em">
-								Pwアップ
-							</td>
-																					</tr><tr>
-														<td class="td-em">
-								パワーリジェネ
-							</td>
-																				<td class="td-em">
-								強固の結晶
-							</td>
-																				<td class="td-em">
-								穿孔の結晶
-							</td>
-																									<td class="td-em">&nbsp;</td>
-													<td class="td-em">&nbsp;</td>
-											</tr>
-				</table>
-			</div>
-			
-			<!-- プレイ方法 -->
-			<div class="ttl-bar">
-				<img src="../../img/event/melphalir_fest/common_roulette/ttl/ttl_step.png" alt="プレイ方法"/>
-			</div>
-
-
-			<!-- ステップ表 -->
-			<div class="mt16 mb30" id="about-step">
-				<table>
-					<tr>
-						<td>
-							<img alt="step1" src="../../img/event/melphalir_fest/common_roulette/step/1.png" />
-						</td>
-						<th>&nbsp;</th>
-						<td>
-							<img alt="step2" src="../../img/event/melphalir_fest/common_roulette/step/2.png" />
-						</td>
-						<th>&nbsp;</th>
-						<td>
-							<img alt="step3" src="../../img/event/melphalir_fest/roulette_6/3.png" />
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p><strong>＜ カジノ案内人NPC ＞</strong>  または<br />大陸マップからガルム遊技場の<br />カジノへ入場します。</p>
-						</td>
-						<th>&nbsp;</th>
-						<td>
-							<p>カジノ内の <strong>＜ 道具屋NPC ＞</strong> に<br />話しかけてゴールドコインまたは<br />シルバーコインを購入します。</p>
-						</td>
-						<th>&nbsp;</th>
-						<td>
-							<p><strong>＜ 復刻メルフェスルーレット ＞</strong> に<br />コインを預けて、ルーレット<br />スタート！</p>
-						</td>
-					</tr>
-				</table>
-			</div>
-
-			<div class="hr03"></div>
-
-			<!-- ルーレットデータ -->
-			<div class="mt20">
-				<table class="table" id="step-list">
-					<tr>
-						<td class="td-em">
-							名称
-						</td>
-						<td class="td">
-							復刻メルフェスルーレットVol.4
-						</td>
-					</tr>
-					<tr>
-						<td class="td-em">
-							商品重複の有無
-						</td>
-						<td class="td">
-							同じレアアイテムは重複して当たらない<br />
-							本ルーレットは過去に当たったレアアイテムも当たる
-						</td>
-					</tr>
-					<tr>
-						<td class="td-em">
-							数量限定の有無
-						</td>
-						<td class="td">
-							総数121点
-						</td>
-					</tr>
-					<tr>
-						<td class="td-em">
-							提供割合に関係する特記
-						</td>
-						<td class="td">
-							男性用レアアイテムは男性キャラクター、女性用レアアイテムは女性キャラクターのみ当たる。
-							<br />販売期間中に提供割合の変更は行わない。
-							<br />男性用レアアイテムと女性用レアアイテムの割合は1：1。
-						</td>
-					</tr>
-				</table>
-			</div>
-
-			<div class="mt18 pb30">
-				<dl class="notice-list">
-					<dt>
-						注意事項
-					</dt>
-					<dd>
-						※どのレアアイテムも1キャラクターにつき1度しか入手することができません。
-						<br />入手したレアアイテムをリサイクル、または破棄した場合、再度入手することはできませんのでご注意ください。
-					</dd>
-					<dd>
-						※性別に制限のあるレアアイテムは、キャラクターの性別と同じレアアイテムのみ入手することができます。
-					</dd>
-					<dd>
-						※クラス制限があるレアアイテムは、キャラクターのクラスに関係なく入手することができます。
-					</dd>
-					<dd>
-						※入手したアイテムはカジノ内にある「プライズ」にて受取することができます。
-					</dd>
-					<dd>
-						※ルーレットNPCから確認できる景品一覧では、エフェクトを表示しないため、<br />一部見た目の異なる、又は表示されないアイテムがございます。<br />(景品一覧は、ルーレットNPCの「景品を確認する」よりご覧になれます。）
-					</dd>
-				</dl>
+		<!-- === footerArea === -->
+		<div id="sqexFooter" class="sqex-footer-black">
+			<div id="footerWebAdmin01"></div>
+			<!-- デフォルトフッター -->
+			<div id="sqex-footer-contents">
+				<ul>
+					<li class="sqex-footer-first">
+						<a href="../../info/baseinfo.html">ゲーム基本情報</a>
+					</li>
+					<li>
+						<a href="../../info/agreement.html">特定商取引に基づく表記</a>
+					</li>
+					<li>
+						<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
+					</li>
+					<li>
+						<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
+					</li>
+					<li>
+						<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
+					</li>
+					<li>
+						<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank"
+							>サポートセンター</a
+						>
+					</li>
+				</ul>
+				<div id="footerWebAdmin02">
+					<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+				</div>
 			</div>
 		</div>
-	</div><!-- main -->
-
-	</div>
-	<!-- スクロールトップ -->
-	<div id="scroll-top">
-		<a class="button">ページトップ</a>
-	</div>
-
-	<!-- === footerArea === -->
-	<div id="sqexFooter" class="sqex-footer-black">
-		<div id="footerWebAdmin01">
-		</div>
-		<!-- デフォルトフッター -->
-		<div id="sqex-footer-contents">
-			<ul>
-				<li class="sqex-footer-first">
-					<a href="../../info/baseinfo.html">ゲーム基本情報</a>
-				</li>
-				<li>
-					<a href="../../info/agreement.html">特定商取引に基づく表記</a>
-				</li>
-				<li>
-					<a href="http://www.jp.square-enix.com/cero/" target="_blank">レーティング制度について</a>
-				</li>
-				<li>
-					<a href="http://www.jp.square-enix.com/caution.html" target="_blank">著作権について</a>
-				</li>
-				<li>
-					<a href="http://www.jp.square-enix.com/privacy/" target="_blank">プライバシーポリシー</a>
-				</li>
-				<li>
-					<a href="http://support.jp.square-enix.com/main.php?id=13021&la=0" target="_blank">サポートセンター</a>
-				</li>
-			</ul>
-			<div id="footerWebAdmin02">
-				<p class="sqex-footer-copyright">&copy; SQUARE ENIX CO., LTD. All Rights Reserved.</p>
-			</div>
-		</div>
-	</div>
-
-</body>
+	</body>
 </html>
