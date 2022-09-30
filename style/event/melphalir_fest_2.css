@@ -518,12 +518,12 @@ h4 {
 /* ====================================================================== */
 .modal2 {
 	width: 810px;
-	background-image: url(../../img/event/melphalir_fest/modal/bottom.png@ver=20200721);
+	background-image: url(../../img/event/melphalir_fest/modal/bottom.png);
 	background-position: center bottom;
 }
 	.modal-content2 {
 		padding-bottom: 19px;
-		background-image: url(../../img/event/melphalir_fest/modal/top.png@ver=20200721);
+		background-image: url(../../img/event/melphalir_fest/modal/top.png);
 		background-repeat: no-repeat;
 	}
 	/* モーダル内装備画像 */
@@ -759,7 +759,7 @@ h4 {
 }
 	#roulette-tab-1 a,#roulette-tab-2 a,#roulette-tab-3 a {
 		cursor: pointer;
-		background-image: url(../../img/event/vilano_fest2018/roulette_1/btn.png@1);
+		background-image: url(../../img/event/vilano_fest2018/roulette_1/btn.png);
 	}
 		#roulette-tab-1 a {
 			display: block;
